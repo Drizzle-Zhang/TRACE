@@ -1,0 +1,41 @@
+.DS_Store
+.env
+.env.*
+!.env.example
+.idea/
+.vscode/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+__pycache__/
+*.py[cod]
+*.so
+*.dylib
+.venv/
+venv/
+.worktrees/
+build/
+dist/
+*.egg-info/
+
+# Runtime inputs and generated outputs
+/data/
+/artifacts/
+/outputs/
+/checkpoints/
+/logs/
+*.joblib
+*.npy
+*.npz
+*.parquet
+
+# Local/HPC path overrides
+configs/profiles/local.yaml
+configs/profiles/hpc.yaml
+
+# Internal development records are maintained outside the public repository.
+/docs/plans/
+/docs/superpowers/
+/docs/audits/
+/docs/baseline/
+/configs/real_smoke/

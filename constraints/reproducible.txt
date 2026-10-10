@@ -1,0 +1,12 @@
+# Scientific versions used by the frozen fixtures and release verification.
+# Apply from the source checkout: pip install -c constraints/reproducible.txt -e '.[longitudinal]'
+# This is a validated environment, not a claim that every other version is unsupported.
+joblib==1.4.2
+lightgbm==4.6.0
+numpy==2.1.3
+pandas==2.2.3
+pyyaml==6.0.2
+scikit-learn==1.6.1
+scipy==1.15.3
+xgboost==3.4.1
+pyarrow==19.0.0

@@ -1,0 +1,49 @@
+{
+  "bundle_version": "v1",
+  "source": "sanitized runtime export from the frozen source manifest",
+  "compressed_disease_rows": 852,
+  "source_map_rows": 2850,
+  "candidate_rows": 1704,
+  "evidence_rows": 1704,
+  "risk_rows": 852,
+  "decision_rows": 852,
+  "consensus_rows": 1704,
+  "manual_review_rows": 1704,
+  "fully_unresolved_compressed_diseases": 6,
+  "medical_evidence_provenance": {
+    "statement_origin": "disease_name_and_group_template",
+    "template_seed_rows": 1704,
+    "verified_original_source_rows": 0,
+    "clinically_reviewed_rows": 0,
+    "certainty_imputed_rows": 1704,
+    "source_labels": "template-assigned organization labels; not verified citations",
+    "consensus_scope": "single-seed aggregations; not independent multi-source consensus"
+  },
+  "source_annotations": {
+    "file": "source_annotations.csv",
+    "reference_checked_on": "2026-10-10",
+    "annotation_rows": 129,
+    "annotated_seed_rows": 89,
+    "annotated_diseases": 63,
+    "unannotated_seed_rows": 1615,
+    "unique_guidelines": 60,
+    "clinical_review_required_rows": 129,
+    "used_by_runtime_scorer": false,
+    "relationship_counts": {
+      "additional_management_context": 7,
+      "refines_or_replaces_seed": 65,
+      "supports_specific_component": 57
+    },
+    "scope": "Prospective source-backed paraphrases, refinements and unscored management context for selected seeds; no original source verification or clinical approval.",
+    "unique_reference_documents": 64,
+    "reference_document_type_counts": {
+      "evidence_summary": 1,
+      "guideline_or_screening_recommendation": 126,
+      "official_health_information": 2
+    },
+    "reference_access_basis_counts": {
+      "official_document_direct_fetch": 128,
+      "official_document_web_extract": 1
+    }
+  }
+}

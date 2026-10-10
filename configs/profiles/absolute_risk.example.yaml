@@ -1,0 +1,4 @@
+# Optional: pass this file with --profile only to override the model's saved baseline.
+# TRACE_ABSOLUTE_RISK is an NPZ with endpoints and baseline_survival_<horizon>.
+artifacts:
+  absolute_risk: ${TRACE_ABSOLUTE_RISK}

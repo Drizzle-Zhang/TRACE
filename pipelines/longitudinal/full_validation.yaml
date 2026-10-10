@@ -1,0 +1,26 @@
+extends: infer.yaml
+
+data:
+  split_table:
+    path: ${TRACE_SPLIT_TABLE}
+    row_index_column: row_index
+    eid_column: eid
+    split_column: split
+
+consistency:
+  enabled: true
+  horizon: 10y
+  module_score_kind: log_risk
+  contributions: ${TRACE_CONTRIBUTIONS}
+  feature_weights: ${TRACE_FEATURE_WEIGHTS}
+  feature_names: ${TRACE_FEATURE_NAMES}
+  evidence_bundle: ../../resources/medical_evidence/v1
+
+pipeline:
+  steps:
+    - prepare-data
+    - calibrate-consistency-scale
+    - infer
+    - calibrate-consistency
+    - apply-consistency
+    - evaluate

@@ -1,0 +1,1896 @@
+{
+  "schema_version": 1,
+  "reference_date": "2026-09-30",
+  "source": {
+    "path": "medical_consistency/disease_evidence/consistency.py",
+    "sha256": "d206c2d67f5630c30f53a4e5a6c4eac8d26bdd50167f4facecc340a8fced28ab",
+    "matches_frozen_manifest": true
+  },
+  "cases": [
+    {
+      "name": "unmatched_large_contribution",
+      "rules": [
+        {
+          "statement_id": "A",
+          "model_labels": "D1",
+          "disease": "D1",
+          "factor": "smoking",
+          "evidence_bucket": "risk_factor",
+          "direction": "positive",
+          "certainty_rank": 4,
+          "strength_rank": 3,
+          "source_priority": 1,
+          "needs_manual_review": 0,
+          "certainty_imputed": 0
+        }
+      ],
+      "mappings": [
+        {
+          "factor": "smoking",
+          "feature_code": "F1",
+          "match_type": "manual",
+          "weight": 1.0,
+          "notes": ""
+        }
+      ],
+      "contributions": [
+        [
+          [
+            1.0,
+            100.0
+          ]
+        ]
+      ],
+      "features": [
+        "F1",
+        "F2"
+      ],
+      "expected_scores": [
+        [
+          0.5037499070167542
+        ]
+      ],
+      "expected_support": [
+        [
+          0.5037499070167542
+        ]
+      ],
+      "expected_no_conflict": [
+        [
+          0.5
+        ]
+      ],
+      "expected_matches": [
+        [
+          1
+        ]
+      ],
+      "expected_rule_weights": [
+        12.0
+      ],
+      "expected_rule_reliability": [
+        1.0
+      ]
+    },
+    {
+      "name": "opposite_rules_same_feature",
+      "rules": [
+        {
+          "statement_id": "A",
+          "model_labels": "D1",
+          "disease": "D1",
+          "factor": "smoking",
+          "evidence_bucket": "risk_factor",
+          "direction": "positive",
+          "certainty_rank": 4,
+          "strength_rank": 3,
+          "source_priority": 1,
+          "needs_manual_review": 0,
+          "certainty_imputed": 0
+        },
+        {
+          "statement_id": "B",
+          "model_labels": "D1",
+          "disease": "D1",
+          "factor": "smoking",
+          "evidence_bucket": "risk_factor",
+          "direction": "protective",
+          "certainty_rank": 4,
+          "strength_rank": 3,
+          "source_priority": 1,
+          "needs_manual_review": 0,
+          "certainty_imputed": 0
+        }
+      ],
+      "mappings": [
+        {
+          "factor": "smoking",
+          "feature_code": "F1",
+          "match_type": "manual",
+          "weight": 1.0,
+          "notes": ""
+        }
+      ],
+      "contributions": [
+        [
+          [
+            1.0,
+            0.0
+          ]
+        ]
+      ],
+      "features": [
+        "F1",
+        "F2"
+      ],
+      "expected_scores": [
+        [
+          0.5
+        ]
+      ],
+      "expected_support": [
+        [
+          0.8175745010375977
+        ]
+      ],
+      "expected_no_conflict": [
+        [
+          0.18242552876472473
+        ]
+      ],
+      "expected_matches": [
+        [
+          2
+        ]
+      ],
+      "expected_rule_weights": [
+        12.0,
+        -12.0
+      ],
+      "expected_rule_reliability": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "repeated_support_rules",
+      "rules": [
+        {
+          "statement_id": "A",
+          "model_labels": "D1",
+          "disease": "D1",
+          "factor": "smoking",
+          "evidence_bucket": "risk_factor",
+          "direction": "positive",
+          "certainty_rank": 4,
+          "strength_rank": 3,
+          "source_priority": 1,
+          "needs_manual_review": 0,
+          "certainty_imputed": 0
+        },
+        {
+          "statement_id": "B",
+          "model_labels": "D1",
+          "disease": "D1",
+          "factor": "smoking",
+          "evidence_bucket": "risk_factor",
+          "direction": "positive",
+          "certainty_rank": 4,
+          "strength_rank": 3,
+          "source_priority": 1,
+          "needs_manual_review": 0,
+          "certainty_imputed": 0
+        }
+      ],
+      "mappings": [
+        {
+          "factor": "smoking",
+          "feature_code": "F1",
+          "match_type": "manual",
+          "weight": 1.0,
+          "notes": ""
+        }
+      ],
+      "contributions": [
+        [
+          [
+            1.0,
+            0.0
+          ]
+        ]
+      ],
+      "features": [
+        "F1",
+        "F2"
+      ],
+      "expected_scores": [
+        [
+          0.9525741338729858
+        ]
+      ],
+      "expected_support": [
+        [
+          0.9525741338729858
+        ]
+      ],
+      "expected_no_conflict": [
+        [
+          0.5
+        ]
+      ],
+      "expected_matches": [
+        [
+          2
+        ]
+      ],
+      "expected_rule_weights": [
+        12.0,
+        12.0
+      ],
+      "expected_rule_reliability": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "certainty_does_not_replace_reliability",
+      "rules": [
+        {
+          "statement_id": "A",
+          "model_labels": "D1",
+          "disease": "D1",
+          "factor": "smoking",
+          "evidence_bucket": "risk_factor",
+          "direction": "positive",
+          "certainty_rank": 3,
+          "strength_rank": 1,
+          "source_priority": 1,
+          "needs_manual_review": 0,
+          "certainty_imputed": 0
+        }
+      ],
+      "mappings": [
+        {
+          "factor": "smoking",
+          "feature_code": "F1",
+          "match_type": "manual",
+          "weight": 1.0,
+          "notes": ""
+        }
+      ],
+      "contributions": [
+        [
+          [
+            1.0,
+            0.0
+          ]
+        ]
+      ],
+      "features": [
+        "F1",
+        "F2"
+      ],
+      "expected_scores": [
+        [
+          0.8175745010375977
+        ]
+      ],
+      "expected_support": [
+        [
+          0.8175745010375977
+        ]
+      ],
+      "expected_no_conflict": [
+        [
+          0.5
+        ]
+      ],
+      "expected_matches": [
+        [
+          1
+        ]
+      ],
+      "expected_rule_weights": [
+        3.0
+      ],
+      "expected_rule_reliability": [
+        1.0
+      ]
+    },
+    {
+      "name": "certainty_imputed",
+      "rules": [
+        {
+          "statement_id": "A",
+          "model_labels": "D1",
+          "disease": "D1",
+          "factor": "smoking",
+          "evidence_bucket": "risk_factor",
+          "direction": "positive",
+          "certainty_rank": 4,
+          "strength_rank": 3,
+          "source_priority": 1,
+          "needs_manual_review": 0,
+          "certainty_imputed": 1
+        }
+      ],
+      "mappings": [
+        {
+          "factor": "smoking",
+          "feature_code": "F1",
+          "match_type": "manual",
+          "weight": 1.0,
+          "notes": ""
+        }
+      ],
+      "contributions": [
+        [
+          [
+            1.0,
+            0.0
+          ]
+        ]
+      ],
+      "features": [
+        "F1",
+        "F2"
+      ],
+      "expected_scores": [
+        [
+          0.7815974354743958
+        ]
+      ],
+      "expected_support": [
+        [
+          0.7815974354743958
+        ]
+      ],
+      "expected_no_conflict": [
+        [
+          0.5
+        ]
+      ],
+      "expected_matches": [
+        [
+          1
+        ]
+      ],
+      "expected_rule_weights": [
+        12.0
+      ],
+      "expected_rule_reliability": [
+        0.85
+      ]
+    },
+    {
+      "name": "manual_review",
+      "rules": [
+        {
+          "statement_id": "A",
+          "model_labels": "D1",
+          "disease": "D1",
+          "factor": "smoking",
+          "evidence_bucket": "risk_factor",
+          "direction": "positive",
+          "certainty_rank": 4,
+          "strength_rank": 3,
+          "source_priority": 1,
+          "needs_manual_review": 1,
+          "certainty_imputed": 0
+        }
+      ],
+      "mappings": [
+        {
+          "factor": "smoking",
+          "feature_code": "F1",
+          "match_type": "manual",
+          "weight": 1.0,
+          "notes": ""
+        }
+      ],
+      "contributions": [
+        [
+          [
+            1.0,
+            0.0
+          ]
+        ]
+      ],
+      "features": [
+        "F1",
+        "F2"
+      ],
+      "expected_scores": [
+        [
+          0.6791787147521973
+        ]
+      ],
+      "expected_support": [
+        [
+          0.6791787147521973
+        ]
+      ],
+      "expected_no_conflict": [
+        [
+          0.5
+        ]
+      ],
+      "expected_matches": [
+        [
+          1
+        ]
+      ],
+      "expected_rule_weights": [
+        6.0
+      ],
+      "expected_rule_reliability": [
+        0.5
+      ]
+    },
+    {
+      "name": "token_match",
+      "rules": [
+        {
+          "statement_id": "A",
+          "model_labels": "D1",
+          "disease": "D1",
+          "factor": "smoking",
+          "evidence_bucket": "risk_factor",
+          "direction": "positive",
+          "certainty_rank": 4,
+          "strength_rank": 3,
+          "source_priority": 1,
+          "needs_manual_review": 0,
+          "certainty_imputed": 0
+        }
+      ],
+      "mappings": [
+        {
+          "factor": "smoking",
+          "feature_code": "F1",
+          "match_type": "token",
+          "weight": 1.0,
+          "notes": ""
+        }
+      ],
+      "contributions": [
+        [
+          [
+            1.0,
+            0.0
+          ]
+        ]
+      ],
+      "features": [
+        "F1",
+        "F2"
+      ],
+      "expected_scores": [
+        [
+          0.7549149990081787
+        ]
+      ],
+      "expected_support": [
+        [
+          0.7549149990081787
+        ]
+      ],
+      "expected_no_conflict": [
+        [
+          0.5
+        ]
+      ],
+      "expected_matches": [
+        [
+          1
+        ]
+      ],
+      "expected_rule_weights": [
+        12.0
+      ],
+      "expected_rule_reliability": [
+        0.75
+      ]
+    },
+    {
+      "name": "synonym_match",
+      "rules": [
+        {
+          "statement_id": "A",
+          "model_labels": "D1",
+          "disease": "D1",
+          "factor": "smoking",
+          "evidence_bucket": "risk_factor",
+          "direction": "positive",
+          "certainty_rank": 4,
+          "strength_rank": 3,
+          "source_priority": 1,
+          "needs_manual_review": 0,
+          "certainty_imputed": 0
+        }
+      ],
+      "mappings": [
+        {
+          "factor": "smoking",
+          "feature_code": "F1",
+          "match_type": "synonym",
+          "weight": 1.0,
+          "notes": ""
+        }
+      ],
+      "contributions": [
+        [
+          [
+            1.0,
+            0.0
+          ]
+        ]
+      ],
+      "features": [
+        "F1",
+        "F2"
+      ],
+      "expected_scores": [
+        [
+          0.7549149990081787
+        ]
+      ],
+      "expected_support": [
+        [
+          0.7549149990081787
+        ]
+      ],
+      "expected_no_conflict": [
+        [
+          0.5
+        ]
+      ],
+      "expected_matches": [
+        [
+          1
+        ]
+      ],
+      "expected_rule_weights": [
+        12.0
+      ],
+      "expected_rule_reliability": [
+        0.75
+      ]
+    },
+    {
+      "name": "llm_curated_proxy",
+      "rules": [
+        {
+          "statement_id": "A",
+          "model_labels": "D1",
+          "disease": "D1",
+          "factor": "smoking",
+          "evidence_bucket": "risk_factor",
+          "direction": "positive",
+          "certainty_rank": 4,
+          "strength_rank": 3,
+          "source_priority": 1,
+          "needs_manual_review": 0,
+          "certainty_imputed": 0
+        }
+      ],
+      "mappings": [
+        {
+          "factor": "smoking",
+          "feature_code": "F1",
+          "match_type": "llm_curated",
+          "weight": 1.0,
+          "notes": "proxy for unavailable measure"
+        }
+      ],
+      "contributions": [
+        [
+          [
+            1.0,
+            0.0
+          ]
+        ]
+      ],
+      "features": [
+        "F1",
+        "F2"
+      ],
+      "expected_scores": [
+        [
+          0.7407748699188232
+        ]
+      ],
+      "expected_support": [
+        [
+          0.7407748699188232
+        ]
+      ],
+      "expected_no_conflict": [
+        [
+          0.5
+        ]
+      ],
+      "expected_matches": [
+        [
+          1
+        ]
+      ],
+      "expected_rule_weights": [
+        12.0
+      ],
+      "expected_rule_reliability": [
+        0.7
+      ]
+    },
+    {
+      "name": "manual_seed_proxy",
+      "rules": [
+        {
+          "statement_id": "A",
+          "model_labels": "D1",
+          "disease": "D1",
+          "factor": "smoking",
+          "evidence_bucket": "risk_factor",
+          "direction": "positive",
+          "certainty_rank": 4,
+          "strength_rank": 3,
+          "source_priority": 1,
+          "needs_manual_review": 0,
+          "certainty_imputed": 0
+        }
+      ],
+      "mappings": [
+        {
+          "factor": "smoking",
+          "feature_code": "F1",
+          "match_type": "manual_seed",
+          "weight": 1.0,
+          "notes": "proxy for unavailable measure"
+        }
+      ],
+      "contributions": [
+        [
+          [
+            1.0,
+            0.0
+          ]
+        ]
+      ],
+      "features": [
+        "F1",
+        "F2"
+      ],
+      "expected_scores": [
+        [
+          0.7407748699188232
+        ]
+      ],
+      "expected_support": [
+        [
+          0.7407748699188232
+        ]
+      ],
+      "expected_no_conflict": [
+        [
+          0.5
+        ]
+      ],
+      "expected_matches": [
+        [
+          1
+        ]
+      ],
+      "expected_rule_weights": [
+        12.0
+      ],
+      "expected_rule_reliability": [
+        0.7
+      ]
+    },
+    {
+      "name": "family_history",
+      "rules": [
+        {
+          "statement_id": "A",
+          "model_labels": "D1",
+          "disease": "D1",
+          "factor": "family_history",
+          "evidence_bucket": "risk_factor",
+          "direction": "positive",
+          "certainty_rank": 4,
+          "strength_rank": 3,
+          "source_priority": 1,
+          "needs_manual_review": 0,
+          "certainty_imputed": 0
+        }
+      ],
+      "mappings": [
+        {
+          "factor": "family_history",
+          "feature_code": "F1",
+          "match_type": "manual",
+          "weight": 1.0,
+          "notes": ""
+        }
+      ],
+      "contributions": [
+        [
+          [
+            1.0,
+            0.0
+          ]
+        ]
+      ],
+      "features": [
+        "F1",
+        "F2"
+      ],
+      "expected_scores": [
+        [
+          0.6626218557357788
+        ]
+      ],
+      "expected_support": [
+        [
+          0.6626218557357788
+        ]
+      ],
+      "expected_no_conflict": [
+        [
+          0.5
+        ]
+      ],
+      "expected_matches": [
+        [
+          1
+        ]
+      ],
+      "expected_rule_weights": [
+        12.0
+      ],
+      "expected_rule_reliability": [
+        0.45
+      ]
+    },
+    {
+      "name": "laboratory_evaluation",
+      "rules": [
+        {
+          "statement_id": "A",
+          "model_labels": "D1",
+          "disease": "D1",
+          "factor": "laboratory_evaluation",
+          "evidence_bucket": "risk_factor",
+          "direction": "positive",
+          "certainty_rank": 4,
+          "strength_rank": 3,
+          "source_priority": 1,
+          "needs_manual_review": 0,
+          "certainty_imputed": 0
+        }
+      ],
+      "mappings": [
+        {
+          "factor": "laboratory_evaluation",
+          "feature_code": "F1",
+          "match_type": "manual",
+          "weight": 1.0,
+          "notes": ""
+        }
+      ],
+      "contributions": [
+        [
+          [
+            1.0,
+            0.0
+          ]
+        ]
+      ],
+      "features": [
+        "F1",
+        "F2"
+      ],
+      "expected_scores": [
+        [
+          0.6626218557357788
+        ]
+      ],
+      "expected_support": [
+        [
+          0.6626218557357788
+        ]
+      ],
+      "expected_no_conflict": [
+        [
+          0.5
+        ]
+      ],
+      "expected_matches": [
+        [
+          1
+        ]
+      ],
+      "expected_rule_weights": [
+        12.0
+      ],
+      "expected_rule_reliability": [
+        0.45
+      ]
+    },
+    {
+      "name": "risk_assessment",
+      "rules": [
+        {
+          "statement_id": "A",
+          "model_labels": "D1",
+          "disease": "D1",
+          "factor": "risk_assessment",
+          "evidence_bucket": "risk_factor",
+          "direction": "positive",
+          "certainty_rank": 4,
+          "strength_rank": 3,
+          "source_priority": 1,
+          "needs_manual_review": 0,
+          "certainty_imputed": 0
+        }
+      ],
+      "mappings": [
+        {
+          "factor": "risk_assessment",
+          "feature_code": "F1",
+          "match_type": "manual",
+          "weight": 1.0,
+          "notes": ""
+        }
+      ],
+      "contributions": [
+        [
+          [
+            1.0,
+            0.0
+          ]
+        ]
+      ],
+      "features": [
+        "F1",
+        "F2"
+      ],
+      "expected_scores": [
+        [
+          0.6626218557357788
+        ]
+      ],
+      "expected_support": [
+        [
+          0.6626218557357788
+        ]
+      ],
+      "expected_no_conflict": [
+        [
+          0.5
+        ]
+      ],
+      "expected_matches": [
+        [
+          1
+        ]
+      ],
+      "expected_rule_weights": [
+        12.0
+      ],
+      "expected_rule_reliability": [
+        0.45
+      ]
+    },
+    {
+      "name": "severity_assessment",
+      "rules": [
+        {
+          "statement_id": "A",
+          "model_labels": "D1",
+          "disease": "D1",
+          "factor": "severity_assessment",
+          "evidence_bucket": "risk_factor",
+          "direction": "positive",
+          "certainty_rank": 4,
+          "strength_rank": 3,
+          "source_priority": 1,
+          "needs_manual_review": 0,
+          "certainty_imputed": 0
+        }
+      ],
+      "mappings": [
+        {
+          "factor": "severity_assessment",
+          "feature_code": "F1",
+          "match_type": "manual",
+          "weight": 1.0,
+          "notes": ""
+        }
+      ],
+      "contributions": [
+        [
+          [
+            1.0,
+            0.0
+          ]
+        ]
+      ],
+      "features": [
+        "F1",
+        "F2"
+      ],
+      "expected_scores": [
+        [
+          0.6626218557357788
+        ]
+      ],
+      "expected_support": [
+        [
+          0.6626218557357788
+        ]
+      ],
+      "expected_no_conflict": [
+        [
+          0.5
+        ]
+      ],
+      "expected_matches": [
+        [
+          1
+        ]
+      ],
+      "expected_rule_weights": [
+        12.0
+      ],
+      "expected_rule_reliability": [
+        0.45
+      ]
+    },
+    {
+      "name": "structured_symptom_assessment",
+      "rules": [
+        {
+          "statement_id": "A",
+          "model_labels": "D1",
+          "disease": "D1",
+          "factor": "structured_symptom_assessment",
+          "evidence_bucket": "risk_factor",
+          "direction": "positive",
+          "certainty_rank": 4,
+          "strength_rank": 3,
+          "source_priority": 1,
+          "needs_manual_review": 0,
+          "certainty_imputed": 0
+        }
+      ],
+      "mappings": [
+        {
+          "factor": "structured_symptom_assessment",
+          "feature_code": "F1",
+          "match_type": "manual",
+          "weight": 1.0,
+          "notes": ""
+        }
+      ],
+      "contributions": [
+        [
+          [
+            1.0,
+            0.0
+          ]
+        ]
+      ],
+      "features": [
+        "F1",
+        "F2"
+      ],
+      "expected_scores": [
+        [
+          0.6626218557357788
+        ]
+      ],
+      "expected_support": [
+        [
+          0.6626218557357788
+        ]
+      ],
+      "expected_no_conflict": [
+        [
+          0.5
+        ]
+      ],
+      "expected_matches": [
+        [
+          1
+        ]
+      ],
+      "expected_rule_weights": [
+        12.0
+      ],
+      "expected_rule_reliability": [
+        0.45
+      ]
+    },
+    {
+      "name": "exposure_history",
+      "rules": [
+        {
+          "statement_id": "A",
+          "model_labels": "D1",
+          "disease": "D1",
+          "factor": "exposure_history",
+          "evidence_bucket": "risk_factor",
+          "direction": "positive",
+          "certainty_rank": 4,
+          "strength_rank": 3,
+          "source_priority": 1,
+          "needs_manual_review": 0,
+          "certainty_imputed": 0
+        }
+      ],
+      "mappings": [
+        {
+          "factor": "exposure_history",
+          "feature_code": "F1",
+          "match_type": "manual",
+          "weight": 1.0,
+          "notes": ""
+        }
+      ],
+      "contributions": [
+        [
+          [
+            1.0,
+            0.0
+          ]
+        ]
+      ],
+      "features": [
+        "F1",
+        "F2"
+      ],
+      "expected_scores": [
+        [
+          0.6626218557357788
+        ]
+      ],
+      "expected_support": [
+        [
+          0.6626218557357788
+        ]
+      ],
+      "expected_no_conflict": [
+        [
+          0.5
+        ]
+      ],
+      "expected_matches": [
+        [
+          1
+        ]
+      ],
+      "expected_rule_weights": [
+        12.0
+      ],
+      "expected_rule_reliability": [
+        0.45
+      ]
+    },
+    {
+      "name": "comorbidity_burden",
+      "rules": [
+        {
+          "statement_id": "A",
+          "model_labels": "D1",
+          "disease": "D1",
+          "factor": "comorbidity_burden",
+          "evidence_bucket": "risk_factor",
+          "direction": "positive",
+          "certainty_rank": 4,
+          "strength_rank": 3,
+          "source_priority": 1,
+          "needs_manual_review": 0,
+          "certainty_imputed": 0
+        }
+      ],
+      "mappings": [
+        {
+          "factor": "comorbidity_burden",
+          "feature_code": "F1",
+          "match_type": "manual",
+          "weight": 1.0,
+          "notes": ""
+        }
+      ],
+      "contributions": [
+        [
+          [
+            1.0,
+            0.0
+          ]
+        ]
+      ],
+      "features": [
+        "F1",
+        "F2"
+      ],
+      "expected_scores": [
+        [
+          0.6626218557357788
+        ]
+      ],
+      "expected_support": [
+        [
+          0.6626218557357788
+        ]
+      ],
+      "expected_no_conflict": [
+        [
+          0.5
+        ]
+      ],
+      "expected_matches": [
+        [
+          1
+        ]
+      ],
+      "expected_rule_weights": [
+        12.0
+      ],
+      "expected_rule_reliability": [
+        0.45
+      ]
+    },
+    {
+      "name": "combined_reliability",
+      "rules": [
+        {
+          "statement_id": "A",
+          "model_labels": "D1",
+          "disease": "D1",
+          "factor": "family_history",
+          "evidence_bucket": "risk_factor",
+          "direction": "positive",
+          "certainty_rank": 4,
+          "strength_rank": 3,
+          "source_priority": 1,
+          "needs_manual_review": 1,
+          "certainty_imputed": 1
+        }
+      ],
+      "mappings": [
+        {
+          "factor": "family_history",
+          "feature_code": "F1",
+          "match_type": "manual_seed",
+          "weight": 1.0,
+          "notes": "proxy measure"
+        }
+      ],
+      "contributions": [
+        [
+          [
+            1.0,
+            0.0
+          ]
+        ]
+      ],
+      "features": [
+        "F1",
+        "F2"
+      ],
+      "expected_scores": [
+        [
+          0.5500351190567017
+        ]
+      ],
+      "expected_support": [
+        [
+          0.5500351190567017
+        ]
+      ],
+      "expected_no_conflict": [
+        [
+          0.5
+        ]
+      ],
+      "expected_matches": [
+        [
+          1
+        ]
+      ],
+      "expected_rule_weights": [
+        6.0
+      ],
+      "expected_rule_reliability": [
+        0.133875
+      ]
+    },
+    {
+      "name": "opposite_rules_different_reliability",
+      "rules": [
+        {
+          "statement_id": "A",
+          "model_labels": "D1",
+          "disease": "D1",
+          "factor": "smoking",
+          "evidence_bucket": "risk_factor",
+          "direction": "positive",
+          "certainty_rank": 4,
+          "strength_rank": 3,
+          "source_priority": 1,
+          "needs_manual_review": 0,
+          "certainty_imputed": 1
+        },
+        {
+          "statement_id": "B",
+          "model_labels": "D1",
+          "disease": "D1",
+          "factor": "smoking",
+          "evidence_bucket": "risk_factor",
+          "direction": "protective",
+          "certainty_rank": 4,
+          "strength_rank": 3,
+          "source_priority": 1,
+          "needs_manual_review": 0,
+          "certainty_imputed": 0
+        }
+      ],
+      "mappings": [
+        {
+          "factor": "smoking",
+          "feature_code": "F1",
+          "match_type": "manual",
+          "weight": 1.0,
+          "notes": ""
+        }
+      ],
+      "contributions": [
+        [
+          [
+            1.0,
+            0.0
+          ]
+        ]
+      ],
+      "features": [
+        "F1",
+        "F2"
+      ],
+      "expected_scores": [
+        [
+          0.44398611783981323
+        ]
+      ],
+      "expected_support": [
+        [
+          0.7815974354743958
+        ]
+      ],
+      "expected_no_conflict": [
+        [
+          0.18242552876472473
+        ]
+      ],
+      "expected_matches": [
+        [
+          2
+        ]
+      ],
+      "expected_rule_weights": [
+        12.0,
+        -12.0
+      ],
+      "expected_rule_reliability": [
+        0.85,
+        1.0
+      ]
+    },
+    {
+      "name": "missing_contributor_keeps_global_weight_scale",
+      "rules": [
+        {
+          "statement_id": "A",
+          "model_labels": "D1",
+          "disease": "D1",
+          "factor": "smoking",
+          "evidence_bucket": "risk_factor",
+          "direction": "positive",
+          "certainty_rank": 4,
+          "strength_rank": 3,
+          "source_priority": 1,
+          "needs_manual_review": 0,
+          "certainty_imputed": 0
+        },
+        {
+          "statement_id": "B",
+          "model_labels": "D1",
+          "disease": "D1",
+          "factor": "age",
+          "evidence_bucket": "risk_factor",
+          "direction": "positive",
+          "certainty_rank": 4,
+          "strength_rank": 3,
+          "source_priority": 1,
+          "needs_manual_review": 0,
+          "certainty_imputed": 0
+        }
+      ],
+      "mappings": [
+        {
+          "factor": "smoking",
+          "feature_code": "F1",
+          "match_type": "manual",
+          "weight": 1.0,
+          "notes": ""
+        },
+        {
+          "factor": "age",
+          "feature_code": "F2",
+          "match_type": "manual",
+          "weight": 10.0,
+          "notes": ""
+        }
+      ],
+      "contributions": [
+        [
+          [
+            1.0,
+            null
+          ]
+        ],
+        [
+          [
+            1.0,
+            2.0
+          ]
+        ]
+      ],
+      "features": [
+        "F1",
+        "F2"
+      ],
+      "expected_scores": [
+        [
+          0.5374298691749573
+        ],
+        [
+          0.8284952044487
+        ]
+      ],
+      "expected_support": [
+        [
+          0.5374298691749573
+        ],
+        [
+          0.8284952044487
+        ]
+      ],
+      "expected_no_conflict": [
+        [
+          0.5
+        ],
+        [
+          0.5
+        ]
+      ],
+      "expected_matches": [
+        [
+          1
+        ],
+        [
+          2
+        ]
+      ],
+      "expected_rule_weights": [
+        12.0,
+        120.0
+      ],
+      "expected_rule_reliability": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "omitted_feature_keeps_global_weight_scale",
+      "rules": [
+        {
+          "statement_id": "A",
+          "model_labels": "D1",
+          "disease": "D1",
+          "factor": "smoking",
+          "evidence_bucket": "risk_factor",
+          "direction": "positive",
+          "certainty_rank": 4,
+          "strength_rank": 3,
+          "source_priority": 1,
+          "needs_manual_review": 0,
+          "certainty_imputed": 0
+        },
+        {
+          "statement_id": "B",
+          "model_labels": "D1",
+          "disease": "D1",
+          "factor": "age",
+          "evidence_bucket": "risk_factor",
+          "direction": "positive",
+          "certainty_rank": 4,
+          "strength_rank": 3,
+          "source_priority": 1,
+          "needs_manual_review": 0,
+          "certainty_imputed": 0
+        }
+      ],
+      "mappings": [
+        {
+          "factor": "smoking",
+          "feature_code": "F1",
+          "match_type": "manual",
+          "weight": 1.0,
+          "notes": ""
+        },
+        {
+          "factor": "age",
+          "feature_code": "F2",
+          "match_type": "manual",
+          "weight": 10.0,
+          "notes": ""
+        }
+      ],
+      "contributions": [
+        [
+          [
+            1.0
+          ]
+        ]
+      ],
+      "features": [
+        "F1"
+      ],
+      "expected_scores": [
+        [
+          0.5374298691749573
+        ]
+      ],
+      "expected_support": [
+        [
+          0.5374298691749573
+        ]
+      ],
+      "expected_no_conflict": [
+        [
+          0.5
+        ]
+      ],
+      "expected_matches": [
+        [
+          1
+        ]
+      ],
+      "expected_rule_weights": [
+        12.0,
+        120.0
+      ],
+      "expected_rule_reliability": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "semicolon_factor_tokens",
+      "rules": [
+        {
+          "statement_id": "A",
+          "model_labels": "D1",
+          "disease": "D1",
+          "factor": "smoking; age",
+          "evidence_bucket": "risk_factor",
+          "direction": "positive",
+          "certainty_rank": 4,
+          "strength_rank": 3,
+          "source_priority": 1,
+          "needs_manual_review": 0,
+          "certainty_imputed": 0
+        }
+      ],
+      "mappings": [
+        {
+          "factor": "smoking",
+          "feature_code": "F1",
+          "match_type": "manual",
+          "weight": 1.0,
+          "notes": ""
+        },
+        {
+          "factor": "age",
+          "feature_code": "F1",
+          "match_type": "manual",
+          "weight": 1.0,
+          "notes": ""
+        }
+      ],
+      "contributions": [
+        [
+          [
+            1.0,
+            0.0
+          ]
+        ]
+      ],
+      "features": [
+        "F1",
+        "F2"
+      ],
+      "expected_scores": [
+        [
+          0.9525741338729858
+        ]
+      ],
+      "expected_support": [
+        [
+          0.9525741338729858
+        ]
+      ],
+      "expected_no_conflict": [
+        [
+          0.5
+        ]
+      ],
+      "expected_matches": [
+        [
+          2
+        ]
+      ],
+      "expected_rule_weights": [
+        12.0,
+        12.0
+      ],
+      "expected_rule_reliability": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "duplicate_statement",
+      "rules": [
+        {
+          "statement_id": "A",
+          "model_labels": "D1",
+          "disease": "D1",
+          "factor": "smoking",
+          "evidence_bucket": "risk_factor",
+          "direction": "positive",
+          "certainty_rank": 4,
+          "strength_rank": 3,
+          "source_priority": 1,
+          "needs_manual_review": 0,
+          "certainty_imputed": 0
+        },
+        {
+          "statement_id": "A",
+          "model_labels": "D1",
+          "disease": "D1",
+          "factor": "smoking",
+          "evidence_bucket": "risk_factor",
+          "direction": "positive",
+          "certainty_rank": 4,
+          "strength_rank": 3,
+          "source_priority": 1,
+          "needs_manual_review": 0,
+          "certainty_imputed": 0
+        }
+      ],
+      "mappings": [
+        {
+          "factor": "smoking",
+          "feature_code": "F1",
+          "match_type": "manual",
+          "weight": 1.0,
+          "notes": ""
+        }
+      ],
+      "contributions": [
+        [
+          [
+            1.0,
+            0.0
+          ]
+        ]
+      ],
+      "features": [
+        "F1",
+        "F2"
+      ],
+      "expected_scores": [
+        [
+          0.8175745010375977
+        ]
+      ],
+      "expected_support": [
+        [
+          0.8175745010375977
+        ]
+      ],
+      "expected_no_conflict": [
+        [
+          0.5
+        ]
+      ],
+      "expected_matches": [
+        [
+          1
+        ]
+      ],
+      "expected_rule_weights": [
+        12.0
+      ],
+      "expected_rule_reliability": [
+        1.0
+      ]
+    },
+    {
+      "name": "duplicate_mapping",
+      "rules": [
+        {
+          "statement_id": "A",
+          "model_labels": "D1",
+          "disease": "D1",
+          "factor": "smoking",
+          "evidence_bucket": "risk_factor",
+          "direction": "positive",
+          "certainty_rank": 4,
+          "strength_rank": 3,
+          "source_priority": 1,
+          "needs_manual_review": 0,
+          "certainty_imputed": 0
+        }
+      ],
+      "mappings": [
+        {
+          "factor": "smoking",
+          "feature_code": "F1",
+          "match_type": "manual",
+          "weight": 1.0,
+          "notes": ""
+        },
+        {
+          "factor": "smoking",
+          "feature_code": "F1",
+          "match_type": "manual",
+          "weight": 0.5,
+          "notes": ""
+        }
+      ],
+      "contributions": [
+        [
+          [
+            1.0,
+            0.0
+          ]
+        ]
+      ],
+      "features": [
+        "F1",
+        "F2"
+      ],
+      "expected_scores": [
+        [
+          0.8175745010375977
+        ]
+      ],
+      "expected_support": [
+        [
+          0.8175745010375977
+        ]
+      ],
+      "expected_no_conflict": [
+        [
+          0.5
+        ]
+      ],
+      "expected_matches": [
+        [
+          1
+        ]
+      ],
+      "expected_rule_weights": [
+        12.0
+      ],
+      "expected_rule_reliability": [
+        1.0
+      ]
+    },
+    {
+      "name": "non_risk_bucket",
+      "rules": [
+        {
+          "statement_id": "A",
+          "model_labels": "D1",
+          "disease": "D1",
+          "factor": "smoking",
+          "evidence_bucket": "decision_screening",
+          "direction": "positive",
+          "certainty_rank": 4,
+          "strength_rank": 3,
+          "source_priority": 1,
+          "needs_manual_review": 0,
+          "certainty_imputed": 0
+        }
+      ],
+      "mappings": [
+        {
+          "factor": "smoking",
+          "feature_code": "F1",
+          "match_type": "manual",
+          "weight": 1.0,
+          "notes": ""
+        }
+      ],
+      "contributions": [
+        [
+          [
+            1.0,
+            0.0
+          ]
+        ]
+      ],
+      "features": [
+        "F1",
+        "F2"
+      ],
+      "expected_scores": [
+        [
+          0.5
+        ]
+      ],
+      "expected_support": [
+        [
+          0.5
+        ]
+      ],
+      "expected_no_conflict": [
+        [
+          0.5
+        ]
+      ],
+      "expected_matches": [
+        [
+          0
+        ]
+      ],
+      "expected_rule_weights": [],
+      "expected_rule_reliability": []
+    },
+    {
+      "name": "negative_contribution",
+      "rules": [
+        {
+          "statement_id": "A",
+          "model_labels": "D1",
+          "disease": "D1",
+          "factor": "smoking",
+          "evidence_bucket": "risk_factor",
+          "direction": "positive",
+          "certainty_rank": 4,
+          "strength_rank": 3,
+          "source_priority": 1,
+          "needs_manual_review": 0,
+          "certainty_imputed": 0
+        }
+      ],
+      "mappings": [
+        {
+          "factor": "smoking",
+          "feature_code": "F1",
+          "match_type": "manual",
+          "weight": 1.0,
+          "notes": ""
+        }
+      ],
+      "contributions": [
+        [
+          [
+            -1.0,
+            0.0
+          ]
+        ]
+      ],
+      "features": [
+        "F1",
+        "F2"
+      ],
+      "expected_scores": [
+        [
+          0.18242552876472473
+        ]
+      ],
+      "expected_support": [
+        [
+          0.5
+        ]
+      ],
+      "expected_no_conflict": [
+        [
+          0.18242552876472473
+        ]
+      ],
+      "expected_matches": [
+        [
+          1
+        ]
+      ],
+      "expected_rule_weights": [
+        12.0
+      ],
+      "expected_rule_reliability": [
+        1.0
+      ]
+    },
+    {
+      "name": "all_missing_contributions",
+      "rules": [
+        {
+          "statement_id": "A",
+          "model_labels": "D1",
+          "disease": "D1",
+          "factor": "smoking",
+          "evidence_bucket": "risk_factor",
+          "direction": "positive",
+          "certainty_rank": 4,
+          "strength_rank": 3,
+          "source_priority": 1,
+          "needs_manual_review": 0,
+          "certainty_imputed": 0
+        }
+      ],
+      "mappings": [
+        {
+          "factor": "smoking",
+          "feature_code": "F1",
+          "match_type": "manual",
+          "weight": 1.0,
+          "notes": ""
+        }
+      ],
+      "contributions": [
+        [
+          [
+            null,
+            null
+          ]
+        ]
+      ],
+      "features": [
+        "F1",
+        "F2"
+      ],
+      "expected_scores": [
+        [
+          0.5
+        ]
+      ],
+      "expected_support": [
+        [
+          0.5
+        ]
+      ],
+      "expected_no_conflict": [
+        [
+          0.5
+        ]
+      ],
+      "expected_matches": [
+        [
+          0
+        ]
+      ],
+      "expected_rule_weights": [
+        12.0
+      ],
+      "expected_rule_reliability": [
+        1.0
+      ]
+    }
+  ]
+}

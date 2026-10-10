@@ -1,0 +1,41 @@
+extends: ../configs/defaults.yaml
+
+task: prevalent
+
+data:
+  input_dir: ${TRACE_INPUT_DIR} # Full-cohort scores and y/y_mask arrays with the same prefix
+  prefix: ${TRACE_INPUT_PREFIX}
+  allow_legacy_pickle_names: false
+  split_table:
+    path: ${TRACE_SPLIT_TABLE} # Preassigned row_index,eid,split table; metrics use test rows only
+    row_index_column: row_index
+    eid_column: eid
+    split_column: split
+
+artifacts:
+  fusion_model: ${TRACE_FUSION_MODEL}
+  calibrators: ${TRACE_CALIBRATORS} # Validation-only probability calibration artifact from the same training run
+  q_model: ${TRACE_Q_MODEL}
+  knowledge_matrix: ${TRACE_KNOWLEDGE_MATRIX}
+  burden_profile: ../resources/burden/ukb_relative.yaml
+
+consistency:
+  enabled: true
+  contributions: ${TRACE_CONTRIBUTIONS}
+  feature_weights: ${TRACE_FEATURE_WEIGHTS}
+  feature_names: ${TRACE_FEATURE_NAMES}
+  evidence_bundle: ../resources/medical_evidence/v1
+
+# evaluate reads this run's inference outputs from output.directory by default:
+# final_scores.npy and participant_ids.npy; targets come from data.input_dir/prefix.
+
+output:
+  directory: ${TRACE_OUTPUT_DIR}
+
+pipeline:
+  steps:
+    - prepare-data
+    - infer
+    - calibrate-consistency
+    - apply-consistency
+    - evaluate

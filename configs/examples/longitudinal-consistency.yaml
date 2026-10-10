@@ -1,0 +1,23 @@
+extends: ../../pipelines/longitudinal/full_validation.yaml
+# Use the complete labeled cohort and frozen artifacts from the same training run.
+data:
+  input_dir: ../../data/study/longitudinal/prepared
+  prefix: cohort
+  split_table:
+    path: ../../data/study/splits.csv
+artifacts:
+  fusion_model: ../../data/study/longitudinal/models/fusion_model.joblib
+  q_model: ../../data/study/longitudinal/models/q_model.joblib
+  knowledge_matrix: ../../data/study/knowledge.npy
+  burden_profile: ../../data/configs/burden.yaml
+consistency:
+  enabled: true
+  horizon: 10y
+  module_score_kind: log_risk
+  contributions: ../../data/study/longitudinal/consistency_inputs/contributions.npy
+  feature_weights: ../../data/study/longitudinal/consistency_inputs/feature_weights.npy
+  feature_names: ../../data/study/longitudinal/consistency_inputs/feature_names.npy
+  # Replace this bundle if your endpoint or feature names do not match UKB evidence.
+  evidence_bundle: ../../resources/medical_evidence/v1
+output:
+  directory: ../../data/study/longitudinal/consistency_results

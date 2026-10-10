@@ -1,0 +1,48 @@
+extends: ../../configs/defaults.yaml
+
+task: prevalent
+
+data:
+  input_dir: ${TRACE_INPUT_DIR}
+  prefix: ${TRACE_INPUT_PREFIX}
+  split_table:
+    path: ${TRACE_SPLIT_TABLE}
+    row_index_column: row_index
+    eid_column: eid
+    split_column: split
+
+training:
+  integration:
+    seed: 7
+    subsets_per_participant: 4
+    min_class_count: 10
+    n_estimators: 200
+    learning_rate: 0.05
+    num_leaves: 31
+    n_jobs: 1
+  calibration:
+    min_class_count: 10
+  planner:
+    seed: 7
+    states_per_participant: 2
+    candidate_actions: 6
+    lambda_cost: 0.01
+    stop_value_mode: fixed_zero
+    n_estimators: 300
+    learning_rate: 0.05
+    num_leaves: 63
+    min_child_samples: 20
+    n_jobs: 1
+
+artifacts:
+  fusion_model: ${TRACE_OUTPUT_DIR}/fusion_model.joblib
+  calibrators: ${TRACE_OUTPUT_DIR}/calibration_model.joblib
+  q_model: ${TRACE_OUTPUT_DIR}/q_model.joblib
+  knowledge_matrix: ${TRACE_KNOWLEDGE_MATRIX}
+  burden_profile: ../../resources/burden/ukb_relative.yaml
+
+output:
+  directory: ${TRACE_OUTPUT_DIR}
+
+pipeline:
+  steps: [prepare-data, train-integration, calibrate, train-planner]

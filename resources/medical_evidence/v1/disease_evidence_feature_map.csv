@@ -1,0 +1,217 @@
+factor,feature_code,match_type,weight,notes
+ABPM or HBPM average,p4079_i0,threshold_alias,0.9,auto_score=0.950; candidate_reason=alias_contains:diastolic_blood_pressure; threshold=clinic 140/90 mmHg or higher|out-of-office 135/85 mmHg or higher; disease=Gestational [pregnancy-induced] hypertension
+ABPM or HBPM average,p4080_i0,threshold_alias,0.9,auto_score=0.950; candidate_reason=alias_contains:systolic_blood_pressure; threshold=clinic 140/90 mmHg or higher|out-of-office 135/85 mmHg or higher; disease=Gestational [pregnancy-induced] hypertension
+activity-related pain,p22034_i0,llm_curated,0.55,llm_curated_v1; feature_name=Summed minutes activity; activity minutes proxy; pain itself unavailable
+activity-related pain,p22040_i0,llm_curated,0.55,llm_curated_v1; feature_name=Summed MET minutes per week for all activity; physical activity level proxy; pain itself unavailable
+activity-related pain,p924_i0,llm_curated,0.5,llm_curated_v1; feature_name=Usual walking pace; walking pace proxy for activity limitation
+age,p21003_i0,manual_seed,0.95,curated_seed_v1; feature_name=Age when attended assessment centre; direct age at assessment
+albuminuria,p30500_i0,manual_seed,0.95,curated_seed_v1; feature_name=Microalbumin in urine; microalbumin in urine
+albuminuria,p30510_i0,manual_seed,0.8,curated_seed_v1; feature_name=Creatinine (enzymatic) in urine; urine creatinine for albumin/creatinine context
+alcohol use,p1558_i0,manual_seed,0.9,curated_seed_v1; feature_name=Alcohol intake frequency.; alcohol intake frequency
+alcohol use,p1628_i0,manual_seed,0.75,curated_seed_v1; feature_name=Alcohol intake versus 10 years previously; alcohol intake versus 10 years previous
+alcohol use,p20117_i0,manual_seed,0.9,curated_seed_v1; feature_name=Alcohol drinker status; alcohol drinker status
+atrial fibrillation,p102_i0,manual_seed,0.55,"curated_seed_v1; feature_name=Pulse rate, automated reading; pulse rate proxy only"
+blood loss,30010-0.0,manual_seed,0.7,curated_seed_v1; feature_name=Red blood cell (erythrocyte) count; RBC proxy
+blood loss,30020-0.0,manual_seed,0.8,curated_seed_v1; feature_name=Haemoglobin concentration; haemoglobin proxy
+blood loss,30030-0.0,manual_seed,0.7,curated_seed_v1; feature_name=Haematocrit percentage; haematocrit proxy
+BMI,p21001_i0,threshold_alias,0.9,auto_score=0.960; candidate_reason=alias:body_mass_index_bmi; threshold=BMI 25 kg/m2 or higher|waist-to-height ratio 0.5 or higher; disease=Obesity
+BMI,p21001_i0,alias,0.9,auto_score=0.960; candidate_reason=alias:body_mass_index_bmi; disease=Obesity
+BMI,p23104_i0,threshold_alias,0.9,auto_score=0.960; candidate_reason=alias:body_mass_index_bmi; threshold=BMI 25 kg/m2 or higher|waist-to-height ratio 0.5 or higher; disease=Obesity
+BMI,p23104_i0,alias,0.9,auto_score=0.960; candidate_reason=alias:body_mass_index_bmi; disease=Obesity
+bradykinesia,p924_i0,llm_curated,0.55,llm_curated_v1; feature_name=Usual walking pace; walking pace proxy only
+cardiac symptoms,p102_i0,llm_curated,0.6,"llm_curated_v1; feature_name=Pulse rate, automated reading; pulse rate proxy"
+cardiac symptoms,p4079_i0,llm_curated,0.55,"llm_curated_v1; feature_name=Diastolic blood pressure, automated reading; diastolic BP cardiometabolic proxy"
+cardiac symptoms,p4080_i0,llm_curated,0.55,"llm_curated_v1; feature_name=Systolic blood pressure, automated reading; systolic BP cardiometabolic proxy"
+cardiac symptoms,p4194_i0,llm_curated,0.6,llm_curated_v1; feature_name=Pulse rate; pulse rate proxy
+central adiposity,p21001_i0,manual_seed,0.75,curated_seed_v1; feature_name=Body mass index (BMI); BMI proxy
+central adiposity,p48_i0,manual_seed,0.9,curated_seed_v1; feature_name=Waist circumference; waist circumference
+chronic disease,30020-0.0,manual_seed,0.6,curated_seed_v1; feature_name=Haemoglobin concentration; haemoglobin chronic disease anaemia proxy
+chronic disease,30710-0.0,manual_seed,0.65,curated_seed_v1; feature_name=C-reactive protein; CRP inflammation proxy
+chronic kidney disease,30670-0.0,manual_seed,0.65,curated_seed_v1; feature_name=Urea; urea
+chronic kidney disease,30700-0.0,manual_seed,0.75,curated_seed_v1; feature_name=Creatinine; creatinine proxy
+chronic kidney disease,30720-0.0,manual_seed,0.75,curated_seed_v1; feature_name=Cystatin C; cystatin C proxy
+chronic kidney disease,p30500_i0,manual_seed,0.75,curated_seed_v1; feature_name=Microalbumin in urine; urine microalbumin
+clinic blood pressure,p4079_i0,threshold_alias,0.9,auto_score=0.950; candidate_reason=alias_contains:diastolic_blood_pressure; threshold=clinic 140/90 mmHg or higher|out-of-office 135/85 mmHg or higher; disease=Gestational [pregnancy-induced] hypertension
+clinic blood pressure,p4079_i0,alias,0.9,auto_score=0.950; candidate_reason=alias_contains:diastolic_blood_pressure; disease=Gestational [pregnancy-induced] hypertension
+clinic blood pressure,p4080_i0,threshold_alias,0.9,auto_score=0.950; candidate_reason=alias_contains:systolic_blood_pressure; threshold=clinic 140/90 mmHg or higher|out-of-office 135/85 mmHg or higher; disease=Gestational [pregnancy-induced] hypertension
+clinic blood pressure,p4080_i0,alias,0.9,auto_score=0.950; candidate_reason=alias_contains:systolic_blood_pressure; disease=Gestational [pregnancy-induced] hypertension
+cognitive assessment,p20018_i0,llm_curated,0.8,llm_curated_v1; feature_name=Prospective memory result; prospective memory result
+cognitive assessment,p20127_i0,llm_curated,0.55,llm_curated_v1; feature_name=Neuroticism score; neuroticism score proxy only
+comorbidity burden,p20116_i0,llm_curated,0.5,llm_curated_v1; feature_name=Smoking status; smoking status proxy for comorbidity burden
+comorbidity burden,p21001_i0,llm_curated,0.5,llm_curated_v1; feature_name=Body mass index (BMI); BMI proxy for metabolic comorbidity
+comorbidity burden,p21003_i0,llm_curated,0.55,llm_curated_v1; feature_name=Age when attended assessment centre; age proxy for comorbidity burden
+comorbidity burden,p4080_i0,llm_curated,0.5,"llm_curated_v1; feature_name=Systolic blood pressure, automated reading; systolic BP proxy for cardiometabolic comorbidity"
+complete blood count,30000-0.0,manual_seed,0.9,curated_seed_v1; feature_name=White blood cell (leukocyte) count; WBC
+complete blood count,30010-0.0,manual_seed,0.85,curated_seed_v1; feature_name=Red blood cell (erythrocyte) count; RBC
+complete blood count,30020-0.0,manual_seed,0.9,curated_seed_v1; feature_name=Haemoglobin concentration; haemoglobin
+complete blood count,30040-0.0,manual_seed,0.85,curated_seed_v1; feature_name=Mean corpuscular volume; MCV
+complete blood count,30080-0.0,manual_seed,0.85,curated_seed_v1; feature_name=Platelet count; platelet count
+coronary artery disease,30690-0.0,llm_curated,0.6,llm_curated_v1; feature_name=Cholesterol; cholesterol risk proxy
+coronary artery disease,30780-0.0,llm_curated,0.6,llm_curated_v1; feature_name=LDL direct; LDL risk proxy
+coronary artery disease,p20107_i0#1,llm_curated,0.6,llm_curated_v1; feature_name=Illnesses of father_Heart disease; father heart disease family-history proxy
+coronary artery disease,p20110_i0#1,llm_curated,0.6,llm_curated_v1; feature_name=Illnesses of mother_Heart disease; mother heart disease family-history proxy
+coronary artery disease,p20111_i0#1,llm_curated,0.6,llm_curated_v1; feature_name=Illnesses of siblings_Heart disease; siblings heart disease family-history proxy
+coronary artery disease,p20116_i0,llm_curated,0.6,llm_curated_v1; feature_name=Smoking status; smoking risk proxy
+daytime sleepiness,p1160_i0,manual_seed,0.65,curated_seed_v1; feature_name=Sleep duration; sleep duration proxy
+daytime sleepiness,p1220_i0,manual_seed,0.8,curated_seed_v1; feature_name=Daytime dozing / sleeping (narcolepsy); daytime dozing/sleeping proxy
+diabetes,30740-0.0,manual_seed,0.85,curated_seed_v1; feature_name=Glucose; glucose
+diabetes,30750-0.0,manual_seed,0.9,curated_seed_v1; feature_name=Glycated haemoglobin (HbA1c); HbA1c
+dyslipidaemia,30690-0.0,alias,0.9,auto_score=0.960; candidate_reason=alias:cholesterol; disease=Angina pectoris
+dyslipidaemia,30760-0.0,alias,0.9,auto_score=0.960; candidate_reason=alias:hdl_cholesterol; disease=Angina pectoris
+dyslipidaemia,30780-0.0,manual_seed,0.9,curated_seed_v1; feature_name=LDL direct; LDL direct
+dyslipidaemia,30870-0.0,alias,0.9,auto_score=0.960; candidate_reason=alias:triglycerides; disease=Angina pectoris
+ECG,p102_i0,llm_curated,0.45,"llm_curated_v1; feature_name=Pulse rate, automated reading; ECG unavailable; pulse rate proxy only"
+ECG,p4194_i0,llm_curated,0.45,llm_curated_v1; feature_name=Pulse rate; ECG unavailable; pulse rate proxy only
+ECG monitoring,p102_i0,llm_curated,0.45,"llm_curated_v1; feature_name=Pulse rate, automated reading; ECG monitoring unavailable; pulse rate proxy only"
+ECG monitoring,p4194_i0,llm_curated,0.45,llm_curated_v1; feature_name=Pulse rate; ECG monitoring unavailable; pulse rate proxy only
+electrolyte abnormality,30680-0.0,manual_seed,0.7,curated_seed_v1; feature_name=Calcium; calcium; limited electrolyte coverage
+electrolyte abnormality,30810-0.0,manual_seed,0.7,curated_seed_v1; feature_name=Phosphate; phosphate; limited electrolyte coverage
+estimated glomerular filtration rate,30670-0.0,manual_seed,0.65,curated_seed_v1; feature_name=Urea; urea kidney function proxy
+estimated glomerular filtration rate,30700-0.0,manual_seed,0.75,curated_seed_v1; feature_name=Creatinine; creatinine proxy; eGFR unavailable
+estimated glomerular filtration rate,30720-0.0,manual_seed,0.75,curated_seed_v1; feature_name=Cystatin C; cystatin C proxy; eGFR unavailable
+exposure history,p1269_i0,llm_curated,0.65,llm_curated_v1; feature_name=Exposure to tobacco smoke at home; tobacco smoke at home exposure
+exposure history,p1279_i0,llm_curated,0.65,llm_curated_v1; feature_name=Exposure to tobacco smoke outside home; tobacco smoke outside home exposure
+exposure history,p20116_i0,llm_curated,0.7,llm_curated_v1; feature_name=Smoking status; smoking exposure history proxy
+exposure history,p20117_i0,llm_curated,0.65,llm_curated_v1; feature_name=Alcohol drinker status; alcohol exposure history proxy
+family history,p20107_i0#1,llm_curated,0.55,llm_curated_v1; feature_name=Illnesses of father_Heart disease; father heart disease; broad family-history proxy
+family history,p20107_i0#2,llm_curated,0.55,llm_curated_v1; feature_name=Illnesses of father_Stroke; father stroke; broad family-history proxy
+family history,p20107_i0#6,llm_curated,0.55,llm_curated_v1; feature_name=Illnesses of father_Chronic bronchitis/emphysema; father chronic bronchitis/emphysema; broad family-history proxy
+family history,p20107_i0#8,llm_curated,0.55,llm_curated_v1; feature_name=Illnesses of father_High blood pressure; father high blood pressure; broad family-history proxy
+family history,p20110_i0#1,llm_curated,0.55,llm_curated_v1; feature_name=Illnesses of mother_Heart disease; mother heart disease; broad family-history proxy
+family history,p20110_i0#11,llm_curated,0.55,llm_curated_v1; feature_name=Illnesses of mother_Parkinson's disease; mother Parkinson disease; broad family-history proxy
+family history,p20110_i0#2,llm_curated,0.55,llm_curated_v1; feature_name=Illnesses of mother_Stroke; mother stroke; broad family-history proxy
+family history,p20110_i0#9,llm_curated,0.55,llm_curated_v1; feature_name=Illnesses of mother_Diabetes; mother diabetes; broad family-history proxy
+family history,p20111_i0#1,llm_curated,0.55,llm_curated_v1; feature_name=Illnesses of siblings_Heart disease; siblings heart disease; broad family-history proxy
+family history,p20111_i0#11,llm_curated,0.55,llm_curated_v1; feature_name=Illnesses of siblings_Parkinson's disease; siblings Parkinson disease; broad family-history proxy
+family history,p20111_i0#2,llm_curated,0.55,llm_curated_v1; feature_name=Illnesses of siblings_Stroke; siblings stroke; broad family-history proxy
+family history,p20111_i0#3,llm_curated,0.55,llm_curated_v1; feature_name=Illnesses of siblings_Lung cancer; siblings lung cancer; broad family-history proxy
+family history,p20111_i0#4,llm_curated,0.55,llm_curated_v1; feature_name=Illnesses of siblings_Bowel cancer; siblings bowel cancer; broad family-history proxy
+family history,p20111_i0#5,llm_curated,0.55,llm_curated_v1; feature_name=Illnesses of siblings_Breast cancer; siblings breast cancer; broad family-history proxy
+family history,p20111_i0#6,llm_curated,0.55,llm_curated_v1; feature_name=Illnesses of siblings_Chronic bronchitis/emphysema; siblings chronic bronchitis/emphysema; broad family-history proxy
+family history,p20111_i0#8,llm_curated,0.55,llm_curated_v1; feature_name=Illnesses of siblings_High blood pressure; siblings high blood pressure; broad family-history proxy
+family history,p20111_i0#9,llm_curated,0.55,llm_curated_v1; feature_name=Illnesses of siblings_Diabetes; siblings diabetes; broad family-history proxy
+fasting plasma glucose,30740-0.0,alias,0.9,auto_score=0.960; candidate_reason=alias:glucose; disease=Diabetes
+gait disturbance,p22037_i0,llm_curated,0.65,llm_curated_v1; feature_name=MET minutes per week for walking; walking MET minutes proxy
+gait disturbance,p924_i0,llm_curated,0.8,llm_curated_v1; feature_name=Usual walking pace; usual walking pace proxy
+gait disturbance,p981_i0,llm_curated,0.6,llm_curated_v1; feature_name=Duration walking for pleasure; duration walking for pleasure proxy
+gestational diabetes,30740-0.0,manual_seed,0.8,curated_seed_v1; feature_name=Glucose; glucose proxy
+gestational diabetes,30750-0.0,manual_seed,0.8,curated_seed_v1; feature_name=Glycated haemoglobin (HbA1c); HbA1c proxy
+HbA1c,30750-0.0,alias,0.9,auto_score=0.950; candidate_reason=alias_contains:hba1c; disease=Diabetes
+hypertension,p4079_i0,alias,0.9,auto_score=0.950; candidate_reason=alias_contains:diastolic_blood_pressure; disease=Acute renal failure
+hypertension,p4080_i0,alias,0.9,auto_score=0.950; candidate_reason=alias_contains:systolic_blood_pressure; disease=Acute renal failure
+immunosuppression,30000-0.0,llm_curated,0.45,llm_curated_v1; feature_name=White blood cell (leukocyte) count; WBC proxy only; medication/immunosuppression unavailable
+immunosuppression,30120-0.0,llm_curated,0.45,llm_curated_v1; feature_name=Lymphocyte count; lymphocyte proxy only; medication/immunosuppression unavailable
+immunosuppression,30140-0.0,llm_curated,0.45,llm_curated_v1; feature_name=Neutrophill count; neutrophil proxy only; medication/immunosuppression unavailable
+inflammation,30000-0.0,manual_seed,0.7,curated_seed_v1; feature_name=White blood cell (leukocyte) count; WBC proxy
+inflammation,30140-0.0,manual_seed,0.65,curated_seed_v1; feature_name=Neutrophill count; neutrophil count proxy
+inflammation,30710-0.0,manual_seed,0.9,curated_seed_v1; feature_name=C-reactive protein; C-reactive protein
+inflammatory or mechanical stressors,30710-0.0,llm_curated,0.75,llm_curated_v1; feature_name=C-reactive protein; CRP inflammatory proxy
+inflammatory or mechanical stressors,p21001_i0,llm_curated,0.65,llm_curated_v1; feature_name=Body mass index (BMI); BMI mechanical load proxy
+inflammatory or mechanical stressors,p21002_i0,llm_curated,0.65,llm_curated_v1; feature_name=Weight; weight mechanical load proxy
+inflammatory symptoms,30000-0.0,manual_seed,0.65,curated_seed_v1; feature_name=White blood cell (leukocyte) count; WBC proxy
+inflammatory symptoms,30710-0.0,manual_seed,0.8,curated_seed_v1; feature_name=C-reactive protein; CRP inflammation proxy
+iron studies,30020-0.0,llm_curated,0.75,llm_curated_v1; feature_name=Haemoglobin concentration; haemoglobin proxy; ferritin/iron unavailable
+iron studies,30040-0.0,llm_curated,0.7,llm_curated_v1; feature_name=Mean corpuscular volume; MCV proxy for iron deficiency pattern
+iron studies,30050-0.0,llm_curated,0.65,llm_curated_v1; feature_name=Mean corpuscular haemoglobin; MCH proxy for iron deficiency pattern
+iron studies,30060-0.0,llm_curated,0.65,llm_curated_v1; feature_name=Mean corpuscular haemoglobin concentration; MCHC proxy for iron deficiency pattern
+joint loading,p21001_i0,llm_curated,0.75,llm_curated_v1; feature_name=Body mass index (BMI); BMI contribution to joint load
+joint loading,p21002_i0,llm_curated,0.75,llm_curated_v1; feature_name=Weight; body weight contribution to joint load
+joint loading,p48_i0,llm_curated,0.65,llm_curated_v1; feature_name=Waist circumference; waist circumference adiposity proxy
+laboratory evaluation,30020-0.0,manual_seed,0.55,curated_seed_v1; feature_name=Haemoglobin concentration; generic CBC marker
+laboratory evaluation,30700-0.0,manual_seed,0.55,curated_seed_v1; feature_name=Creatinine; generic renal lab marker
+laboratory evaluation,30710-0.0,manual_seed,0.55,curated_seed_v1; feature_name=C-reactive protein; generic lab inflammation marker
+liver biochemistry,30600-0.0,manual_seed,0.75,curated_seed_v1; feature_name=Albumin; albumin
+liver biochemistry,30610-0.0,manual_seed,0.85,curated_seed_v1; feature_name=Alkaline phosphatase; ALP
+liver biochemistry,30620-0.0,manual_seed,0.9,curated_seed_v1; feature_name=Alanine aminotransferase; ALT
+liver biochemistry,30650-0.0,manual_seed,0.9,curated_seed_v1; feature_name=Aspartate aminotransferase; AST
+liver biochemistry,30660-0.0,manual_seed,0.8,curated_seed_v1; feature_name=Direct bilirubin; direct bilirubin
+liver biochemistry,30730-0.0,manual_seed,0.85,curated_seed_v1; feature_name=Gamma glutamyltransferase; GGT
+liver biochemistry,30840-0.0,manual_seed,0.8,curated_seed_v1; feature_name=Total bilirubin; total bilirubin
+morning stiffness,p22034_i0,llm_curated,0.45,llm_curated_v1; feature_name=Summed minutes activity; activity minutes proxy only; stiffness unavailable
+morning stiffness,p924_i0,llm_curated,0.45,llm_curated_v1; feature_name=Usual walking pace; walking pace proxy only; stiffness unavailable
+nutritional deficiency,30020-0.0,manual_seed,0.65,curated_seed_v1; feature_name=Haemoglobin concentration; haemoglobin proxy
+nutritional deficiency,30040-0.0,manual_seed,0.65,curated_seed_v1; feature_name=Mean corpuscular volume; MCV proxy
+nutritional deficiency,30050-0.0,manual_seed,0.6,curated_seed_v1; feature_name=Mean corpuscular haemoglobin; MCH proxy
+obesity,p21001_i0,alias,0.9,auto_score=0.950; candidate_reason=alias_contains:bmi; disease=(seronegative) rheumatoid arthritis
+obesity,p23104_i0,alias,0.9,auto_score=0.950; candidate_reason=alias_contains:bmi; disease=(seronegative) rheumatoid arthritis
+obesity,p48_i0,alias,0.9,auto_score=0.960; candidate_reason=alias:waist_circumference; disease=(seronegative) rheumatoid arthritis
+organ-specific exposure,p20116_i0,llm_curated,0.55,llm_curated_v1; feature_name=Smoking status; generic exposure proxy: smoking
+organ-specific exposure,p20117_i0,llm_curated,0.55,llm_curated_v1; feature_name=Alcohol drinker status; generic exposure proxy: alcohol
+overweight or obesity,p21001_i0,alias,0.9,auto_score=0.950; candidate_reason=alias_contains:bmi; disease=Diabetes
+overweight or obesity,p23104_i0,alias,0.9,auto_score=0.950; candidate_reason=alias_contains:bmi; disease=Diabetes
+overweight or obesity,p48_i0,alias,0.9,auto_score=0.960; candidate_reason=alias:waist_circumference; disease=Diabetes
+post-bronchodilator spirometry,p20150_i0,manual_seed,0.8,"curated_seed_v1; feature_name=Forced expiratory volume in 1-second (FEV1), Best measure; FEV1 best measure"
+post-bronchodilator spirometry,p20151_i0,manual_seed,0.8,"curated_seed_v1; feature_name=Forced vital capacity (FVC), Best measure; FVC best measure"
+post-bronchodilator spirometry,p20258,threshold_alias,0.9,auto_score=0.950; candidate_reason=alias_contains:fev1_fvc; threshold=FEV1/FVC below 0.7; disease=Chronic obstructive pulmonary disease
+prior episodes,p20126_i0#3,llm_curated,0.6,llm_curated_v1; feature_name=Bipolar and major depression status_Probable Recurrent major depression (severe); recurrent major depression severe proxy
+prior episodes,p20126_i0#4,llm_curated,0.6,llm_curated_v1; feature_name=Bipolar and major depression status_Probable Recurrent major depression (moderate); recurrent major depression moderate proxy
+prior episodes,p4620_i0,llm_curated,0.6,llm_curated_v1; feature_name=Number of depression episodes; number of depression episodes; only mental-health prior episode proxy
+psychosocial stress,p2090_i0,llm_curated,0.7,"llm_curated_v1; feature_name=Seen doctor (GP) for nerves, anxiety, tension or depression; seen GP for anxiety/tension/depression proxy"
+psychosocial stress,p2100_i0,llm_curated,0.7,"llm_curated_v1; feature_name=Seen a psychiatrist for nerves, anxiety, tension or depression; seen psychiatrist for anxiety/tension/depression proxy"
+psychosocial stress,p6145_i0#1,llm_curated,0.85,"llm_curated_v1; feature_name=Illness, injury, bereavement, stress in last 2 years_Serious illness, injury or assault to yourself; serious illness/injury/assault to self stress item"
+psychosocial stress,p6145_i0#2,llm_curated,0.8,"llm_curated_v1; feature_name=Illness, injury, bereavement, stress in last 2 years_Serious illness, injury or assault of a close relative; serious illness/injury/assault of close relative stress item"
+psychosocial stress,p6145_i0#6,llm_curated,0.8,"llm_curated_v1; feature_name=Illness, injury, bereavement, stress in last 2 years_Financial difficulties; financial difficulties stress item"
+pulse irregularity,p102_i0,manual_seed,0.8,"curated_seed_v1; feature_name=Pulse rate, automated reading; automated pulse rate proxy"
+pulse irregularity,p4194_i0,manual_seed,0.75,curated_seed_v1; feature_name=Pulse rate; pulse rate proxy
+reversible-cause testing,30680-0.0,llm_curated,0.5,llm_curated_v1; feature_name=Calcium; calcium reversible metabolic cause proxy
+reversible-cause testing,30700-0.0,llm_curated,0.5,llm_curated_v1; feature_name=Creatinine; creatinine renal/metabolic cause proxy
+reversible-cause testing,30810-0.0,llm_curated,0.5,llm_curated_v1; feature_name=Phosphate; phosphate reversible metabolic cause proxy
+rigidity,p924_i0,llm_curated,0.45,llm_curated_v1; feature_name=Usual walking pace; walking pace proxy only
+risk assessment,p20116_i0,llm_curated,0.55,llm_curated_v1; feature_name=Smoking status; smoking status component of risk assessment
+risk assessment,p21001_i0,llm_curated,0.55,llm_curated_v1; feature_name=Body mass index (BMI); BMI component of risk assessment
+risk assessment,p21003_i0,llm_curated,0.6,llm_curated_v1; feature_name=Age when attended assessment centre; age component of risk assessment
+risk assessment,p31,llm_curated,0.6,llm_curated_v1; feature_name=Sex; sex component of risk assessment
+risk assessment,p4080_i0,llm_curated,0.55,"llm_curated_v1; feature_name=Systolic blood pressure, automated reading; systolic BP component of risk assessment"
+sedentary lifestyle,p22034_i0,manual_seed,0.75,curated_seed_v1; feature_name=Summed minutes activity; summed activity minutes
+sedentary lifestyle,p22040_i0,manual_seed,0.8,curated_seed_v1; feature_name=Summed MET minutes per week for all activity; summed MET minutes
+severity assessment,30020-0.0,llm_curated,0.45,llm_curated_v1; feature_name=Haemoglobin concentration; haemoglobin severity proxy only
+severity assessment,30710-0.0,llm_curated,0.45,llm_curated_v1; feature_name=C-reactive protein; CRP severity proxy only
+severity assessment,p21003_i0,llm_curated,0.45,llm_curated_v1; feature_name=Age when attended assessment centre; age severity proxy only
+sleep study when indicated,p1210_i0,manual_seed,0.65,curated_seed_v1; feature_name=Snoring; snoring proxy
+sleep study when indicated,p1220_i0,manual_seed,0.65,curated_seed_v1; feature_name=Daytime dozing / sleeping (narcolepsy); daytime dozing proxy
+sleep-focused history,p1160_i0,manual_seed,0.7,curated_seed_v1; feature_name=Sleep duration; sleep duration
+sleep-focused history,p1200_i0,manual_seed,0.75,curated_seed_v1; feature_name=Sleeplessness / insomnia; sleeplessness/insomnia
+sleep-focused history,p1210_i0,manual_seed,0.7,curated_seed_v1; feature_name=Snoring; snoring
+smoking,p1239_i0,manual_seed,0.85,curated_seed_v1; feature_name=Current tobacco smoking; current tobacco smoking
+smoking,p1249_i0,manual_seed,0.8,curated_seed_v1; feature_name=Past tobacco smoking; past tobacco smoking
+smoking,p20116_i0,alias,0.9,auto_score=0.960; candidate_reason=alias:smoking_status; disease=Angina pectoris
+smoking,p20160_i0,manual_seed,0.85,curated_seed_v1; feature_name=Ever smoked; ever smoked
+smoking or biomass exposure,p1269_i0,manual_seed,0.75,curated_seed_v1; feature_name=Exposure to tobacco smoke at home; home tobacco exposure proxy
+smoking or biomass exposure,p20116_i0,manual_seed,0.85,curated_seed_v1; feature_name=Smoking status; smoking status; biomass unavailable
+smoking or vaping exposure,p1239_i0,alias,0.9,auto_score=0.950; candidate_reason=alias_contains:tobacco_smoking; disease=Asthma
+smoking or vaping exposure,p1249_i0,alias,0.9,auto_score=0.950; candidate_reason=alias_contains:tobacco_smoking; disease=Asthma
+smoking or vaping exposure,p1269_i0,manual_seed,0.75,curated_seed_v1; feature_name=Exposure to tobacco smoke at home; home tobacco exposure
+smoking or vaping exposure,p20116_i0,alias,0.9,auto_score=0.960; candidate_reason=alias:smoking_status; disease=Asthma
+snoring,p1210_i0,exact,1,auto_score=1.000; candidate_reason=normalized_exact; disease=Insomnia
+specialist neurological assessment,p20018_i0,llm_curated,0.55,llm_curated_v1; feature_name=Prospective memory result; memory/cognition proxy only
+specialist neurological assessment,p924_i0,llm_curated,0.55,llm_curated_v1; feature_name=Usual walking pace; walking pace/gait proxy only
+structural heart disease,p20107_i0#1,llm_curated,0.55,llm_curated_v1; feature_name=Illnesses of father_Heart disease; father heart disease family-history proxy
+structural heart disease,p20110_i0#1,llm_curated,0.55,llm_curated_v1; feature_name=Illnesses of mother_Heart disease; mother heart disease family-history proxy
+structural heart disease,p20111_i0#1,llm_curated,0.55,llm_curated_v1; feature_name=Illnesses of siblings_Heart disease; siblings heart disease family-history proxy
+structural heart disease,p4080_i0,llm_curated,0.5,"llm_curated_v1; feature_name=Systolic blood pressure, automated reading; systolic BP proxy"
+structured symptom assessment,p1200_i0,llm_curated,0.45,llm_curated_v1; feature_name=Sleeplessness / insomnia; sleep symptom proxy only
+structured symptom assessment,p2090_i0,llm_curated,0.45,"llm_curated_v1; feature_name=Seen doctor (GP) for nerves, anxiety, tension or depression; mental-health symptom proxy only"
+substance use,p20117_i0,manual_seed,0.65,curated_seed_v1; feature_name=Alcohol drinker status; alcohol use proxy only
+tremor,p20018_i0,llm_curated,0.45,llm_curated_v1; feature_name=Prospective memory result; neurologic proxy only; tremor unavailable
+type 2 diabetes,30740-0.0,manual_seed,0.85,curated_seed_v1; feature_name=Glucose; glucose
+type 2 diabetes,30750-0.0,manual_seed,0.9,curated_seed_v1; feature_name=Glycated haemoglobin (HbA1c); HbA1c
+urine albumin,p30500_i0,manual_seed,0.95,curated_seed_v1; feature_name=Microalbumin in urine; microalbumin in urine
+urine albumin,p30510_i0,manual_seed,0.8,curated_seed_v1; feature_name=Creatinine (enzymatic) in urine; urine creatinine for albumin/creatinine context
+variable expiratory airflow,p20150_i0,manual_seed,0.85,"curated_seed_v1; feature_name=Forced expiratory volume in 1-second (FEV1), Best measure; FEV1 best measure"
+variable expiratory airflow,p20151_i0,manual_seed,0.85,"curated_seed_v1; feature_name=Forced vital capacity (FVC), Best measure; FVC best measure"
+variable expiratory airflow,p20258,manual_seed,0.95,curated_seed_v1; feature_name=FEV1/ FVC ratio Z-score; FEV1/FVC ratio Z-score
+variable respiratory symptoms,p20150_i0,manual_seed,0.65,"curated_seed_v1; feature_name=Forced expiratory volume in 1-second (FEV1), Best measure; FEV1 proxy"
+variable respiratory symptoms,p20258,manual_seed,0.65,curated_seed_v1; feature_name=FEV1/ FVC ratio Z-score; airflow proxy
+vascular risk factors,30690-0.0,manual_seed,0.7,curated_seed_v1; feature_name=Cholesterol; cholesterol component
+vascular risk factors,30740-0.0,manual_seed,0.65,curated_seed_v1; feature_name=Glucose; glucose component
+vascular risk factors,p20116_i0,manual_seed,0.7,curated_seed_v1; feature_name=Smoking status; smoking component
+vascular risk factors,p4079_i0,manual_seed,0.7,"curated_seed_v1; feature_name=Diastolic blood pressure, automated reading; diastolic BP component"
+vascular risk factors,p4080_i0,manual_seed,0.7,"curated_seed_v1; feature_name=Systolic blood pressure, automated reading; systolic BP component"
+viral hepatitis,30620-0.0,manual_seed,0.7,curated_seed_v1; feature_name=Alanine aminotransferase; ALT proxy
+viral hepatitis,30650-0.0,manual_seed,0.7,curated_seed_v1; feature_name=Aspartate aminotransferase; AST proxy
+viral hepatitis,30730-0.0,manual_seed,0.65,curated_seed_v1; feature_name=Gamma glutamyltransferase; GGT proxy
+viral hepatitis,30840-0.0,manual_seed,0.65,curated_seed_v1; feature_name=Total bilirubin; bilirubin proxy
+waist-to-height ratio,p48_i0,manual_seed,0.85,curated_seed_v1; feature_name=Waist circumference; waist component
+waist-to-height ratio,p50_i0,manual_seed,0.8,curated_seed_v1; feature_name=Standing height; height component
+weight loss,p21001_i0,llm_curated,0.55,llm_curated_v1; feature_name=Body mass index (BMI); BMI proxy only; longitudinal weight loss unavailable
+weight loss,p21002_i0,llm_curated,0.65,llm_curated_v1; feature_name=Weight; current weight only; longitudinal weight loss unavailable

@@ -1,0 +1,30 @@
+version: 1
+participants:
+  path: ../../data/study/new_inputs/participants.csv
+  eid_column: eid
+feature_tables:
+  - id: baseline
+    path: ../../data/study/new_inputs/features/baseline.csv
+    eid_column: eid
+modules:
+  - name: M1
+    feature_table: baseline
+  - name: M2
+    feature_table: baseline
+endpoints:
+  # The schema requires this declaration; inference does not open the outcome file.
+  - name: D1
+    outcome_path: ../../data/study/new_inputs/outcomes/D1.csv
+    eid_column: eid
+    target_column: target_y
+    time_column: BL2Target_yrs
+pairs:
+  # Reuse the exact feature lists from training, including their row order.
+  - module: M1
+    endpoint: D1
+    features_path: ../../data/study/raw/selected_features/M1_D1.csv
+    feature_column: feature_code
+  - module: M2
+    endpoint: D1
+    features_path: ../../data/study/raw/selected_features/M2_D1.csv
+    feature_column: feature_code

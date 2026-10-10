@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-08",
+  "purpose": "English-only distributed metadata; language changes only",
+  "changes": [
+    {
+      "file": "disease_master.csv",
+      "original_sha256": "b805266206f319c0c74f4267eb61f7ee8f049d0275cf6118933bf9264fe6c9fb",
+      "english_sha256": "7319258ee42dca31a4161e0b42040a6a62d34d20345c4f82c8f5a6053fa5ead5",
+      "data_rows": 852,
+      "translated_cells": 853,
+      "renamed_headers": [
+        {
+          "column_index": 19,
+          "english_header": "disease_category"
+        }
+      ]
+    },
+    {
+      "file": "compressed_disease_resolution.csv",
+      "original_sha256": "ffee5bd78fa5db226c58a7c2501f442ac1974f4345400dbacc11df54832fd402",
+      "english_sha256": "f4450da84796779c68342575170868729d6c2654ba806ddb26aa98014968d203",
+      "data_rows": 852,
+      "translated_cells": 1692,
+      "renamed_headers": [
+        {
+          "column_index": 5,
+          "english_header": "disease_category"
+        }
+      ]
+    },
+    {
+      "file": "disease_metadata/disease_map_full.csv",
+      "original_sha256": "8caa3bc069bde58cef57ce8f60a162ae855e6766e369c58f42b64a27428861b2",
+      "english_sha256": "ed41cb454028e02d283217cf587d028ad39db460d1471a036fb3c19107195991",
+      "data_rows": 969,
+      "translated_cells": 2899,
+      "renamed_headers": [
+        {
+          "column_index": 0,
+          "english_header": "original_longname"
+        },
+        {
+          "column_index": 2,
+          "english_header": "compressed_disease_name"
+        },
+        {
+          "column_index": 3,
+          "english_header": "disease_category"
+        },
+        {
+          "column_index": 4,
+          "english_header": "independent_card"
+        },
+        {
+          "column_index": 5,
+          "english_header": "notes_subtypes_complications_research_definitions"
+        }
+      ]
+    }
+  ],
+  "preserved": "Disease names, model labels, ICD codes, aliases, rule weights, review flags and row order; English cells are unchanged except the category header rename.",
+  "legacy_header_compatibility": "English headings are preferred in distributed metadata. Unicode escape aliases retain external legacy headings and their original precedence.",
+  "original_source_manifest": "Original hashes are retained in docs/provenance/source_fingerprints.json (a selected subset; the complete private inventory is not distributed)."
+}

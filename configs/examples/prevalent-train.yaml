@@ -1,0 +1,18 @@
+extends: ../../pipelines/prevalent/full_train.yaml
+# Copy to data/configs/ and edit paths. Inherited training settings are unchanged.
+module_data:
+  catalog_path: ../../data/configs/catalog.yaml
+data:
+  input_dir: ../../data/study/prevalent/prepared
+  prefix: cohort
+  split_table:
+    path: ../../data/study/splits.csv
+artifacts:
+  module_model_dir: ../../data/study/prevalent/modules
+  fusion_model: ../../data/study/prevalent/models/fusion_model.joblib
+  calibrators: ../../data/study/prevalent/models/calibration_model.joblib
+  q_model: ../../data/study/prevalent/models/q_model.joblib
+  knowledge_matrix: ../../data/study/knowledge.npy
+  burden_profile: ../../data/configs/burden.yaml
+output:
+  directory: ../../data/study/prevalent/models

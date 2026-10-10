@@ -1,0 +1,22 @@
+extends: ../../configs/defaults.yaml
+
+task: longitudinal
+
+data:
+  input_dir: ${TRACE_INPUT_DIR}
+  prefix: ${TRACE_INPUT_PREFIX}
+  allow_legacy_pickle_names: true
+
+artifacts:
+  fusion_model: ${TRACE_FUSION_MODEL}
+  q_model: ${TRACE_Q_MODEL}
+  knowledge_matrix: ${TRACE_KNOWLEDGE_MATRIX}
+  burden_profile: ../../resources/burden/ukb_relative.yaml
+  # Uses baseline_survival saved in the native fusion model by default; no external risk file is needed.
+  # Override the baseline explicitly with configs/profiles/absolute_risk.example.yaml.
+
+planner:
+  urgency_threshold: 0.8
+
+output:
+  directory: ${TRACE_OUTPUT_DIR}

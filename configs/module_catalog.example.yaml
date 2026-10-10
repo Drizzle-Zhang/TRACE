@@ -1,0 +1,27 @@
+version: 1
+# Canonical full-cohort row order; CSV must contain eid. Feature tables must match it exactly.
+participants:
+  path: ${TRACE_RAW_INPUT_DIR}/participants.csv
+  eid_column: eid
+feature_tables:
+  # Numeric features: NaN is allowed; infinity and participant row misalignment are rejected.
+  - id: baseline
+    path: ${TRACE_RAW_INPUT_DIR}/features/baseline.csv
+    eid_column: eid
+modules:
+  - name: M1
+    feature_table: baseline
+endpoints:
+  # target_y: 0/1; BL2Target_yrs: Event/follow-up time relative to baseline, in years.
+  # Unlabeled inference requires declared columns and paths, but does not open outcome files.
+  - name: D1
+    outcome_path: ${TRACE_RAW_INPUT_DIR}/outcomes/D1.csv
+    eid_column: eid
+    target_column: target_y
+    time_column: BL2Target_yrs
+pairs:
+  # Selected-feature list, not a matrix; feature_code row order is saved in the model.
+  - module: M1
+    endpoint: D1
+    features_path: ${TRACE_RAW_INPUT_DIR}/selected_features/M1_D1.csv
+    feature_column: feature_code

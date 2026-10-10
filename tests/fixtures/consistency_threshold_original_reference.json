@@ -1,0 +1,1028 @@
+{
+  "source": {
+    "path": "medical_consistency/disease_evidence/consistency.py",
+    "sha256": "d206c2d67f5630c30f53a4e5a6c4eac8d26bdd50167f4facecc340a8fced28ab",
+    "entrypoint": "run_disease_evidence_validation(enable_threshold_checks=True)",
+    "origin": "Fresh independent execution of the original entrypoint with synthetic inputs on 2026-10-01"
+  },
+  "cases": [
+    {
+      "name": "statuses",
+      "rules": [
+        {
+          "statement_id": "0",
+          "disease": "D",
+          "factor": "F",
+          "evidence_bucket": "decision_screening",
+          "threshold": "",
+          "source": "synthetic guideline",
+          "snippet": "synthetic statement"
+        },
+        {
+          "statement_id": "1",
+          "disease": "D",
+          "factor": "F",
+          "evidence_bucket": "decision_screening",
+          "threshold": ">= 2",
+          "source": "synthetic guideline",
+          "snippet": "synthetic statement"
+        },
+        {
+          "statement_id": "2",
+          "disease": "D",
+          "factor": "F",
+          "evidence_bucket": "decision_screening",
+          "threshold": "as appropriate",
+          "source": "synthetic guideline",
+          "snippet": "synthetic statement"
+        },
+        {
+          "statement_id": "3",
+          "disease": "D",
+          "factor": "MISSING",
+          "evidence_bucket": "decision_screening",
+          "threshold": "> 0",
+          "source": "synthetic guideline",
+          "snippet": "synthetic statement"
+        }
+      ],
+      "mappings": [
+        {
+          "factor": "F",
+          "feature_code": "F"
+        },
+        {
+          "factor": "MISSING",
+          "feature_code": "MISSING"
+        }
+      ],
+      "features": [
+        "F"
+      ],
+      "feature_code_to_name": {},
+      "participant_ids": [
+        "one",
+        "two"
+      ],
+      "feature_values": [
+        [
+          3
+        ],
+        [
+          1
+        ]
+      ],
+      "expected_rows": [
+        {
+          "sample_id": "one",
+          "sample_index": 0,
+          "disease": "D",
+          "feature_code": "F",
+          "feature_name": "F",
+          "factor": "F",
+          "factor_token": "F",
+          "threshold": "",
+          "threshold_status": "not_applicable",
+          "observed_value": null,
+          "source": "synthetic guideline",
+          "snippet": "synthetic statement"
+        },
+        {
+          "sample_id": "one",
+          "sample_index": 0,
+          "disease": "D",
+          "feature_code": "F",
+          "feature_name": "F",
+          "factor": "F",
+          "factor_token": "F",
+          "threshold": ">= 2",
+          "threshold_status": "pass",
+          "observed_value": 3.0,
+          "source": "synthetic guideline",
+          "snippet": "synthetic statement"
+        },
+        {
+          "sample_id": "one",
+          "sample_index": 0,
+          "disease": "D",
+          "feature_code": "F",
+          "feature_name": "F",
+          "factor": "F",
+          "factor_token": "F",
+          "threshold": "as appropriate",
+          "threshold_status": "unparsed_threshold",
+          "observed_value": null,
+          "source": "synthetic guideline",
+          "snippet": "synthetic statement"
+        },
+        {
+          "sample_id": "one",
+          "sample_index": 0,
+          "disease": "D",
+          "feature_code": "MISSING",
+          "feature_name": "MISSING",
+          "factor": "MISSING",
+          "factor_token": "MISSING",
+          "threshold": "> 0",
+          "threshold_status": "missing_feature",
+          "observed_value": null,
+          "source": "synthetic guideline",
+          "snippet": "synthetic statement"
+        },
+        {
+          "sample_id": "two",
+          "sample_index": 1,
+          "disease": "D",
+          "feature_code": "F",
+          "feature_name": "F",
+          "factor": "F",
+          "factor_token": "F",
+          "threshold": "",
+          "threshold_status": "not_applicable",
+          "observed_value": null,
+          "source": "synthetic guideline",
+          "snippet": "synthetic statement"
+        },
+        {
+          "sample_id": "two",
+          "sample_index": 1,
+          "disease": "D",
+          "feature_code": "F",
+          "feature_name": "F",
+          "factor": "F",
+          "factor_token": "F",
+          "threshold": ">= 2",
+          "threshold_status": "fail",
+          "observed_value": 1.0,
+          "source": "synthetic guideline",
+          "snippet": "synthetic statement"
+        },
+        {
+          "sample_id": "two",
+          "sample_index": 1,
+          "disease": "D",
+          "feature_code": "F",
+          "feature_name": "F",
+          "factor": "F",
+          "factor_token": "F",
+          "threshold": "as appropriate",
+          "threshold_status": "unparsed_threshold",
+          "observed_value": null,
+          "source": "synthetic guideline",
+          "snippet": "synthetic statement"
+        },
+        {
+          "sample_id": "two",
+          "sample_index": 1,
+          "disease": "D",
+          "feature_code": "MISSING",
+          "feature_name": "MISSING",
+          "factor": "MISSING",
+          "factor_token": "MISSING",
+          "threshold": "> 0",
+          "threshold_status": "missing_feature",
+          "observed_value": null,
+          "source": "synthetic guideline",
+          "snippet": "synthetic statement"
+        }
+      ],
+      "expected_summary": {
+        "n_rows": 8,
+        "status_counts": {
+          "not_applicable": 2,
+          "pass": 1,
+          "unparsed_threshold": 2,
+          "missing_feature": 2,
+          "fail": 1
+        },
+        "n_samples": 2
+      }
+    },
+    {
+      "name": "bp_pair",
+      "rules": [
+        {
+          "statement_id": "0",
+          "disease": "D",
+          "factor": "p4080",
+          "evidence_bucket": "decision_screening",
+          "threshold": "150/90 mmHg or higher",
+          "source": "synthetic guideline",
+          "snippet": "synthetic statement"
+        },
+        {
+          "statement_id": "1",
+          "disease": "D",
+          "factor": "p4079",
+          "evidence_bucket": "decision_screening",
+          "threshold": "150/90 mmHg or higher",
+          "source": "synthetic guideline",
+          "snippet": "synthetic statement"
+        },
+        {
+          "statement_id": "2",
+          "disease": "D",
+          "factor": "p4080",
+          "evidence_bucket": "decision_screening",
+          "threshold": "150/90 mmHg or lower",
+          "source": "synthetic guideline",
+          "snippet": "synthetic statement"
+        },
+        {
+          "statement_id": "3",
+          "disease": "D",
+          "factor": "p4079",
+          "evidence_bucket": "decision_screening",
+          "threshold": "150/90 mmHg or lower",
+          "source": "synthetic guideline",
+          "snippet": "synthetic statement"
+        }
+      ],
+      "mappings": [
+        {
+          "factor": "p4080",
+          "feature_code": "p4080"
+        },
+        {
+          "factor": "p4079",
+          "feature_code": "p4079"
+        },
+        {
+          "factor": "MISSING",
+          "feature_code": "MISSING"
+        }
+      ],
+      "features": [
+        "p4080",
+        "p4079"
+      ],
+      "feature_code_to_name": {},
+      "participant_ids": [
+        "one",
+        "two"
+      ],
+      "feature_values": [
+        [
+          140,
+          95
+        ],
+        [
+          160,
+          85
+        ]
+      ],
+      "expected_rows": [
+        {
+          "sample_id": "one",
+          "sample_index": 0,
+          "disease": "D",
+          "feature_code": "p4080",
+          "feature_name": "p4080",
+          "factor": "p4080",
+          "factor_token": "p4080",
+          "threshold": "150/90 mmHg or higher",
+          "threshold_status": "fail",
+          "observed_value": 140.0,
+          "source": "synthetic guideline",
+          "snippet": "synthetic statement"
+        },
+        {
+          "sample_id": "one",
+          "sample_index": 0,
+          "disease": "D",
+          "feature_code": "p4079",
+          "feature_name": "p4079",
+          "factor": "p4079",
+          "factor_token": "p4079",
+          "threshold": "150/90 mmHg or higher",
+          "threshold_status": "pass",
+          "observed_value": 95.0,
+          "source": "synthetic guideline",
+          "snippet": "synthetic statement"
+        },
+        {
+          "sample_id": "one",
+          "sample_index": 0,
+          "disease": "D",
+          "feature_code": "p4080",
+          "feature_name": "p4080",
+          "factor": "p4080",
+          "factor_token": "p4080",
+          "threshold": "150/90 mmHg or lower",
+          "threshold_status": "pass",
+          "observed_value": 140.0,
+          "source": "synthetic guideline",
+          "snippet": "synthetic statement"
+        },
+        {
+          "sample_id": "one",
+          "sample_index": 0,
+          "disease": "D",
+          "feature_code": "p4079",
+          "feature_name": "p4079",
+          "factor": "p4079",
+          "factor_token": "p4079",
+          "threshold": "150/90 mmHg or lower",
+          "threshold_status": "fail",
+          "observed_value": 95.0,
+          "source": "synthetic guideline",
+          "snippet": "synthetic statement"
+        },
+        {
+          "sample_id": "two",
+          "sample_index": 1,
+          "disease": "D",
+          "feature_code": "p4080",
+          "feature_name": "p4080",
+          "factor": "p4080",
+          "factor_token": "p4080",
+          "threshold": "150/90 mmHg or higher",
+          "threshold_status": "pass",
+          "observed_value": 160.0,
+          "source": "synthetic guideline",
+          "snippet": "synthetic statement"
+        },
+        {
+          "sample_id": "two",
+          "sample_index": 1,
+          "disease": "D",
+          "feature_code": "p4079",
+          "feature_name": "p4079",
+          "factor": "p4079",
+          "factor_token": "p4079",
+          "threshold": "150/90 mmHg or higher",
+          "threshold_status": "fail",
+          "observed_value": 85.0,
+          "source": "synthetic guideline",
+          "snippet": "synthetic statement"
+        },
+        {
+          "sample_id": "two",
+          "sample_index": 1,
+          "disease": "D",
+          "feature_code": "p4080",
+          "feature_name": "p4080",
+          "factor": "p4080",
+          "factor_token": "p4080",
+          "threshold": "150/90 mmHg or lower",
+          "threshold_status": "fail",
+          "observed_value": 160.0,
+          "source": "synthetic guideline",
+          "snippet": "synthetic statement"
+        },
+        {
+          "sample_id": "two",
+          "sample_index": 1,
+          "disease": "D",
+          "feature_code": "p4079",
+          "feature_name": "p4079",
+          "factor": "p4079",
+          "factor_token": "p4079",
+          "threshold": "150/90 mmHg or lower",
+          "threshold_status": "pass",
+          "observed_value": 85.0,
+          "source": "synthetic guideline",
+          "snippet": "synthetic statement"
+        }
+      ],
+      "expected_summary": {
+        "n_rows": 8,
+        "status_counts": {
+          "fail": 4,
+          "pass": 4
+        },
+        "n_samples": 2
+      }
+    },
+    {
+      "name": "parser_operators",
+      "rules": [
+        {
+          "statement_id": "0",
+          "disease": "D",
+          "factor": "F",
+          "evidence_bucket": "decision_screening",
+          "threshold": "2-4 mg/dl",
+          "source": "synthetic guideline",
+          "snippet": "synthetic statement"
+        },
+        {
+          "statement_id": "1",
+          "disease": "D",
+          "factor": "F",
+          "evidence_bucket": "decision_screening",
+          "threshold": "4 to 2",
+          "source": "synthetic guideline",
+          "snippet": "synthetic statement"
+        },
+        {
+          "statement_id": "2",
+          "disease": "D",
+          "factor": "F",
+          "evidence_bucket": "decision_screening",
+          "threshold": "at least 2",
+          "source": "synthetic guideline",
+          "snippet": "synthetic statement"
+        },
+        {
+          "statement_id": "3",
+          "disease": "D",
+          "factor": "F",
+          "evidence_bucket": "decision_screening",
+          "threshold": "greater than 2",
+          "source": "synthetic guideline",
+          "snippet": "synthetic statement"
+        },
+        {
+          "statement_id": "4",
+          "disease": "D",
+          "factor": "F",
+          "evidence_bucket": "decision_screening",
+          "threshold": "less than 2",
+          "source": "synthetic guideline",
+          "snippet": "synthetic statement"
+        },
+        {
+          "statement_id": "5",
+          "disease": "D",
+          "factor": "F",
+          "evidence_bucket": "decision_screening",
+          "threshold": "up to 2",
+          "source": "synthetic guideline",
+          "snippet": "synthetic statement"
+        },
+        {
+          "statement_id": "6",
+          "disease": "D",
+          "factor": "F",
+          "evidence_bucket": "decision_screening",
+          "threshold": "<=2",
+          "source": "synthetic guideline",
+          "snippet": "synthetic statement"
+        },
+        {
+          "statement_id": "7",
+          "disease": "D",
+          "factor": "F",
+          "evidence_bucket": "decision_screening",
+          "threshold": ">2",
+          "source": "synthetic guideline",
+          "snippet": "synthetic statement"
+        },
+        {
+          "statement_id": "8",
+          "disease": "D",
+          "factor": "F",
+          "evidence_bucket": "decision_screening",
+          "threshold": "<2",
+          "source": "synthetic guideline",
+          "snippet": "synthetic statement"
+        },
+        {
+          "statement_id": "9",
+          "disease": "D",
+          "factor": "F",
+          "evidence_bucket": "decision_screening",
+          "threshold": "=2",
+          "source": "synthetic guideline",
+          "snippet": "synthetic statement"
+        },
+        {
+          "statement_id": "10",
+          "disease": "D",
+          "factor": "F",
+          "evidence_bucket": "decision_screening",
+          "threshold": "2 or greater",
+          "source": "synthetic guideline",
+          "snippet": "synthetic statement"
+        },
+        {
+          "statement_id": "11",
+          "disease": "D",
+          "factor": "F",
+          "evidence_bucket": "decision_screening",
+          "threshold": "aged 2 years",
+          "source": "synthetic guideline",
+          "snippet": "synthetic statement"
+        },
+        {
+          "statement_id": "12",
+          "disease": "D",
+          "factor": "F",
+          "evidence_bucket": "decision_screening",
+          "threshold": "2 and over",
+          "source": "synthetic guideline",
+          "snippet": "synthetic statement"
+        }
+      ],
+      "mappings": [
+        {
+          "factor": "F",
+          "feature_code": "F"
+        },
+        {
+          "factor": "MISSING",
+          "feature_code": "MISSING"
+        }
+      ],
+      "features": [
+        "F"
+      ],
+      "feature_code_to_name": {},
+      "participant_ids": [
+        "one",
+        "two"
+      ],
+      "feature_values": [
+        [
+          3
+        ],
+        [
+          1
+        ]
+      ],
+      "expected_rows": [
+        {
+          "sample_id": "one",
+          "sample_index": 0,
+          "disease": "D",
+          "feature_code": "F",
+          "feature_name": "F",
+          "factor": "F",
+          "factor_token": "F",
+          "threshold": "2-4 mg/dl",
+          "threshold_status": "pass",
+          "observed_value": 3.0,
+          "source": "synthetic guideline",
+          "snippet": "synthetic statement"
+        },
+        {
+          "sample_id": "one",
+          "sample_index": 0,
+          "disease": "D",
+          "feature_code": "F",
+          "feature_name": "F",
+          "factor": "F",
+          "factor_token": "F",
+          "threshold": "4 to 2",
+          "threshold_status": "pass",
+          "observed_value": 3.0,
+          "source": "synthetic guideline",
+          "snippet": "synthetic statement"
+        },
+        {
+          "sample_id": "one",
+          "sample_index": 0,
+          "disease": "D",
+          "feature_code": "F",
+          "feature_name": "F",
+          "factor": "F",
+          "factor_token": "F",
+          "threshold": "at least 2",
+          "threshold_status": "pass",
+          "observed_value": 3.0,
+          "source": "synthetic guideline",
+          "snippet": "synthetic statement"
+        },
+        {
+          "sample_id": "one",
+          "sample_index": 0,
+          "disease": "D",
+          "feature_code": "F",
+          "feature_name": "F",
+          "factor": "F",
+          "factor_token": "F",
+          "threshold": "greater than 2",
+          "threshold_status": "pass",
+          "observed_value": 3.0,
+          "source": "synthetic guideline",
+          "snippet": "synthetic statement"
+        },
+        {
+          "sample_id": "one",
+          "sample_index": 0,
+          "disease": "D",
+          "feature_code": "F",
+          "feature_name": "F",
+          "factor": "F",
+          "factor_token": "F",
+          "threshold": "less than 2",
+          "threshold_status": "fail",
+          "observed_value": 3.0,
+          "source": "synthetic guideline",
+          "snippet": "synthetic statement"
+        },
+        {
+          "sample_id": "one",
+          "sample_index": 0,
+          "disease": "D",
+          "feature_code": "F",
+          "feature_name": "F",
+          "factor": "F",
+          "factor_token": "F",
+          "threshold": "up to 2",
+          "threshold_status": "fail",
+          "observed_value": 3.0,
+          "source": "synthetic guideline",
+          "snippet": "synthetic statement"
+        },
+        {
+          "sample_id": "one",
+          "sample_index": 0,
+          "disease": "D",
+          "feature_code": "F",
+          "feature_name": "F",
+          "factor": "F",
+          "factor_token": "F",
+          "threshold": "<=2",
+          "threshold_status": "fail",
+          "observed_value": 3.0,
+          "source": "synthetic guideline",
+          "snippet": "synthetic statement"
+        },
+        {
+          "sample_id": "one",
+          "sample_index": 0,
+          "disease": "D",
+          "feature_code": "F",
+          "feature_name": "F",
+          "factor": "F",
+          "factor_token": "F",
+          "threshold": ">2",
+          "threshold_status": "pass",
+          "observed_value": 3.0,
+          "source": "synthetic guideline",
+          "snippet": "synthetic statement"
+        },
+        {
+          "sample_id": "one",
+          "sample_index": 0,
+          "disease": "D",
+          "feature_code": "F",
+          "feature_name": "F",
+          "factor": "F",
+          "factor_token": "F",
+          "threshold": "<2",
+          "threshold_status": "fail",
+          "observed_value": 3.0,
+          "source": "synthetic guideline",
+          "snippet": "synthetic statement"
+        },
+        {
+          "sample_id": "one",
+          "sample_index": 0,
+          "disease": "D",
+          "feature_code": "F",
+          "feature_name": "F",
+          "factor": "F",
+          "factor_token": "F",
+          "threshold": "=2",
+          "threshold_status": "fail",
+          "observed_value": 3.0,
+          "source": "synthetic guideline",
+          "snippet": "synthetic statement"
+        },
+        {
+          "sample_id": "one",
+          "sample_index": 0,
+          "disease": "D",
+          "feature_code": "F",
+          "feature_name": "F",
+          "factor": "F",
+          "factor_token": "F",
+          "threshold": "2 or greater",
+          "threshold_status": "pass",
+          "observed_value": 3.0,
+          "source": "synthetic guideline",
+          "snippet": "synthetic statement"
+        },
+        {
+          "sample_id": "one",
+          "sample_index": 0,
+          "disease": "D",
+          "feature_code": "F",
+          "feature_name": "F",
+          "factor": "F",
+          "factor_token": "F",
+          "threshold": "aged 2 years",
+          "threshold_status": "pass",
+          "observed_value": 3.0,
+          "source": "synthetic guideline",
+          "snippet": "synthetic statement"
+        },
+        {
+          "sample_id": "one",
+          "sample_index": 0,
+          "disease": "D",
+          "feature_code": "F",
+          "feature_name": "F",
+          "factor": "F",
+          "factor_token": "F",
+          "threshold": "2 and over",
+          "threshold_status": "pass",
+          "observed_value": 3.0,
+          "source": "synthetic guideline",
+          "snippet": "synthetic statement"
+        },
+        {
+          "sample_id": "two",
+          "sample_index": 1,
+          "disease": "D",
+          "feature_code": "F",
+          "feature_name": "F",
+          "factor": "F",
+          "factor_token": "F",
+          "threshold": "2-4 mg/dl",
+          "threshold_status": "fail",
+          "observed_value": 1.0,
+          "source": "synthetic guideline",
+          "snippet": "synthetic statement"
+        },
+        {
+          "sample_id": "two",
+          "sample_index": 1,
+          "disease": "D",
+          "feature_code": "F",
+          "feature_name": "F",
+          "factor": "F",
+          "factor_token": "F",
+          "threshold": "4 to 2",
+          "threshold_status": "fail",
+          "observed_value": 1.0,
+          "source": "synthetic guideline",
+          "snippet": "synthetic statement"
+        },
+        {
+          "sample_id": "two",
+          "sample_index": 1,
+          "disease": "D",
+          "feature_code": "F",
+          "feature_name": "F",
+          "factor": "F",
+          "factor_token": "F",
+          "threshold": "at least 2",
+          "threshold_status": "fail",
+          "observed_value": 1.0,
+          "source": "synthetic guideline",
+          "snippet": "synthetic statement"
+        },
+        {
+          "sample_id": "two",
+          "sample_index": 1,
+          "disease": "D",
+          "feature_code": "F",
+          "feature_name": "F",
+          "factor": "F",
+          "factor_token": "F",
+          "threshold": "greater than 2",
+          "threshold_status": "fail",
+          "observed_value": 1.0,
+          "source": "synthetic guideline",
+          "snippet": "synthetic statement"
+        },
+        {
+          "sample_id": "two",
+          "sample_index": 1,
+          "disease": "D",
+          "feature_code": "F",
+          "feature_name": "F",
+          "factor": "F",
+          "factor_token": "F",
+          "threshold": "less than 2",
+          "threshold_status": "pass",
+          "observed_value": 1.0,
+          "source": "synthetic guideline",
+          "snippet": "synthetic statement"
+        },
+        {
+          "sample_id": "two",
+          "sample_index": 1,
+          "disease": "D",
+          "feature_code": "F",
+          "feature_name": "F",
+          "factor": "F",
+          "factor_token": "F",
+          "threshold": "up to 2",
+          "threshold_status": "pass",
+          "observed_value": 1.0,
+          "source": "synthetic guideline",
+          "snippet": "synthetic statement"
+        },
+        {
+          "sample_id": "two",
+          "sample_index": 1,
+          "disease": "D",
+          "feature_code": "F",
+          "feature_name": "F",
+          "factor": "F",
+          "factor_token": "F",
+          "threshold": "<=2",
+          "threshold_status": "pass",
+          "observed_value": 1.0,
+          "source": "synthetic guideline",
+          "snippet": "synthetic statement"
+        },
+        {
+          "sample_id": "two",
+          "sample_index": 1,
+          "disease": "D",
+          "feature_code": "F",
+          "feature_name": "F",
+          "factor": "F",
+          "factor_token": "F",
+          "threshold": ">2",
+          "threshold_status": "fail",
+          "observed_value": 1.0,
+          "source": "synthetic guideline",
+          "snippet": "synthetic statement"
+        },
+        {
+          "sample_id": "two",
+          "sample_index": 1,
+          "disease": "D",
+          "feature_code": "F",
+          "feature_name": "F",
+          "factor": "F",
+          "factor_token": "F",
+          "threshold": "<2",
+          "threshold_status": "pass",
+          "observed_value": 1.0,
+          "source": "synthetic guideline",
+          "snippet": "synthetic statement"
+        },
+        {
+          "sample_id": "two",
+          "sample_index": 1,
+          "disease": "D",
+          "feature_code": "F",
+          "feature_name": "F",
+          "factor": "F",
+          "factor_token": "F",
+          "threshold": "=2",
+          "threshold_status": "fail",
+          "observed_value": 1.0,
+          "source": "synthetic guideline",
+          "snippet": "synthetic statement"
+        },
+        {
+          "sample_id": "two",
+          "sample_index": 1,
+          "disease": "D",
+          "feature_code": "F",
+          "feature_name": "F",
+          "factor": "F",
+          "factor_token": "F",
+          "threshold": "2 or greater",
+          "threshold_status": "fail",
+          "observed_value": 1.0,
+          "source": "synthetic guideline",
+          "snippet": "synthetic statement"
+        },
+        {
+          "sample_id": "two",
+          "sample_index": 1,
+          "disease": "D",
+          "feature_code": "F",
+          "feature_name": "F",
+          "factor": "F",
+          "factor_token": "F",
+          "threshold": "aged 2 years",
+          "threshold_status": "fail",
+          "observed_value": 1.0,
+          "source": "synthetic guideline",
+          "snippet": "synthetic statement"
+        },
+        {
+          "sample_id": "two",
+          "sample_index": 1,
+          "disease": "D",
+          "feature_code": "F",
+          "feature_name": "F",
+          "factor": "F",
+          "factor_token": "F",
+          "threshold": "2 and over",
+          "threshold_status": "fail",
+          "observed_value": 1.0,
+          "source": "synthetic guideline",
+          "snippet": "synthetic statement"
+        }
+      ],
+      "expected_summary": {
+        "n_rows": 26,
+        "status_counts": {
+          "pass": 12,
+          "fail": 14
+        },
+        "n_samples": 2
+      }
+    },
+    {
+      "name": "missing_raw_values",
+      "rules": [
+        {
+          "statement_id": "0",
+          "disease": "D",
+          "factor": "F",
+          "evidence_bucket": "decision_screening",
+          "threshold": ">=2",
+          "source": "synthetic guideline",
+          "snippet": "synthetic statement"
+        },
+        {
+          "statement_id": "1",
+          "disease": "D",
+          "factor": "F",
+          "evidence_bucket": "decision_screening",
+          "threshold": "",
+          "source": "synthetic guideline",
+          "snippet": "synthetic statement"
+        }
+      ],
+      "mappings": [
+        {
+          "factor": "F",
+          "feature_code": "F"
+        },
+        {
+          "factor": "MISSING",
+          "feature_code": "MISSING"
+        }
+      ],
+      "features": [
+        "F"
+      ],
+      "feature_code_to_name": {},
+      "participant_ids": [
+        "one",
+        "two"
+      ],
+      "feature_values": null,
+      "expected_rows": [
+        {
+          "sample_id": "one",
+          "sample_index": 0,
+          "disease": "D",
+          "feature_code": "F",
+          "feature_name": "F",
+          "factor": "F",
+          "factor_token": "F",
+          "threshold": ">=2",
+          "threshold_status": "missing_feature",
+          "observed_value": null,
+          "source": "synthetic guideline",
+          "snippet": "synthetic statement"
+        },
+        {
+          "sample_id": "one",
+          "sample_index": 0,
+          "disease": "D",
+          "feature_code": "F",
+          "feature_name": "F",
+          "factor": "F",
+          "factor_token": "F",
+          "threshold": "",
+          "threshold_status": "not_applicable",
+          "observed_value": null,
+          "source": "synthetic guideline",
+          "snippet": "synthetic statement"
+        },
+        {
+          "sample_id": "two",
+          "sample_index": 1,
+          "disease": "D",
+          "feature_code": "F",
+          "feature_name": "F",
+          "factor": "F",
+          "factor_token": "F",
+          "threshold": ">=2",
+          "threshold_status": "missing_feature",
+          "observed_value": null,
+          "source": "synthetic guideline",
+          "snippet": "synthetic statement"
+        },
+        {
+          "sample_id": "two",
+          "sample_index": 1,
+          "disease": "D",
+          "feature_code": "F",
+          "feature_name": "F",
+          "factor": "F",
+          "factor_token": "F",
+          "threshold": "",
+          "threshold_status": "not_applicable",
+          "observed_value": null,
+          "source": "synthetic guideline",
+          "snippet": "synthetic statement"
+        }
+      ],
+      "expected_summary": {
+        "n_rows": 4,
+        "status_counts": {
+          "missing_feature": 2,
+          "not_applicable": 2
+        },
+        "n_samples": 2
+      }
+    }
+  ]
+}

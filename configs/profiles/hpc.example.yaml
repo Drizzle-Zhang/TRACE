@@ -1,0 +1,5 @@
+output:
+  directory: ${TRACE_OUTPUT_DIR}
+
+planner:
+  candidate_actions: 32
