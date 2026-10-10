@@ -1,0 +1,32 @@
+extends: ../defaults.yaml
+task: prevalent
+module_data:
+  catalog_path: ../../data/inputs/prevalent/catalog.yaml
+  input_mode: modules
+  score_mode: inference
+data:
+  input_dir: ../../data/scores/prevalent/performance
+  prefix: new
+  allow_legacy_pickle_names: false
+artifacts:
+  module_model_dir: ../../data/trained_models/prevalent/common/module_bank
+  fusion_model: ../../data/trained_models/prevalent/common/fusion_model.joblib
+  q_model: ../../data/trained_models/prevalent/performance/q_model.joblib
+  knowledge_matrix: ../../data/trained_models/prevalent/common/knowledge.npy
+  burden_profile: ../../data/trained_models/prevalent/performance/burden.yaml
+planner:
+  initial_modules:
+  - Baseline_characteristics
+  max_steps: 30
+  candidate_actions: 12
+  stop_value_mode: model
+  cost_gamma: 0.0
+  urgency_threshold: 0.8
+consistency:
+  enabled: false
+output:
+  directory: ../../data/predictions/prevalent/performance
+pipeline:
+  steps:
+  - score-modules
+  - infer

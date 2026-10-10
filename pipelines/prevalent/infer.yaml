@@ -1,0 +1,18 @@
+extends: ../../configs/defaults.yaml
+
+task: prevalent
+
+data:
+  input_dir: ${TRACE_INPUT_DIR}
+  prefix: ${TRACE_INPUT_PREFIX}
+  allow_legacy_pickle_names: true
+
+artifacts:
+  fusion_model: ${TRACE_FUSION_MODEL}
+  calibrators: ${TRACE_CALIBRATORS} # Validation-fitted probability calibration artifact calibration_model.joblib
+  q_model: ${TRACE_Q_MODEL}
+  knowledge_matrix: ${TRACE_KNOWLEDGE_MATRIX}
+  burden_profile: ../../resources/burden/ukb_relative.yaml
+
+output:
+  directory: ${TRACE_OUTPUT_DIR}

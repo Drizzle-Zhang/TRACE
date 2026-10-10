@@ -1,0 +1,6 @@
+extends: longitudinal-train.yaml
+# Reuse the prepared complete cohort and frozen models; metrics select test rows.
+output:
+  directory: ../../data/study/longitudinal/cohort_evaluation
+pipeline:
+  steps: [infer, evaluate]

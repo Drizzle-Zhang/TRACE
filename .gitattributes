@@ -1,0 +1,3 @@
+# Keep authored source text portable and preserve fingerprinted resources verbatim.
+* text=auto eol=lf
+resources/medical_evidence/v1/** -text -whitespace

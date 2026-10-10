@@ -1,0 +1,14 @@
+extends:
+  - prevalent-predict.yaml
+  - prevalent-consistency.yaml
+# Retain validation's frozen model, evidence and rule settings for the new cohort.
+data:
+  input_dir: ../../data/study/prevalent/new_scores
+  prefix: new
+  split_table: null
+consistency:
+  contributions: ../../data/study/prevalent/new_consistency_inputs/contributions.npy
+output:
+  directory: ../../data/study/prevalent/predictions
+pipeline:
+  steps: [score-modules, infer, apply-consistency]

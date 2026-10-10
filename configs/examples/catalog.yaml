@@ -1,0 +1,29 @@
+version: 1
+# Edit the copied file in data/configs/. Paths below then point into data/study/.
+participants:
+  path: ../../data/study/raw/participants.csv
+  participant_id_column: participant_id
+feature_tables:
+  - id: baseline
+    path: ../../data/study/raw/features/baseline.csv
+    participant_id_column: participant_id
+modules:
+  - name: M1
+    feature_table: baseline
+  - name: M2
+    feature_table: baseline
+endpoints:
+  - name: D1
+    outcome_path: ../../data/study/raw/outcomes/D1.csv
+    participant_id_column: participant_id
+    target_column: target_y
+    time_column: BL2Target_yrs
+pairs:
+  - module: M1
+    endpoint: D1
+    features_path: ../../data/study/raw/selected_features/M1_D1.csv
+    feature_column: feature_code
+  - module: M2
+    endpoint: D1
+    features_path: ../../data/study/raw/selected_features/M2_D1.csv
+    feature_column: feature_code

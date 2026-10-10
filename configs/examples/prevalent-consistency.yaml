@@ -1,0 +1,23 @@
+extends: ../../pipelines/full_validation.yaml
+# Use the complete labeled cohort and frozen artifacts from the same training run.
+data:
+  input_dir: ../../data/study/prevalent/prepared
+  prefix: cohort
+  split_table:
+    path: ../../data/study/splits.csv
+artifacts:
+  fusion_model: ../../data/study/prevalent/models/fusion_model.joblib
+  calibrators: ../../data/study/prevalent/models/calibration_model.joblib
+  q_model: ../../data/study/prevalent/models/q_model.joblib
+  knowledge_matrix: ../../data/study/knowledge.npy
+  burden_profile: ../../data/configs/burden.yaml
+consistency:
+  enabled: true
+  contributions: ../../data/study/prevalent/consistency_inputs/contributions.npy
+  feature_weights: ../../data/study/prevalent/consistency_inputs/feature_weights.npy
+  feature_names: ../../data/study/prevalent/consistency_inputs/feature_names.npy
+  rules_path: ../../data/study/prevalent/consistency_results/consistency_rules.json
+  # Replace this bundle if your endpoint or feature names do not match UKB evidence.
+  evidence_bundle: ../../resources/medical_evidence/v1
+output:
+  directory: ../../data/study/prevalent/consistency_results

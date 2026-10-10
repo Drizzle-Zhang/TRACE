@@ -1,0 +1,15 @@
+extends:
+  - ../../pipelines/longitudinal/infer.yaml
+  - longitudinal-train.yaml
+# Model paths come from longitudinal-train.yaml; scoring never opens outcomes or splits.
+module_data:
+  catalog_path: ../../data/configs/new_catalog.yaml
+  score_mode: inference
+data:
+  input_dir: ../../data/study/longitudinal/new_scores
+  prefix: new
+  split_table: null
+output:
+  directory: ../../data/study/longitudinal/predictions
+pipeline:
+  steps: [score-modules, infer]

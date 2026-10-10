@@ -1,0 +1,6 @@
+extends: survival-performance-consistency.yaml
+# Reuse the validation-fitted scale; this cohort needs no labels or split table.
+data:
+  split_table: null
+pipeline:
+  steps: [score-modules, consistency]

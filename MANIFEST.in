@@ -1,0 +1,18 @@
+include LICENSE CITATION.md CONTRIBUTING.md .env.example .gitignore .gitattributes requirements-dev.txt
+recursive-include constraints *.txt
+recursive-include configs *.yaml
+recursive-include pipelines *.yaml
+recursive-include resources *.yaml *.csv *.json *.md SHA256SUMS
+recursive-include docs *.md *.json
+recursive-include examples *.py
+recursive-include tools *.py *.md
+recursive-include tests *.py *.json
+prune data
+prune artifacts
+prune outputs
+prune docs/plans
+prune docs/superpowers
+prune docs/audits
+prune docs/baseline
+prune configs/real_smoke
+global-exclude __pycache__ *.py[cod] .DS_Store

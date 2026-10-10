@@ -1,0 +1,12 @@
+extends: ../../configs/defaults.yaml
+task: prevalent
+module_data:
+  catalog_path: ${TRACE_MODULE_CATALOG} # New cohort canonical participant IDs, features and selected-feature lists
+  score_mode: inference
+data:
+  input_dir: ${TRACE_INPUT_DIR} # Output directory for the unlabeled score bundle
+  prefix: ${TRACE_INPUT_PREFIX}
+artifacts:
+  module_model_dir: ${TRACE_MODULE_MODEL_DIR} # Frozen module model bank
+pipeline:
+  steps: [score-modules]

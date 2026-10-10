@@ -1,0 +1,6 @@
+extends: infer.yaml
+data:
+  split_table:
+    path: ${TRACE_SPLIT_TABLE}
+pipeline:
+  steps: [infer, evaluate]

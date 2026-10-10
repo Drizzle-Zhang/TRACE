@@ -1,0 +1,59 @@
+extends: ../../configs/defaults.yaml
+task: longitudinal
+module_data:
+  catalog_path: ${TRACE_MODULE_CATALOG} # Event/follow-up outcomes and selected module features
+  input_mode: modules
+  score_mode: training
+data:
+  input_dir: ${TRACE_INPUT_DIR} # Generated Cox targets and log-risk score arrays
+  prefix: ${TRACE_INPUT_PREFIX}
+  split_table:
+    path: ${TRACE_SPLIT_TABLE} # Complete preassigned participant_id,split table; row_index is optional
+    row_index_column: row_index
+    participant_id_column: participant_id
+    split_column: split
+training:
+  modules:
+    seed: 7
+    min_positive: 50
+    min_positive_rate: 0.001
+    insufficient_data_policy: skip
+    n_estimators: 1000
+    learning_rate: 0.1
+    max_depth: 6
+    early_stopping_rounds: 50
+    inner_validation_fraction: 0.2
+    n_jobs: 1
+  integration:
+    seed: 7
+    subsets_per_participant: 4
+    min_events: 5
+    n_estimators: 300
+    learning_rate: 0.05
+    max_depth: 6
+    n_jobs: 1
+    horizons: [5.0, 10.0]
+  planner:
+    seed: 7
+    states_per_participant: 2
+    candidate_actions: 6
+    lambda_cost: 0.01
+    stop_value_mode: fixed_zero
+    n_estimators: 300
+    learning_rate: 0.05
+    num_leaves: 63
+    min_child_samples: 20
+    n_jobs: 1
+  longitudinal_reward:
+    horizons: [5.0, 10.0]
+    horizon_weights: [0.5, 0.5]
+artifacts:
+  module_model_dir: ${TRACE_MODULE_MODEL_DIR} # Cox module models and train OOF cache output
+  fusion_model: ${TRACE_OUTPUT_DIR}/fusion_model.joblib
+  q_model: ${TRACE_OUTPUT_DIR}/q_model.joblib
+  knowledge_matrix: ${TRACE_KNOWLEDGE_MATRIX} # M-by-D module/endpoint knowledge matrix
+  burden_profile: ../../resources/burden/ukb_relative.yaml # Must cover the actual module names
+output:
+  directory: ${TRACE_OUTPUT_DIR}
+pipeline:
+  steps: [prepare-data, train-modules, score-modules, train-integration, train-planner]

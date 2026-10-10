@@ -1,0 +1,14 @@
+extends:
+  - longitudinal-predict.yaml
+  - longitudinal-consistency.yaml
+# Retain validation's frozen model, evidence, rule, horizon and scale settings.
+data:
+  input_dir: ../../data/study/longitudinal/new_scores
+  prefix: new
+  split_table: null
+consistency:
+  contributions: ../../data/study/longitudinal/new_consistency_inputs/contributions.npy
+output:
+  directory: ../../data/study/longitudinal/predictions
+pipeline:
+  steps: [score-modules, infer, apply-consistency]

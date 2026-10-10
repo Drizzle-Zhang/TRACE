@@ -1,0 +1,6 @@
+extends: prevalent-train.yaml
+# Reuse the prepared complete cohort and frozen models; metrics select test rows.
+output:
+  directory: ../../data/study/prevalent/cohort_evaluation
+pipeline:
+  steps: [infer, evaluate]

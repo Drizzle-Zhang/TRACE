@@ -1,0 +1,22 @@
+# Compute consistency scores; no validation-selected filtering policy is bundled.
+extends: survival-cost.yaml
+consistency:
+  enabled: true
+  contributions: ../../data/inputs/survival/cost_contributions.npy
+  feature_weights: ../../data/trained_models/survival/common/feature_weights.npy
+  feature_names: ../../data/trained_models/survival/common/feature_names.npy
+  feature_schema_path: ../../data/trained_models/survival/common/schema.json
+  evidence_bundle: ../../data/trained_models/common/medical_evidence/v1
+  horizon: 10y
+  module_score_kind: log_risk
+  longitudinal_scale_path: ../../data/trained_models/survival/cost/longitudinal_consistency_scale.json
+pipeline:
+  steps:
+  - score-modules
+  - calibrate-consistency-scale
+  - infer
+output:
+  directory: ../../data/consistency/survival/cost
+data:
+  split_table:
+    path: ../../data/inputs/survival/validation_splits.csv

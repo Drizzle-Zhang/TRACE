@@ -1,0 +1,51 @@
+extends: ../defaults.yaml
+task: longitudinal
+module_data:
+  catalog_path: ../../data/inputs/survival/catalog.yaml
+  input_mode: modules
+  score_mode: inference
+data:
+  input_dir: ../../data/scores/survival/cost
+  prefix: new
+  allow_legacy_pickle_names: false
+artifacts:
+  module_model_dir: ../../data/trained_models/survival/common/module_bank
+  fusion_model: ../../data/trained_models/survival/common/fusion_model.joblib
+  q_model: ../../data/trained_models/survival/cost/q_model.joblib
+  knowledge_matrix: ../../data/trained_models/survival/common/knowledge.npy
+  burden_profile: ../../data/trained_models/survival/cost/burden.yaml
+  absolute_risk:
+    baseline_cumhaz: ../../data/trained_models/survival/common/baseline_cumhaz.npy
+    time_grid: ../../data/trained_models/survival/common/time_grid.npy
+    horizons:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+planner:
+  initial_modules:
+  - Baseline_characteristics
+  max_steps: 30
+  candidate_actions: 12
+  stop_value_mode: model
+  cost_gamma: 0.0
+  urgency_threshold: 0.8
+consistency:
+  enabled: false
+output:
+  directory: ../../data/predictions/survival/cost
+pipeline:
+  steps:
+  - score-modules
+  - infer

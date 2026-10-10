@@ -1,0 +1,853 @@
+compressed_disease_name,source_resolution_status,matched_original_count,original_longnames,matched_original_longnames,disease_category
+(seronegative) rheumatoid arthritis,matched_original,1,"Other (seronegative) rheumatoid arthritis, wide","Other (seronegative) rheumatoid arthritis, wide",Musculoskeletal and rheumatic diseases
+AV-block,matched_original,1,AV-block,AV-block,Cardiovascular and cerebrovascular diseases
+Abdominal aortic aneurysm (AAA),matched_original,1,Abdominal aortic aneurysm (AAA),Abdominal aortic aneurysm (AAA),Cardiovascular and cerebrovascular diseases
+Abscess of anal and rectal regions,matched_original,1,Abscess of anal and rectal regions,Abscess of anal and rectal regions,Digestive system diseases
+Acidosis,matched_original,1,Acidosis,Acidosis,Endocrine and metabolic diseases
+Actinic keratosis,matched_original,1,Actinic keratosis,Actinic keratosis,Skin diseases
+Acute alcohol intoxication,matched_original,1,Acute alcohol intoxication,Acute alcohol intoxication,Mental and behavioral disorders
+Acute appendicitis,matched_original,2,"Acute appendicitis, with complications|Acute appendicitis","Acute appendicitis, with complications|Acute appendicitis",Digestive system diseases
+Acute gastritis,matched_original,1,Acute gastritis,Acute gastritis,Digestive system diseases
+Acute generalized exanthematous pustulosis,matched_original,1,Acute generalized exanthematous pustulosis,Acute generalized exanthematous pustulosis,Skin diseases
+Acute myeloid leukaemia,matched_original,2,"Acute myeloid leukaemia|Acute myeloid leukaemia, excluding all cancers (controls excluding all cancers)","Acute myeloid leukaemia|Acute myeloid leukaemia, excluding all cancers (controls excluding all cancers)",Neoplasms and cancer
+Acute myeloid leukaemia and myelodysplastic syndromes,matched_original,1,Acute myeloid leukaemia and myelodysplastic syndromes,Acute myeloid leukaemia and myelodysplastic syndromes,Neoplasms and cancer
+Acute pancreatitis,matched_original,1,Acute pancreatitis (for exclusion),Acute pancreatitis (for exclusion),Digestive system diseases
+Acute peritonitis,matched_original,1,Acute peritonitis,Acute peritonitis,Digestive system diseases
+Acute pharyngitis,matched_original,1,Acute pharyngitis,Acute pharyngitis,Respiratory diseases
+Acute renal failure,matched_original,1,Acute renal failure,Acute renal failure,Genitourinary diseases
+Acute upper respiratory infections,matched_original,1,Acute upper respiratory infections,Acute upper respiratory infections,Infectious diseases
+Acute upper respiratory infections of multiple sites,matched_original,1,Acute upper respiratory infections of multiple and unspecified sites,Acute upper respiratory infections of multiple and unspecified sites,Infectious diseases
+Adhesive capsulitis of shoulder,matched_original,1,Adhesive capsulitis of shoulder,Adhesive capsulitis of shoulder,Musculoskeletal and rheumatic diseases
+Adrenocortical insufficiency,matched_original,1,Adrenocortical insufficiency,Adrenocortical insufficiency,Endocrine and metabolic diseases
+Age-related macular degeneration (whether dry or wet),matched_original,1,Age-related macular degeneration (whether dry or wet),Age-related macular degeneration (whether dry or wet),Eye diseases
+Agranulocytosis,matched_original,1,Agranulocytosis,Agranulocytosis,Hematological and immune diseases
+"Alcohol abuse, main dg",matched_original,1,"Alcohol abuse, main dg, excluding more controls","Alcohol abuse, main dg, excluding more controls",Mental and behavioral disorders
+Alcohol dependence,matched_original,1,Alcohol dependence,Alcohol dependence,Mental and behavioral disorders
+Alcohol use disorder,matched_original,2,"Alcohol use disorder, ICD-based|Mental and behavioural disorders due to alcohol","Alcohol use disorder, ICD-based|Mental and behavioural disorders due to alcohol",Mental and behavioral disorders
+Alcoholic liver disease,matched_original,1,Alcoholic liver disease,Alcoholic liver disease,Mental and behavioral disorders
+Alkalosis,matched_original,1,Alkalosis,Alkalosis,Endocrine and metabolic diseases
+Allergic rhinitis,matched_original,1,Allergic rhinitis,Allergic rhinitis,Respiratory diseases
+Alzheimer's disease,matched_original,2,"Alzheimer's disease (Atypical or mixed), excluding more controls|Alzheimer disease, excluding more controls","Alzheimer's disease (Atypical or mixed), excluding more controls|Alzheimer disease, excluding more controls",Mental and behavioral disorders
+Amblyopia ex anopsia,matched_original,1,Amblyopia ex anopsia,Amblyopia ex anopsia,Eye diseases
+Amyloidosis,matched_original,1,Amyloidosis,Amyloidosis,Hematological and immune diseases
+Anaemia in chronic diseases,matched_original,1,Anaemia in chronic diseases classified elsewhere,Anaemia in chronic diseases classified elsewhere,Hematological and immune diseases
+Anaemias,matched_original,1,Anaemias,Anaemias,Hematological and immune diseases
+Angina pectoris,matched_original,1,Angina pectoris,Angina pectoris,Cardiovascular and cerebrovascular diseases
+Anisometropia and aniseikonia,matched_original,1,Anisometropia and aniseikonia,Anisometropia and aniseikonia,Eye diseases
+Antepartum haemorrhage,matched_original,1,"Antepartum haemorrhage, not elsewhere classified","Antepartum haemorrhage, not elsewhere classified",Pregnancy and childbirth related diseases
+Anxiety disorders,matched_original,5,"All anxiety disorders|Other anxiety disorders|Panic disorder|Phobic anxiety disorders|Anxiety disorders, excluding more controls","All anxiety disorders|Other anxiety disorders|Panic disorder|Phobic anxiety disorders|Anxiety disorders, excluding more controls",Mental and behavioral disorders
+Aortic aneurysm,matched_original,1,Aortic aneurysm,Aortic aneurysm,Cardiovascular and cerebrovascular diseases
+Aortic valve malfunction,matched_original,1,"Aortic valve malfunction, age under 60 years","Aortic valve malfunction, age under 60 years",Cardiovascular and cerebrovascular diseases
+Aplastic and anaemias,matched_original,1,Aplastic and other anaemias,Aplastic and other anaemias,Hematological and immune diseases
+Appendicitis,matched_original,1,"Appendicitis, broad definition","Appendicitis, broad definition",Digestive system diseases
+Arterial embolism and thrombosis of lower extremity artery,matched_original,1,Arterial embolism and thrombosis of lower extremity artery,Arterial embolism and thrombosis of lower extremity artery,Cardiovascular and cerebrovascular diseases
+Arthropathies,matched_original,1,Arthropathies,Arthropathies,Musculoskeletal and rheumatic diseases
+Arthrosis,matched_original,1,Arthrosis,Arthrosis,Musculoskeletal and rheumatic diseases
+Asthma,matched_original,6,"Allergic asthma (mode), excluding more controls|Asthma (mode)|Asthma, unspecified (mode), excluding more controls|Undetermined asthma, excluding more controls|Asthma, excluding more controls|Asthma (diagnoses ohter than nonallergic)","Allergic asthma (mode), excluding more controls|Asthma (mode)|Asthma, unspecified (mode), excluding more controls|Undetermined asthma, excluding more controls|Asthma, excluding more controls|Asthma (diagnoses ohter than nonallergic)",Respiratory diseases
+Asthma-related infections,matched_original,1,Asthma-related infections,Asthma-related infections,Infectious diseases
+Asthma-related pneumonia or sepsis,matched_original,1,Asthma-related pneumonia or sepsis,Asthma-related pneumonia or sepsis,Infectious diseases
+Asthma/COPD-related acute respiratory infections,matched_original,1,Asthma/COPD-related acute respiratory infections,Asthma/COPD-related acute respiratory infections,Infectious diseases
+Astigmatism,matched_original,1,Astigmatism,Astigmatism,Eye diseases
+Atherosclerosis,matched_original,1,"Atherosclerosis, excluding cerebral and coronary sclerosis","Atherosclerosis, excluding cerebral and coronary sclerosis",Cardiovascular and cerebrovascular diseases
+Atrial fibrillation and flutter,matched_original,1,Atrial fibrillation and flutter,Atrial fibrillation and flutter,Cardiovascular and cerebrovascular diseases
+Atrophic disorders of skin,matched_original,1,Atrophic disorders of skin,Atrophic disorders of skin,Skin diseases
+Autoimmune diseases excluding thyroid diseases,matched_original,1,"Autoimmune diseases excluding thyroid diseases, strict definition","Autoimmune diseases excluding thyroid diseases, strict definition",Endocrine and metabolic diseases
+Background retinopathy and retinal vascular changes,matched_original,1,Background retinopathy and retinal vascular changes,Background retinopathy and retinal vascular changes,Eye diseases
+Bacterial infection,matched_original,1,"Bacterial infection, other or unspecified","Bacterial infection, other or unspecified",Infectious diseases
+"Bacterial intestinal infections, IBD co-morbidities",matched_original,1,"Bacterial intestinal infections, IBD co-morbidities","Bacterial intestinal infections, IBD co-morbidities",Infectious diseases
+Bacterial pneumonia,matched_original,2,"Bacterial pneumonia, not elsewhere classified|Bacterial pneumonia (organism specified)","Bacterial pneumonia, not elsewhere classified|Bacterial pneumonia (organism specified)",Infectious diseases
+"Bacterial, viral and infectious agents",matched_original,1,"Bacterial, viral and other infectious agents","Bacterial, viral and other infectious agents",Infectious diseases
+Barrett oesophagus,matched_original,1,Barrett oesophagus,Barrett oesophagus,Digestive system diseases
+Bell's palsy,matched_original,1,Bell's palsy,Bell's palsy,Neurological diseases
+Benign leiomyoma with endometriosis,matched_original,1,Benign leiomyoma with endometriosis,Benign leiomyoma with endometriosis,Genitourinary diseases
+Benign lipomatous neoplasm,matched_original,1,Benign lipomatous neoplasm,Benign lipomatous neoplasm,Neoplasms and cancer
+Benign lipomatous neoplasm of of intra-abdominal organs,category_default_only,0,Benign lipomatous neoplasm of  of intra-abdominal organs,,Neoplasms and cancer
+Benign lipomatous neoplasm of sites/,matched_original,1,Benign lipomatous neoplasm of other sites/unspecified,Benign lipomatous neoplasm of other sites/unspecified,Neoplasms and cancer
+"Benign lipomatous neoplasm of skin and subcutaneous tissue of head, face and neck",matched_original,1,"Benign lipomatous neoplasm of skin and subcutaneous tissue of head, face and neck","Benign lipomatous neoplasm of skin and subcutaneous tissue of head, face and neck",Neoplasms and cancer
+Benign lipomatous neoplasm of skin and subcutaneous tissue of limbs,matched_original,1,Benign lipomatous neoplasm of skin and subcutaneous tissue of limbs,Benign lipomatous neoplasm of skin and subcutaneous tissue of limbs,Neoplasms and cancer
+Benign lipomatous neoplasm of skin and subcutaneous tissue of trunk,matched_original,1,Benign lipomatous neoplasm of skin and subcutaneous tissue of trunk,Benign lipomatous neoplasm of skin and subcutaneous tissue of trunk,Neoplasms and cancer
+Benign lipomatous neoplasm of spermatic cord,matched_original,1,Benign lipomatous neoplasm of spermatic cord,Benign lipomatous neoplasm of spermatic cord,Neoplasms and cancer
+Benign mammary dysplasia,matched_original,1,Benign mammary dysplasia,Benign mammary dysplasia,Genitourinary diseases
+Benign neoplasm of and ill-defined parts of digestive system,matched_original,1,Benign neoplasm of other and ill-defined parts of digestive system,Benign neoplasm of other and ill-defined parts of digestive system,Neoplasms and cancer
+Benign neoplasm of breast,matched_original,1,Benign neoplasm of breast,Benign neoplasm of breast,Neoplasms and cancer
+"Benign neoplasm of colon, rectum, anus and anal canal",matched_original,1,"Benign neoplasm of colon, rectum, anus and anal canal","Benign neoplasm of colon, rectum, anus and anal canal",Neoplasms and cancer
+Benign neoplasm of endocrine glands,matched_original,1,Benign neoplasm of other and unspecified endocrine glands,Benign neoplasm of other and unspecified endocrine glands,Neoplasms and cancer
+Benign neoplasm of major salivary glands,matched_original,1,Benign neoplasm of major salivary glands,Benign neoplasm of major salivary glands,Neoplasms and cancer
+Benign neoplasm of meninges,matched_original,1,Benign neoplasm of meninges,Benign neoplasm of meninges,Neoplasms and cancer
+Benign neoplasm of ovary,matched_original,1,Benign neoplasm of ovary,Benign neoplasm of ovary,Neoplasms and cancer
+Benign neoplasm of sites,matched_original,1,Benign neoplasm of other and unspecified sites,Benign neoplasm of other and unspecified sites,Neoplasms and cancer
+Benign neoplasm: Adrenal gland,matched_original,1,Benign neoplasm: Adrenal gland,Benign neoplasm: Adrenal gland,Neoplasms and cancer
+Benign neoplasm: Ascending colon,matched_original,1,Benign neoplasm: Ascending colon,Benign neoplasm: Ascending colon,Neoplasms and cancer
+Benign neoplasm: Caecum,matched_original,1,Benign neoplasm: Caecum,Benign neoplasm: Caecum,Neoplasms and cancer
+Benign neoplasm: Cerebral meninges,matched_original,1,Benign neoplasm: Cerebral meninges,Benign neoplasm: Cerebral meninges,Neoplasms and cancer
+Benign neoplasm: Colon,matched_original,2,"Benign neoplasm: Colon|Benign neoplasm: Colon, unspecified","Benign neoplasm: Colon|Benign neoplasm: Colon, unspecified",Neoplasms and cancer
+Benign neoplasm: Descending colon,matched_original,1,Benign neoplasm: Descending colon,Benign neoplasm: Descending colon,Neoplasms and cancer
+Benign neoplasm: Parathyroid gland,matched_original,1,Benign neoplasm: Parathyroid gland,Benign neoplasm: Parathyroid gland,Neoplasms and cancer
+Benign neoplasm: Peripheral nerves and autonomic nervous system,matched_original,1,Benign neoplasm: Peripheral nerves and autonomic nervous system,Benign neoplasm: Peripheral nerves and autonomic nervous system,Neoplasms and cancer
+Benign neoplasm: Rectosigmoid junction,matched_original,1,Benign neoplasm: Rectosigmoid junction,Benign neoplasm: Rectosigmoid junction,Neoplasms and cancer
+Benign neoplasm: Rectum,matched_original,1,Benign neoplasm: Rectum,Benign neoplasm: Rectum,Neoplasms and cancer
+"Benign neoplasm: Rectum, anus and anal canal",matched_original,1,"Benign neoplasm: Rectum, anus and anal canal","Benign neoplasm: Rectum, anus and anal canal",Neoplasms and cancer
+Benign neoplasm: Sigmoid colon,matched_original,1,Benign neoplasm: Sigmoid colon,Benign neoplasm: Sigmoid colon,Neoplasms and cancer
+Benign neoplasm: Skin of eyelid,matched_original,1,"Benign neoplasm: Skin of eyelid, including canthus","Benign neoplasm: Skin of eyelid, including canthus",Neoplasms and cancer
+Benign neoplasm: Skin of parts of face,matched_original,1,Benign neoplasm: Skin of other and unspecified parts of face,Benign neoplasm: Skin of other and unspecified parts of face,Neoplasms and cancer
+Benign neoplasm: Skin of trunk,matched_original,1,Benign neoplasm: Skin of trunk,Benign neoplasm: Skin of trunk,Neoplasms and cancer
+Benign neoplasm: Stomach,matched_original,1,Benign neoplasm: Stomach,Benign neoplasm: Stomach,Neoplasms and cancer
+Benign neoplasm: Transverse colon,matched_original,1,Benign neoplasm: Transverse colon,Benign neoplasm: Transverse colon,Neoplasms and cancer
+Benign neoplasms,matched_original,1,Benign neoplasms,Benign neoplasms,Neoplasms and cancer
+Bipolar affective disorders,matched_original,1,Bipolar affective disorders,Bipolar affective disorders,Mental and behavioral disorders
+Blepharochalasis,matched_original,1,Blepharochalasis,Blepharochalasis,Eye diseases
+Breast carcinoma in situ,matched_original,3,"Carcinoma in situ of breast|Carcinoma in situ of breast, intraductal|Carcinoma in situ of breast, other/unspecified","Carcinoma in situ of breast|Carcinoma in situ of breast, intraductal|Carcinoma in situ of breast, other/unspecified",Neoplasms and cancer
+Bronchiectasis,matched_original,1,Bronchiectasis,Bronchiectasis,Respiratory diseases
+"Bronchitis, not specified as acute or chronic",matched_original,1,"Bronchitis, not specified as acute or chronic","Bronchitis, not specified as acute or chronic",Respiratory diseases
+Bursitis of shoulder,matched_original,1,Bursitis of shoulder,Bursitis of shoulder,Musculoskeletal and rheumatic diseases
+Calcific aortic valvular stenosis,matched_original,2,"Calcific aortic valvular stenosis, diagnosis (helper)|Calcific aortic valvular stenosis, including rheumatic fever","Calcific aortic valvular stenosis, diagnosis (helper)|Calcific aortic valvular stenosis, including rheumatic fever",Cardiovascular and cerebrovascular diseases
+Calculus of kidney and ureter,matched_original,1,Calculus of kidney and ureter,Calculus of kidney and ureter,Genitourinary diseases
+Calculus of lower urinary tract,matched_original,1,Calculus of lower urinary tract,Calculus of lower urinary tract,Genitourinary diseases
+Campylobacter enteritis,matched_original,1,Campylobacter enteritis,Campylobacter enteritis,Infectious diseases
+Candidiasis,matched_original,1,Candidiasis,Candidiasis,Infectious diseases
+Carcinoma in situ of skin,matched_original,1,Carcinoma in situ of skin,Carcinoma in situ of skin,Neoplasms and cancer
+Carcinoma in situ of uteri,matched_original,1,"Carcinoma in situ of uteri, other/unspecified","Carcinoma in situ of uteri, other/unspecified",Neoplasms and cancer
+Cardiac arrest,matched_original,1,Cardiac arrest,Cardiac arrest,Cardiovascular and cerebrovascular diseases
+Cardiac arrhythmia,matched_original,1,Cardiac arrhythmias,Cardiac arrhythmias,Cardiovascular and cerebrovascular diseases
+Cardiomyopathies/intrinsic,matched_original,1,"Cardiomyopathies, Primary/intrinsic","Cardiomyopathies, Primary/intrinsic",Cardiovascular and cerebrovascular diseases
+Cardiomyopathy,matched_original,2,"Cardiomyopathy|Cardiomyopathy, other and unspecified","Cardiomyopathy|Cardiomyopathy, other and unspecified",Cardiovascular and cerebrovascular diseases
+Carpal tunnel syndrome,matched_original,1,Carpal tunnel syndrome,Carpal tunnel syndrome,Neurological diseases
+Cataract,matched_original,2,Other cataract|Senile cataract,Other cataract|Senile cataract,Eye diseases
+Cellulitis,matched_original,1,Cellulitis,Cellulitis,Skin diseases
+"Cerebral aneurysm, nonruptured",matched_original,1,"Cerebral aneurysm, nonruptured","Cerebral aneurysm, nonruptured",Cardiovascular and cerebrovascular diseases
+Cerebral cysts,matched_original,1,Cerebral cysts,Cerebral cysts,Neurological diseases
+Cerebral oedema,matched_original,1,Cerebral oedema,Cerebral oedema,Neurological diseases
+Cerebral palsy and paralytic syndromes,matched_original,1,Cerebral palsy and other paralytic syndromes,Cerebral palsy and other paralytic syndromes,Neurological diseases
+Cerebrovascular diseases,matched_original,1,Cerebrovascular diseases,Cerebrovascular diseases,Cardiovascular and cerebrovascular diseases
+Certain infectious and parasitic diseases,matched_original,1,Certain infectious and parasitic diseases,Certain infectious and parasitic diseases,Infectious diseases
+Cervical disc disorders,matched_original,1,Cervical disc disorders,Cervical disc disorders,Musculoskeletal and rheumatic diseases
+Cervical dysplasia / carcinoma in situ,matched_original,9,"Carcinoma in situ of cervix uteri|All dysplastic lesions of the cervix uteri|Dysplastic lesion of unknown severity of the cervix uteri|HSIL lesion of the cervix uteri|LSIL lesion of the cervix uteri|Dysplasia of cervi uteri|All dysplastic lesions of the cervix uteri, vagina or vulva|HSIL lesion of the cervix uteri, vagina or vulva|LSIL lesion of the cervix uteri, vagina or vulva","Carcinoma in situ of cervix uteri|All dysplastic lesions of the cervix uteri|Dysplastic lesion of unknown severity of the cervix uteri|HSIL lesion of the cervix uteri|LSIL lesion of the cervix uteri|Dysplasia of cervi uteri|All dysplastic lesions of the cervix uteri, vagina or vulva|HSIL lesion of the cervix uteri, vagina or vulva|LSIL lesion of the cervix uteri, vagina or vulva",Genitourinary diseases
+Cervicalgia,matched_original,1,Cervicalgia,Cervicalgia,Musculoskeletal and rheumatic diseases
+Cervix/vagina/vulva dysplasia,matched_original,1,"Dysplastic lesion of unknown severity in the cervix uteri, vagina or vulva","Dysplastic lesion of unknown severity in the cervix uteri, vagina or vulva",Genitourinary diseases
+Chalazion,matched_original,1,Chalazion,Chalazion,Eye diseases
+"Cholangitis (primary sclerosing, PSC)",matched_original,1,"Cholangitis (primary sclerosing, PSC)","Cholangitis (primary sclerosing, PSC)",Digestive system diseases
+Cholecystitis,matched_original,1,Cholecystitis,Cholecystitis,Digestive system diseases
+Cholelithiasis,matched_original,1,Cholelithiasis,Cholelithiasis,Digestive system diseases
+Chondrocostal junction syndrome [Tietze],matched_original,1,Chondrocostal junction syndrome [Tietze],Chondrocostal junction syndrome [Tietze],Musculoskeletal and rheumatic diseases
+Chondropathies,matched_original,1,Chondropathies,Chondropathies,Musculoskeletal and rheumatic diseases
+Chronic Coagulation defects,matched_original,1,Chronic Coagulation defects,Chronic Coagulation defects,Hematological and immune diseases
+Chronic diseases of tonsils and adenoids,matched_original,1,Chronic diseases of tonsils and adenoids,Chronic diseases of tonsils and adenoids,Respiratory diseases
+Chronic gastritis,matched_original,1,Chronic gastritis,Chronic gastritis,Digestive system diseases
+Chronic kidney disease,matched_original,1,Chronic kidney disease,Chronic kidney disease,Genitourinary diseases
+Chronic lower respiratory diseases,matched_original,1,Chronic lower respiratory diseases,Chronic lower respiratory diseases,Respiratory diseases
+Chronic lymphocytic leukaemia,matched_original,1,Chronic lymphocytic leukaemia,Chronic lymphocytic leukaemia,Neoplasms and cancer
+Chronic lymphocytic leukaemia and small lyphocytis leukaemia,matched_original,1,"Chronic lymphocytic leukaemia and small lyphocytis leukaemia, excluding all cancers (controls excluding all cancers)","Chronic lymphocytic leukaemia and small lyphocytis leukaemia, excluding all cancers (controls excluding all cancers)",Neoplasms and cancer
+Chronic nephritic syndrome,matched_original,1,Chronic nephritic syndrome,Chronic nephritic syndrome,Genitourinary diseases
+Chronic obstructive pulmonary disease,matched_original,4,"Early onset COPD, excluding more controls|Later onset COPD, excluding more controls|COPD (mode)|Other chronic obstructive pulmonary disease","Early onset COPD, excluding more controls|Later onset COPD, excluding more controls|COPD (mode)|Other chronic obstructive pulmonary disease",Respiratory diseases
+Chronic pancreatitis,matched_original,1,Chronic pancreatitis,Chronic pancreatitis,Digestive system diseases
+Chronic periapical parodontitis,matched_original,1,Chronic periapical parodontitis,Chronic periapical parodontitis,Digestive system diseases
+Chronic periodontitis,matched_original,1,Chronic periodontitis,Chronic periodontitis,Digestive system diseases
+"Chronic periodontitis, complicated",matched_original,1,"Chronic periodontitis, complicated","Chronic periodontitis, complicated",Digestive system diseases
+"Chronic rhinitis, nasopharyngitis and pharyngitis",matched_original,1,"Chronic rhinitis, nasopharyngitis and pharyngitis","Chronic rhinitis, nasopharyngitis and pharyngitis",Respiratory diseases
+Chronic sinusitis,matched_original,1,Chronic sinusitis,Chronic sinusitis,Respiratory diseases
+Chronic viral hepatitis,matched_original,1,Chronic viral hepatitis,Chronic viral hepatitis,Infectious diseases
+Cirrhosis,matched_original,1,"Cirrhosis, broad definition used in the article https://doi.org/10.1101/594523","Cirrhosis, broad definition used in the article https://doi.org/10.1101/594523",Other
+Cirrhosis of liver,matched_original,1,"Cirrhosis of liver, NAS","Cirrhosis of liver, NAS",Digestive system diseases
+"Coagulation defects, purpura and haemorrhagic conditions",matched_original,1,"Coagulation defects, purpura and other haemorrhagic conditions","Coagulation defects, purpura and other haemorrhagic conditions",Hematological and immune diseases
+Coeliac disease,matched_original,1,Coeliac disease,Coeliac disease,Digestive system diseases
+Collapsed vertebra,matched_original,1,"Collapsed vertebra, not elsewhere classified","Collapsed vertebra, not elsewhere classified",Musculoskeletal and rheumatic diseases
+Colonic or urogenital fistula,matched_original,1,Colonic or urogenital fistula,Colonic or urogenital fistula,Digestive system diseases
+Colorectal cancer,matched_original,1,"Colorectal cancer, excluding all cancers (controls excluding all cancers)","Colorectal cancer, excluding all cancers (controls excluding all cancers)",Neoplasms and cancer
+Complications of labour and delivery,matched_original,1,Complications of labour and delivery,Complications of labour and delivery,Digestive system diseases
+Complications predominantly related to the puerperium,matched_original,1,Complications predominantly related to the puerperium,Complications predominantly related to the puerperium,Pregnancy and childbirth related diseases
+Condition for Implicit Sepsis (Organ dysfunction codes),matched_original,1,Condition for Implicit Sepsis (Organ dysfunction codes),Condition for Implicit Sepsis (Organ dysfunction codes),Infectious diseases
+Conduction disorders,matched_original,1,Conduction disorders,Conduction disorders,Cardiovascular and cerebrovascular diseases
+Congenital malformations of heart and great arteries,matched_original,1,Congenital malformations of heart and great arteries,Congenital malformations of heart and great arteries,Cardiovascular and cerebrovascular diseases
+"Conjunctivitis (acute, non atopic)",matched_original,1,"Conjunctivitis (acute, non atopic)","Conjunctivitis (acute, non atopic)",Eye diseases
+Constipation,matched_original,1,Constipation,Constipation,Digestive system diseases
+Corneal degeneration,matched_original,1,Corneal degeneration,Corneal degeneration,Eye diseases
+Coronary atherosclerosis,matched_original,1,Coronary atherosclerosis,Coronary atherosclerosis,Cardiovascular and cerebrovascular diseases
+Crohn disease,matched_original,2,Crohn's disease of large intestine|Crohn disease,Crohn's disease of large intestine|Crohn disease,Digestive system diseases
+Crohn's disease,matched_original,1,Crohn's disease NAS,Crohn's disease NAS,Digestive system diseases
+"Cutaneous abscess, furuncle and carbuncle",matched_original,1,"Cutaneous abscess, furuncle and carbuncle","Cutaneous abscess, furuncle and carbuncle",Skin diseases
+Cyst of kidney,matched_original,1,Cyst of kidney,Cyst of kidney,Genitourinary diseases
+Cystitis,matched_original,1,Cystitis,Cystitis,Genitourinary diseases
+Death due to cardiac causes,matched_original,1,Death due to cardiac causes,Death due to cardiac causes,Cardiovascular and cerebrovascular diseases
+Decubitus ulcer and pressure area,matched_original,1,Decubitus ulcer and pressure area,Decubitus ulcer and pressure area,Digestive system diseases
+Deficiency of B group vitamins,matched_original,1,Deficiency of other B group vitamins,Deficiency of other B group vitamins,Endocrine and metabolic diseases
+Deforming dorsopathies,matched_original,1,Deforming dorsopathies,Deforming dorsopathies,Musculoskeletal and rheumatic diseases
+Degeneration of macula and posterior pole,matched_original,1,Degeneration of macula and posterior pole,Degeneration of macula and posterior pole,Eye diseases
+"Delirium, not induced by alcohol and psychoactive substances",matched_original,1,"Delirium, not induced by alcohol and other psychoactive substances","Delirium, not induced by alcohol and other psychoactive substances",Mental and behavioral disorders
+Delivery,matched_original,1,Delivery,Delivery,Digestive system diseases
+"Delivery, proxy",matched_original,1,"Delivery, wide proxy","Delivery, wide proxy",Digestive system diseases
+Dementia,matched_original,4,Dementia in Alzheimer disease|Dementia|Dementia in other diseases classified elsewhere|Unspecified dementia,Dementia in Alzheimer disease|Dementia|Dementia in other diseases classified elsewhere|Unspecified dementia,Mental and behavioral disorders
+Demyelinating CNS diseases,matched_original,1,Demyelinating diseases of the central nervous system,Demyelinating diseases of the central nervous system,Other
+Dental caries,matched_original,1,Dental caries,Dental caries,Digestive system diseases
+Dentofacial anomalies [including malocclusion],matched_original,1,Dentofacial anomalies [including malocclusion],Dentofacial anomalies [including malocclusion],Digestive system diseases
+Depression,matched_original,3,Depression|Depression or dysthymia|Recurrent or chronic depression,Depression|Depression or dysthymia|Recurrent or chronic depression,Mental and behavioral disorders
+Dermatitis,matched_original,1,Dermatitis,Dermatitis,Skin diseases
+Dermatitis and eczema,matched_original,1,Dermatitis and eczema,Dermatitis and eczema,Skin diseases
+Dermatitis due to substances taken internally,matched_original,1,Dermatitis due to substances taken internally,Dermatitis due to substances taken internally,Skin diseases
+Dermatophytosis,matched_original,1,Dermatophytosis,Dermatophytosis,Infectious diseases
+Developmental disorders,matched_original,1,Disorders of psychological development,Disorders of psychological development,Mental and behavioral disorders
+Developmental endpoint to exclude non autoimmune-cases from E4_HYTHY_AI_STRICT,matched_original,1,Developmental endpoint to exclude non autoimmune-cases from E4_HYTHY_AI_STRICT,Developmental endpoint to exclude non autoimmune-cases from E4_HYTHY_AI_STRICT,Endocrine and metabolic diseases
+Deviated nasal septum,matched_original,1,Deviated nasal septum,Deviated nasal septum,Respiratory diseases
+Diabetes,matched_original,2,"Other diabetes, wide definition|Unspecified diabetes without complications","Other diabetes, wide definition|Unspecified diabetes without complications",Endocrine and metabolic diseases
+Diabetes-related co-morbidities/complications,matched_original,1,"Diabetes-related co-morbidities/complications, excluding more controls","Diabetes-related co-morbidities/complications, excluding more controls",Endocrine and metabolic diseases
+Diabetic hypoglycemia,matched_original,1,Diabetic hypoglycemia,Diabetic hypoglycemia,Endocrine and metabolic diseases
+Diabetic ketoacidosis,matched_original,1,Diabetic ketoacidosis,Diabetic ketoacidosis,Endocrine and metabolic diseases
+Diabetic kidney disease,matched_original,2,"Diabetes, kidney failure|Diabetic nephropathy, excluding more controls","Diabetes, kidney failure|Diabetic nephropathy, excluding more controls",Endocrine and metabolic diseases
+Diabetic neuropathy,matched_original,1,Diabetic neuropathy,Diabetic neuropathy,Endocrine and metabolic diseases
+Diabetic retinopathy,matched_original,3,"Unspecified diabetic retinopathy|Diabetic retinopathy, excluding more controls|Diabetic retinopathy","Unspecified diabetic retinopathy|Diabetic retinopathy, excluding more controls|Diabetic retinopathy",Eye diseases
+Dialysis,matched_original,1,Dialysis,Dialysis,"Symptoms, signs and other conditions"
+Diarrhoea and gastroenteritis of presumed infectious origin,matched_original,1,Diarrhoea and gastroenteritis of presumed infectious origin,Diarrhoea and gastroenteritis of presumed infectious origin,Infectious diseases
+Diffuse large B-cell lymphoma,matched_original,1,"Diffuse large B-cell lymphoma, excluding all cancers (controls excluding all cancers)","Diffuse large B-cell lymphoma, excluding all cancers (controls excluding all cancers)",Neoplasms and cancer
+Diplopia,matched_original,1,Diplopia,Diplopia,Eye diseases
+Diseases of appendix,matched_original,1,Diseases of appendix,Diseases of appendix,Digestive system diseases
+"Diseases of arteries, arterioles and capillaries",matched_original,1,"Diseases of arteries, arterioles and capillaries","Diseases of arteries, arterioles and capillaries",Cardiovascular and cerebrovascular diseases
+Diseases of external ear,matched_original,1,Diseases of external ear,Diseases of external ear,"Ear, nose and throat diseases"
+Diseases of inner ear,matched_original,1,Diseases of inner ear,Diseases of inner ear,"Ear, nose and throat diseases"
+Diseases of liver,matched_original,1,Diseases of liver,Diseases of liver,Digestive system diseases
+Diseases of male genital organs,matched_original,1,Diseases of male genital organs,Diseases of male genital organs,Genitourinary diseases
+Diseases of middle ear and mastoid,matched_original,1,Diseases of middle ear and mastoid,Diseases of middle ear and mastoid,"Ear, nose and throat diseases"
+"Diseases of oesophagus, stomach and duodenum",matched_original,1,"Diseases of oesophagus, stomach and duodenum","Diseases of oesophagus, stomach and duodenum",Digestive system diseases
+"Diseases of oral cavity, salivary glands and jaws",matched_original,1,"Diseases of oral cavity, salivary glands and jaws","Diseases of oral cavity, salivary glands and jaws",Digestive system diseases
+Diseases of peritoneum,matched_original,1,Diseases of peritoneum,Diseases of peritoneum,Digestive system diseases
+Diseases of pulp and periapical tissues,matched_original,1,Diseases of pulp and periapical tissues,Diseases of pulp and periapical tissues,Digestive system diseases
+Diseases of salivary glands,matched_original,1,Diseases of salivary glands,Diseases of salivary glands,Digestive system diseases
+Diseases of spleen,matched_original,1,Diseases of spleen,Diseases of spleen,Hematological and immune diseases
+Diseases of the blood and blood-forming organs and certain disorders involving the immune mechanism,matched_original,1,Diseases of the blood and blood-forming organs and certain disorders involving the immune mechanism,Diseases of the blood and blood-forming organs and certain disorders involving the immune mechanism,Hematological and immune diseases
+Diseases of the digestive system,matched_original,1,Diseases of the digestive system,Diseases of the digestive system,Digestive system diseases
+Diseases of the ear and mastoid process,matched_original,1,Diseases of the ear and mastoid process,Diseases of the ear and mastoid process,"Ear, nose and throat diseases"
+Diseases of the eye and adnexa,matched_original,1,Diseases of the eye and adnexa,Diseases of the eye and adnexa,Eye diseases
+Diseases of the myoneural junction and muscle,matched_original,1,Diseases of the myoneural junction and muscle,Diseases of the myoneural junction and muscle,Neurological diseases
+Diseases of tongue,matched_original,1,Diseases of tongue,Diseases of tongue,Digestive system diseases
+"Diseases of veins, lymphatic vessels and lymph nodes",matched_original,1,"Diseases of veins, lymphatic vessels and lymph nodes, not elsewhere classified","Diseases of veins, lymphatic vessels and lymph nodes, not elsewhere classified",Other
+"Diseases of vocal cords and larynx+ diseases of upper respiratory tract, no elsewhere classified",matched_original,1,"Diseases of vocal cords and larynx+other diseases of upper respiratory tract, no elsewhere classified","Diseases of vocal cords and larynx+other diseases of upper respiratory tract, no elsewhere classified",Respiratory diseases
+Disorder of lipoprotein metabolism,matched_original,1,"Disorder of lipoprotein metabolism, unspecified","Disorder of lipoprotein metabolism, unspecified",Endocrine and metabolic diseases
+Disorder of thyroid,matched_original,1,"Disorder of thyroid, unspecified","Disorder of thyroid, unspecified",Endocrine and metabolic diseases
+Disorders of adrenal gland,matched_original,1,"Disorders of adrenal gland, other and/or unspecified","Disorders of adrenal gland, other and/or unspecified",Endocrine and metabolic diseases
+Disorders of brain,matched_original,1,"Disorders of brain, other and unspecified","Disorders of brain, other and unspecified",Neurological diseases
+Disorders of breast,matched_original,1,Disorders of breast,Disorders of breast,Genitourinary diseases
+Disorders of calcium metabolism,matched_original,1,Disorders of calcium metabolism,Disorders of calcium metabolism,Endocrine and metabolic diseases
+Disorders of choroid and retina,matched_original,1,Disorders of choroid and retina,Disorders of choroid and retina,Eye diseases
+Disorders of conjunctiva,matched_original,1,Disorders of conjunctiva,Disorders of conjunctiva,Eye diseases
+Disorders of continuity of bone,matched_original,1,Disorders of continuity of bone,Disorders of continuity of bone,Musculoskeletal and rheumatic diseases
+Disorders of endocrine glands,matched_original,1,Disorders of other endocrine glands,Disorders of other endocrine glands,Endocrine and metabolic diseases
+"Disorders of eyelid, lacrimal system and orbit",matched_original,1,"Disorders of eyelid, lacrimal system and orbit","Disorders of eyelid, lacrimal system and orbit",Eye diseases
+"Disorders of gallbladder, biliary tract and pancreas",matched_original,1,"Disorders of gallbladder, biliary tract and pancreas","Disorders of gallbladder, biliary tract and pancreas",Digestive system diseases
+Disorders of iron metabolism,matched_original,1,Disorders of iron metabolism,Disorders of iron metabolism,Endocrine and metabolic diseases
+Disorders of lacrimal system,matched_original,1,Disorders of lacrimal system,Disorders of lacrimal system,Eye diseases
+Disorders of lens,matched_original,1,Disorders of lens,Disorders of lens,Eye diseases
+Disorders of lipoprotein metabolism and lipidaemias,matched_original,1,Disorders of lipoprotein metabolism and other lipidaemias,Disorders of lipoprotein metabolism and other lipidaemias,Endocrine and metabolic diseases
+Disorders of magnesium metabolism,matched_original,1,Disorders of magnesium metabolism,Disorders of magnesium metabolism,Endocrine and metabolic diseases
+Disorders of mineral metabolism,matched_original,1,Disorders of mineral metabolism,Disorders of mineral metabolism,Endocrine and metabolic diseases
+Disorders of muscles,matched_original,1,Disorders of muscles,Disorders of muscles,Musculoskeletal and rheumatic diseases
+"Disorders of ocular muscles, binocular movement, accommodation and refraction",matched_original,1,"Disorders of ocular muscles, binocular movement, accommodation and refraction","Disorders of ocular muscles, binocular movement, accommodation and refraction",Eye diseases
+Disorders of optic nerve and visual pathways,matched_original,1,Disorders of optic nerve and visual pathways,Disorders of optic nerve and visual pathways,Eye diseases
+Disorders of orbit,matched_original,1,Disorders of orbit,Disorders of orbit,Eye diseases
+Disorders of parathyroid gland,matched_original,1,Disorders of parathyroid gland,Disorders of parathyroid gland,Endocrine and metabolic diseases
+Disorders of phosphorus metabolism and phosphatases,matched_original,1,Disorders of phosphorus metabolism and phosphatases,Disorders of phosphorus metabolism and phosphatases,Endocrine and metabolic diseases
+Disorders of plasma-protein metabolism,matched_original,1,"Disorders of plasma-protein metabolism, not elsewhere classified","Disorders of plasma-protein metabolism, not elsewhere classified",Endocrine and metabolic diseases
+Disorders of porphyrin and bilirubin metabolism,matched_original,1,Disorders of porphyrin and bilirubin metabolism,Disorders of porphyrin and bilirubin metabolism,Endocrine and metabolic diseases
+Disorders of refraction and accommodation,matched_original,1,Disorders of refraction and accommodation,Disorders of refraction and accommodation,Eye diseases
+"Disorders of sclera, cornea, iris and ciliary body",matched_original,1,"Disorders of sclera, cornea, iris and ciliary body","Disorders of sclera, cornea, iris and ciliary body",Eye diseases
+Disorders of skin appendages,matched_original,1,Disorders of skin appendages,Disorders of skin appendages,Skin diseases
+Disorders of synovium and tendon,matched_original,1,Disorders of synovium and tendon,Disorders of synovium and tendon,Musculoskeletal and rheumatic diseases
+Disorders of the thyroid gland,matched_original,1,Disorders of the thyroid gland,Disorders of the thyroid gland,Endocrine and metabolic diseases
+Disorders of vitreous body,matched_original,1,Disorders of vitreous body,Disorders of vitreous body,Eye diseases
+Disorders of vitreous body and globe,matched_original,1,Disorders of vitreous body and globe,Disorders of vitreous body and globe,Eye diseases
+Diverticular disease of intestine,matched_original,1,Diverticular disease of intestine,Diverticular disease of intestine,Digestive system diseases
+Dorsalgia,matched_original,1,Dorsalgia,Dorsalgia,Musculoskeletal and rheumatic diseases
+Dorsopathies,matched_original,1,Dorsopathies,Dorsopathies,Musculoskeletal and rheumatic diseases
+Duodenal ulcer,matched_original,1,Duodenal ulcer,Duodenal ulcer,Digestive system diseases
+Ectropion of eyelid,matched_original,1,Ectropion of eyelid,Ectropion of eyelid,Eye diseases
+Embedded and impacted teeth,matched_original,1,Embedded and impacted teeth,Embedded and impacted teeth,Digestive system diseases
+Emphysema,matched_original,1,Emphysema,Emphysema,Respiratory diseases
+Endocarditis,matched_original,1,Endocarditis,Endocarditis,Cardiovascular and cerebrovascular diseases
+Endometriosis,matched_original,5,Endometriosis|Unspecified/other endometriosis|Endometriosis of ovary|Endometriosis of pelvic peritoneum|Adenomyosis (Endometriosis of uterus),Endometriosis|Unspecified/other endometriosis|Endometriosis of ovary|Endometriosis of pelvic peritoneum|Adenomyosis (Endometriosis of uterus),Genitourinary diseases
+Enterocolitis due to Clostridium difficile,matched_original,1,Enterocolitis due to Clostridium difficile,Enterocolitis due to Clostridium difficile,Infectious diseases
+Enthesopathies of lower limb,matched_original,1,"Enthesopathies of lower limb, excluding foot","Enthesopathies of lower limb, excluding foot",Musculoskeletal and rheumatic diseases
+Entropion and trichiasis of eyelid,matched_original,1,Entropion and trichiasis of eyelid,Entropion and trichiasis of eyelid,Eye diseases
+Epilepsy,matched_original,1,Epilepsy,Epilepsy,Neurological diseases
+Epiphora,matched_original,1,Epiphora,Epiphora,Eye diseases
+Episodal and paroxysmal disorders,matched_original,1,Episodal and paroxysmal disorders,Episodal and paroxysmal disorders,Neurological diseases
+Erosion and ectropion of cervix uteri,matched_original,1,Erosion and ectropion of cervix uteri,Erosion and ectropion of cervix uteri,Genitourinary diseases
+Essential (haemorrhagic) thrombocythaemia,matched_original,1,Essential (haemorrhagic) thrombocythaemia,Essential (haemorrhagic) thrombocythaemia,Neoplasms and cancer
+"Excessive, frequent and irregular menstruation",matched_original,1,"Excessive, frequent and irregular menstruation","Excessive, frequent and irregular menstruation",Genitourinary diseases
+Exclusions for E4_PCOS_BROAD,matched_original,1,Exclusions for E4_PCOS_BROAD,Exclusions for E4_PCOS_BROAD,Neoplasms and cancer
+Exclusions for E4_PCOS_CONSORTIUM,matched_original,1,Exclusions for E4_PCOS_CONSORTIUM,Exclusions for E4_PCOS_CONSORTIUM,Endocrine and metabolic diseases
+Extrapyramidal and movement disorders,matched_original,1,Extrapyramidal and movement disorders,Extrapyramidal and movement disorders,Neurological diseases
+Eye globe disorders,matched_original,1,Disorders of globe,Disorders of globe,Other
+Falls/tendency to fall,matched_original,1,Falls/tendency to fall,Falls/tendency to fall,Injuries and trauma
+False labour,matched_original,1,False labour,False labour,Pregnancy and childbirth related diseases
+Female genital prolapse,matched_original,1,Female genital prolapse,Female genital prolapse,Genitourinary diseases
+Female infertility,matched_original,1,Female infertility,Female infertility,Genitourinary diseases
+"Female infertility, cervigal, vaginal",matched_original,1,"Female infertility, cervigal, vaginal, other or unspecified origin","Female infertility, cervigal, vaginal, other or unspecified origin",Genitourinary diseases
+Femoral hernia,matched_original,2,"Femoral hernia, unilateral|Femoral hernia","Femoral hernia, unilateral|Femoral hernia",Digestive system diseases
+Fibroblastic disorders,matched_original,1,Fibroblastic disorders,Fibroblastic disorders,Musculoskeletal and rheumatic diseases
+Fibromyalgia,matched_original,1,Fibromyalgia,Fibromyalgia,Musculoskeletal and rheumatic diseases
+Fibrosis and cirrhosis of liver,matched_original,1,Fibrosis and cirrhosis of liver,Fibrosis and cirrhosis of liver,Digestive system diseases
+Fissure and fistula of anal and rectal regions,matched_original,1,Fissure and fistula of anal and rectal regions,Fissure and fistula of anal and rectal regions,Digestive system diseases
+Fluid overload,matched_original,1,Fluid overload,Fluid overload,Endocrine and metabolic diseases
+Focal epilepsy,matched_original,1,Focal epilepsy,Focal epilepsy,Neurological diseases
+Folate deficiency anaemia,matched_original,1,Folate deficiency anaemia,Folate deficiency anaemia,Hematological and immune diseases
+Follicular cysts of skin and subcutaneous tissue,matched_original,1,Follicular cysts of skin and subcutaneous tissue,Follicular cysts of skin and subcutaneous tissue,Skin diseases
+Follicular lymphoma,matched_original,1,Follicular lymphoma,Follicular lymphoma,Neoplasms and cancer
+Functional dyspepsia,matched_original,1,Functional dyspepsia,Functional dyspepsia,Digestive system diseases
+GI-bleeding,matched_original,1,GI-bleeding,GI-bleeding,Digestive system diseases
+Ganglion,matched_original,1,Ganglion,Ganglion,Musculoskeletal and rheumatic diseases
+Gastric ulcer,matched_original,1,Gastric ulcer,Gastric ulcer,Digestive system diseases
+Gastro-oesophageal reflux disease,matched_original,1,Gastro-oesophageal reflux disease,Gastro-oesophageal reflux disease,Digestive system diseases
+Gastroduodenal ulcer,matched_original,1,Gastroduodenal ulcer,Gastroduodenal ulcer,Digestive system diseases
+Generalized epilepsy,matched_original,1,Generalized epilepsy,Generalized epilepsy,Neurological diseases
+Generalized skin eruption due to drugs and medicaments,matched_original,1,Generalized skin eruption due to drugs and medicaments,Generalized skin eruption due to drugs and medicaments,Skin diseases
+Gestational [pregnancy-induced] hypertension,matched_original,1,Gestational [pregnancy-induced] hypertension,Gestational [pregnancy-induced] hypertension,Cardiovascular and cerebrovascular diseases
+Giant cell arteritis,matched_original,1,Giant cell arteritis,Giant cell arteritis,Musculoskeletal and rheumatic diseases
+Gilbert syndrome,matched_original,1,Gilbert syndrome,Gilbert syndrome,Endocrine and metabolic diseases
+Gingivitis and periodontal diseases,matched_original,1,Gingivitis and periodontal diseases,Gingivitis and periodontal diseases,Digestive system diseases
+Glaucoma,matched_original,5,Primary angle-closure glaucoma|Other and unspecified glaucoma|Glaucoma|Primary open-angle glaucoma|Glaucoma suspect,Primary angle-closure glaucoma|Other and unspecified glaucoma|Glaucoma|Primary open-angle glaucoma|Glaucoma suspect,Eye diseases
+Glomerular disease,matched_original,1,Glomerular diseases,Glomerular diseases,Other
+Glomerular disorders in diseases,matched_original,1,Glomerular disorders in diseases classified elsewhere,Glomerular disorders in diseases classified elsewhere,Genitourinary diseases
+Gout,matched_original,2,"Gout, unspecified|Gout","Gout, unspecified|Gout",Musculoskeletal and rheumatic diseases
+"Gout, idiopatic and",matched_original,1,"Gout, idiopatic and unspecified","Gout, idiopatic and unspecified",Musculoskeletal and rheumatic diseases
+Granulomatous disorders of skin and subcutaneous tissue,matched_original,1,Granulomatous disorders of skin and subcutaneous tissue,Granulomatous disorders of skin and subcutaneous tissue,Skin diseases
+Graves disease,matched_original,1,"Graves disease, strict definition","Graves disease, strict definition",Other
+"Haemangioma and lymphangioma, site",matched_original,1,"Haemangioma and lymphangioma, any site","Haemangioma and lymphangioma, any site",Neoplasms and cancer
+"Haemangioma, site",matched_original,1,"Haemangioma, any site","Haemangioma, any site",Neoplasms and cancer
+Haemorrhage in early pregnancy,matched_original,1,Haemorrhage in early pregnancy,Haemorrhage in early pregnancy,Pregnancy and childbirth related diseases
+Haemorrhoids and perianal venous thrombosis,matched_original,1,Haemorrhoids and perianal venous thrombosis,Haemorrhoids and perianal venous thrombosis,Cardiovascular and cerebrovascular diseases
+Hallux rigidus,matched_original,1,Hallux rigidus,Hallux rigidus,Musculoskeletal and rheumatic diseases
+Hallux valgus (acquired),matched_original,1,Hallux valgus (acquired),Hallux valgus (acquired),Musculoskeletal and rheumatic diseases
+Head Injury,matched_original,1,Head Injury,Head Injury,Injuries and trauma
+Hearing loss,matched_original,5,"Conductive and sensorineural hearing loss|Conductive hearing loss, unspecified|Other specified/unspecified hearing loss|Sensorineural hearing loss|Other hearing loss","Conductive and sensorineural hearing loss|Conductive hearing loss, unspecified|Other specified/unspecified hearing loss|Sensorineural hearing loss|Other hearing loss","Ear, nose and throat diseases"
+Heart failure,matched_original,1,"Heart failure, strict","Heart failure, strict",Cardiovascular and cerebrovascular diseases
+Hemiplegia,matched_original,1,Hemiplegia,Hemiplegia,Neurological diseases
+Hepatic failure,matched_original,1,"Hepatic failure, not elsewhere classified","Hepatic failure, not elsewhere classified",Digestive system diseases
+Hereditary corneal dystrophies,matched_original,1,Hereditary corneal dystrophies,Hereditary corneal dystrophies,Eye diseases
+Hernia,matched_original,6,Hernia of abdominal wall|Diaphragmatic hernia|Hernia|Other and unspecified abdominal hernia|Umbilical hernia|Ventral hernia,Hernia of abdominal wall|Diaphragmatic hernia|Hernia|Other and unspecified abdominal hernia|Umbilical hernia|Ventral hernia,Digestive system diseases
+Herpesviral [herpes simplex] infections,matched_original,1,Herpesviral [herpes simplex] infections,Herpesviral [herpes simplex] infections,Infectious diseases
+Hip osteoarthritis,matched_original,3,"Coxarthrosis|Coxarthrosis, primary|Primary coxarthrosis, bilateral","Coxarthrosis|Coxarthrosis, primary|Primary coxarthrosis, bilateral",Musculoskeletal and rheumatic diseases
+Hydrocele,matched_original,1,Hydrocele,Hydrocele,Genitourinary diseases
+Hydrocephalus,matched_original,1,Hydrocephalus,Hydrocephalus,Neurological diseases
+Hydronephrosis,matched_original,1,Hydronephrosis,Hydronephrosis,Genitourinary diseases
+Hyperfunction of pituitary gland,matched_original,1,Hyperfunction of pituitary gland,Hyperfunction of pituitary gland,Endocrine and metabolic diseases
+Hyperkalaemia,matched_original,1,Hyperkalaemia,Hyperkalaemia,Endocrine and metabolic diseases
+Hyperlipidaemia,matched_original,1,"Hyperlipidaemia, other/unspecified","Hyperlipidaemia, other/unspecified",Endocrine and metabolic diseases
+Hypermetropia,matched_original,1,Hypermetropia,Hypermetropia,Eye diseases
+Hyperosmolality and hypernatraemia,matched_original,1,Hyperosmolality and hypernatraemia,Hyperosmolality and hypernatraemia,Endocrine and metabolic diseases
+Hyperparathyroidism,matched_original,1,Hyperparathyroidism,Hyperparathyroidism,Endocrine and metabolic diseases
+Hyperplasia of prostate,matched_original,1,Hyperplasia of prostate,Hyperplasia of prostate,Genitourinary diseases
+Hypertension,matched_original,1,Hypertension,Hypertension,Cardiovascular and cerebrovascular diseases
+"Hypertension, Pulmonary Arterial",matched_original,1,"Hypertension, Pulmonary Arterial","Hypertension, Pulmonary Arterial",Cardiovascular and cerebrovascular diseases
+"Hypertension, essential",matched_original,1,"Hypertension, essential","Hypertension, essential",Neurological diseases
+"Hypertension, portal",matched_original,1,"Hypertension, portal","Hypertension, portal",Cardiovascular and cerebrovascular diseases
+Hypertensive Renal Disease,matched_original,1,Hypertensive Renal Disease,Hypertensive Renal Disease,Cardiovascular and cerebrovascular diseases
+Hypertensive heart and/or renal disease,matched_original,1,Hypertensive heart and/or renal disease,Hypertensive heart and/or renal disease,Cardiovascular and cerebrovascular diseases
+Hypertrophic cardiomyopathy,matched_original,1,Hypertrophic cardiomyopathy,Hypertrophic cardiomyopathy,Cardiovascular and cerebrovascular diseases
+Hypertrophic disorders of skin,matched_original,1,Hypertrophic disorders of skin,Hypertrophic disorders of skin,Skin diseases
+Hypo-osmolality and hyponatraemia,matched_original,1,Hypo-osmolality and hyponatraemia,Hypo-osmolality and hyponatraemia,Endocrine and metabolic diseases
+Hypoglycaemia,matched_original,1,"Hypoglycaemia, other or unspecified","Hypoglycaemia, other or unspecified",Endocrine and metabolic diseases
+Hypokalaemia,matched_original,1,Hypokalaemia,Hypokalaemia,Endocrine and metabolic diseases
+Hyposplenism,matched_original,1,Hyposplenism,Hyposplenism,Hematological and immune diseases
+Hypotension,matched_original,1,Hypotension,Hypotension,Cardiovascular and cerebrovascular diseases
+Hypotension due to drugs,matched_original,1,Hypotension due to drugs,Hypotension due to drugs,Cardiovascular and cerebrovascular diseases
+Hypothyreosis and Thyroxine purchase for inclusion criteria,matched_original,1,Hypothyreosis and Thyroxine purchase for inclusion criteria,Hypothyreosis and Thyroxine purchase for inclusion criteria,Endocrine and metabolic diseases
+Hypothyroidism,matched_original,1,"Hypothyroidism, other/unspecified","Hypothyroidism, other/unspecified",Endocrine and metabolic diseases
+Hypothyroidism (congenital or acquired),matched_original,1,Hypothyroidism (congenital or acquired),Hypothyroidism (congenital or acquired),Endocrine and metabolic diseases
+"Hypothyroidism, autoimmune",matched_original,1,"Hypothyroidism, strict autoimmune","Hypothyroidism, strict autoimmune",Endocrine and metabolic diseases
+IBD () with PSC,matched_original,1,IBD (strict) with PSC,IBD (strict) with PSC,Other
+Idiopathic pulmonary fibrosis,matched_original,1,Idiopathic pulmonary fibrosis,Idiopathic pulmonary fibrosis,Respiratory diseases
+Idiopathic thrombocytopenic purpura,matched_original,1,Idiopathic thrombocytopenic purpura,Idiopathic thrombocytopenic purpura,Hematological and immune diseases
+Impacted teeth,matched_original,1,Impacted teeth,Impacted teeth,Digestive system diseases
+Impaction of intestines,matched_original,1,Impaction of intestines,Impaction of intestines,Digestive system diseases
+Impingement syndrome of shoulder,matched_original,1,Impingement syndrome of shoulder,Impingement syndrome of shoulder,Musculoskeletal and rheumatic diseases
+In situ neoplasms,matched_original,1,In situ neoplasms,In situ neoplasms,Neoplasms and cancer
+Infections of the skin and subcutaneous tissue,matched_original,1,Infections of the skin and subcutaneous tissue,Infections of the skin and subcutaneous tissue,Infectious diseases
+Inflammatory disease of cervix uteri,matched_original,1,Inflammatory disease of cervix uteri,Inflammatory disease of cervix uteri,Genitourinary diseases
+Inflammatory diseases of female pelvic organs,matched_original,1,Inflammatory diseases of female pelvic organs,Inflammatory diseases of female pelvic organs,Genitourinary diseases
+Inflammatory diseases of prostate (prostatitis),matched_original,1,Inflammatory diseases of prostate (prostatitis),Inflammatory diseases of prostate (prostatitis),Genitourinary diseases
+Inflammatory diseases of the central nervous system,matched_original,1,Inflammatory diseases of the central nervous system,Inflammatory diseases of the central nervous system,Neurological diseases
+Influenza / pneumonia,matched_original,1,Influenza and pneumonia,Influenza and pneumonia,Respiratory diseases
+Ingrowing nail,matched_original,1,Ingrowing nail,Ingrowing nail,Skin diseases
+Inguinal hernia,matched_original,2,"Inguinal hernia, bilateral|Inguinal hernia","Inguinal hernia, bilateral|Inguinal hernia",Digestive system diseases
+Insomnia,matched_original,1,Insomnia,Insomnia,Mental and behavioral disorders
+Internal derangement of knee,matched_original,1,Internal derangement of knee,Internal derangement of knee,Musculoskeletal and rheumatic diseases
+Interstitial lung disease,matched_original,1,Interstitial lung disease,Interstitial lung disease,Neurological diseases
+Intestinal adhesions without obstruction,matched_original,1,Intestinal adhesions without obstruction,Intestinal adhesions without obstruction,Digestive system diseases
+Intestinal infectious diseases,matched_original,1,Intestinal infectious diseases,Intestinal infectious diseases,Infectious diseases
+Intestinal malabsorption,matched_original,1,Intestinal malabsorption,Intestinal malabsorption,Digestive system diseases
+Intracerebral haemorrhage,matched_original,1,Intracerebral haemorrhage,Intracerebral haemorrhage,Cardiovascular and cerebrovascular diseases
+Iridocyclitis,matched_original,1,Iridocyclitis,Iridocyclitis,Eye diseases
+Iron deficiency,matched_original,1,Iron deficiency,Iron deficiency,Endocrine and metabolic diseases
+Iron deficiency anaemia,matched_original,1,Iron deficiency anaemia,Iron deficiency anaemia,Hematological and immune diseases
+Iron deficiency anaemia secondary to blood loss (chronic),matched_original,1,Iron deficiency anaemia secondary to blood loss (chronic),Iron deficiency anaemia secondary to blood loss (chronic),Hematological and immune diseases
+Irregular menses,matched_original,1,Irregular menses,Irregular menses,Genitourinary diseases
+Irritable bowel syndrome,matched_original,1,Irritable bowel syndrome,Irritable bowel syndrome,Digestive system diseases
+Ischaemic heart disease,matched_original,1,"Ischaemic heart disease, wide definition","Ischaemic heart disease, wide definition",Cardiovascular and cerebrovascular diseases
+Keratitis,matched_original,1,Keratitis,Keratitis,Eye diseases
+Kidney failure,matched_original,1,Renal failure,Renal failure,Genitourinary diseases
+Knee osteoarthritis,matched_original,3,"Gonarthrosis|Gonarthrosis,primary|Primary gonarthrosis, bilateral","Gonarthrosis|Gonarthrosis,primary|Primary gonarthrosis, bilateral",Musculoskeletal and rheumatic diseases
+Kyphosis,matched_original,1,Kyphosis,Kyphosis,Musculoskeletal and rheumatic diseases
+Labour and delivery complicated by fetal stress [distress],matched_original,1,Labour and delivery complicated by fetal stress [distress],Labour and delivery complicated by fetal stress [distress],Mental and behavioral disorders
+Labour and delivery complicated by umbilical cord complications,matched_original,1,Labour and delivery complicated by umbilical cord complications,Labour and delivery complicated by umbilical cord complications,Digestive system diseases
+Labyrinthitis,matched_original,1,Labyrinthitis,Labyrinthitis,"Ear, nose and throat diseases"
+Lateral epicondylitis,matched_original,1,Lateral epicondylitis,Lateral epicondylitis,Musculoskeletal and rheumatic diseases
+Left bundle-branch block,matched_original,1,Left bundle-branch block,Left bundle-branch block,Cardiovascular and cerebrovascular diseases
+Leiomyoma of uterus,matched_original,1,Leiomyoma of uterus,Leiomyoma of uterus,Neoplasms and cancer
+Lesion of plantar nerve,matched_original,1,Lesion of plantar nerve,Lesion of plantar nerve,Neurological diseases
+Lesion of ulnar nerve,matched_original,1,Lesion of ulnar nerve,Lesion of ulnar nerve,Neurological diseases
+Lichen planus,matched_original,1,"Lichen planus, including avohilmo","Lichen planus, including avohilmo",Skin diseases
+Lichen sclerosus et atrophicus,matched_original,1,Lichen sclerosus et atrophicus,Lichen sclerosus et atrophicus,Skin diseases
+Long labour,matched_original,1,Long labour,Long labour,Pregnancy and childbirth related diseases
+Low back pain,matched_original,1,Low back pain,Low back pain,Musculoskeletal and rheumatic diseases
+Lumbar disc prolapse,matched_original,1,Lumbar disc prolapse,Lumbar disc prolapse,Musculoskeletal and rheumatic diseases
+Lung cancer and mesothelioma,matched_original,1,Lung cancer and mesothelioma,Lung cancer and mesothelioma,Neoplasms and cancer
+Lung diseases due to external agents,matched_original,1,Lung diseases due to external agents,Lung diseases due to external agents,Respiratory diseases
+Lymphoid leukaemia,matched_original,1,Lymphoid leukaemia,Lymphoid leukaemia,Neoplasms and cancer
+MS-disease / Multiple Sclerosis,matched_original,1,MS-disease / Multiple Sclerosis,MS-disease / Multiple Sclerosis,Neurological diseases
+Major coronary heart disease event,matched_original,1,Major coronary heart disease event,Major coronary heart disease event,Cardiovascular and cerebrovascular diseases
+Malignant cancer of tonsil and base of tongue,matched_original,1,"Malignant cancer of tonsil and base of tongue, excluding all cancers (controls excluding all cancers)","Malignant cancer of tonsil and base of tongue, excluding all cancers (controls excluding all cancers)",Neoplasms and cancer
+Malignant melanoma of skin,matched_original,1,"Malignant melanoma of skin, excluding all cancers (controls excluding all cancers)","Malignant melanoma of skin, excluding all cancers (controls excluding all cancers)",Neoplasms and cancer
+Malignant neoplasm of bladder,matched_original,1,"Malignant neoplasm of bladder, excluding all cancers (controls excluding all cancers)","Malignant neoplasm of bladder, excluding all cancers (controls excluding all cancers)",Neoplasms and cancer
+Malignant neoplasm of brain,matched_original,1,"Malignant neoplasm of brain, excluding all cancers (controls excluding all cancers)","Malignant neoplasm of brain, excluding all cancers (controls excluding all cancers)",Neoplasms and cancer
+Malignant neoplasm of breast,matched_original,1,"Malignant neoplasm of breast, excluding all cancers (controls excluding all cancers)","Malignant neoplasm of breast, excluding all cancers (controls excluding all cancers)",Neoplasms and cancer
+Malignant neoplasm of bronchus and lung,matched_original,1,"Malignant neoplasm of bronchus and lung, excluding all cancers (controls excluding all cancers)","Malignant neoplasm of bronchus and lung, excluding all cancers (controls excluding all cancers)",Neoplasms and cancer
+Malignant neoplasm of colon,matched_original,1,"Malignant neoplasm of colon, excluding all cancers (controls excluding all cancers)","Malignant neoplasm of colon, excluding all cancers (controls excluding all cancers)",Neoplasms and cancer
+Malignant neoplasm of corpus uteri,matched_original,1,"Malignant neoplasm of corpus uteri, excluding all cancers (controls excluding all cancers)","Malignant neoplasm of corpus uteri, excluding all cancers (controls excluding all cancers)",Neoplasms and cancer
+Malignant neoplasm of digestive organs,matched_original,1,"Malignant neoplasm of digestive organs, excluding all cancers (controls excluding all cancers)","Malignant neoplasm of digestive organs, excluding all cancers (controls excluding all cancers)",Neoplasms and cancer
+Malignant neoplasm of endocrine gland,matched_original,1,"Malignant neoplasm of endocrine gland, excluding all cancers (controls excluding all cancers)","Malignant neoplasm of endocrine gland, excluding all cancers (controls excluding all cancers)",Neoplasms and cancer
+"Malignant neoplasm of eye, brain and central nervous system",matched_original,1,"Malignant neoplasm of eye, brain and central nervous system, excluding all cancers (controls excluding all cancers)","Malignant neoplasm of eye, brain and central nervous system, excluding all cancers (controls excluding all cancers)",Neoplasms and cancer
+Malignant neoplasm of head and neck,matched_original,1,"Malignant neoplasm of head and neck, excluding all cancers (controls excluding all cancers)","Malignant neoplasm of head and neck, excluding all cancers (controls excluding all cancers)",Neoplasms and cancer
+"Malignant neoplasm of intrahepatic ducts, biliary tract and gallbladder",matched_original,1,"Malignant neoplasm of intrahepatic ducts, biliary tract and gallbladder, excluding all cancers (controls excluding all cancers)","Malignant neoplasm of intrahepatic ducts, biliary tract and gallbladder, excluding all cancers (controls excluding all cancers)",Neoplasms and cancer
+"Malignant neoplasm of kidney, except renal pelvis",matched_original,1,"Malignant neoplasm of kidney, except renal pelvis, excluding all cancers (controls excluding all cancers)","Malignant neoplasm of kidney, except renal pelvis, excluding all cancers (controls excluding all cancers)",Neoplasms and cancer
+Malignant neoplasm of liver and intrahepatic bile ducts,matched_original,1,"Malignant neoplasm of liver and intrahepatic bile ducts, excluding all cancers (controls excluding all cancers)","Malignant neoplasm of liver and intrahepatic bile ducts, excluding all cancers (controls excluding all cancers)",Neoplasms and cancer
+Malignant neoplasm of mesothelium and soft tissue,matched_original,1,"Malignant neoplasm of mesothelium and soft tissue, excluding all cancers (controls excluding all cancers)","Malignant neoplasm of mesothelium and soft tissue, excluding all cancers (controls excluding all cancers)",Neoplasms and cancer
+Malignant neoplasm of oesophagus,matched_original,1,"Malignant neoplasm of oesophagus, excluding all cancers (controls excluding all cancers)","Malignant neoplasm of oesophagus, excluding all cancers (controls excluding all cancers)",Neoplasms and cancer
+Malignant neoplasm of oral cavity,matched_original,1,"Malignant neoplasm of oral cavity, excluding all cancers (controls excluding all cancers)","Malignant neoplasm of oral cavity, excluding all cancers (controls excluding all cancers)",Neoplasms and cancer
+Malignant neoplasm of ovary,matched_original,1,"Malignant neoplasm of ovary, excluding all cancers (controls excluding all cancers)","Malignant neoplasm of ovary, excluding all cancers (controls excluding all cancers)",Neoplasms and cancer
+Malignant neoplasm of pancreas,matched_original,1,"Malignant neoplasm of pancreas, excluding all cancers (controls excluding all cancers)","Malignant neoplasm of pancreas, excluding all cancers (controls excluding all cancers)",Neoplasms and cancer
+Malignant neoplasm of prostate,matched_original,1,"Malignant neoplasm of prostate, excluding all cancers (controls excluding all cancers)","Malignant neoplasm of prostate, excluding all cancers (controls excluding all cancers)",Neoplasms and cancer
+Malignant neoplasm of rectosigmoid junction,matched_original,1,"Malignant neoplasm of rectosigmoid junction, excluding all cancers (controls excluding all cancers)","Malignant neoplasm of rectosigmoid junction, excluding all cancers (controls excluding all cancers)",Neoplasms and cancer
+Malignant neoplasm of rectum,matched_original,1,"Malignant neoplasm of rectum, excluding all cancers (controls excluding all cancers)","Malignant neoplasm of rectum, excluding all cancers (controls excluding all cancers)",Neoplasms and cancer
+Malignant neoplasm of respiratory system and intrathoracic organs,matched_original,1,"Malignant neoplasm of respiratory system and intrathoracic organs, excluding all cancers (controls excluding all cancers)","Malignant neoplasm of respiratory system and intrathoracic organs, excluding all cancers (controls excluding all cancers)",Neoplasms and cancer
+Malignant neoplasm of skin,matched_original,1,"Malignant neoplasm of skin, excluding all cancers (controls excluding all cancers)","Malignant neoplasm of skin, excluding all cancers (controls excluding all cancers)",Neoplasms and cancer
+Malignant neoplasm of stomach,matched_original,1,"Malignant neoplasm of stomach, excluding all cancers (controls excluding all cancers)","Malignant neoplasm of stomach, excluding all cancers (controls excluding all cancers)",Neoplasms and cancer
+Malignant neoplasm of urinary organs,matched_original,1,"Malignant neoplasm of urinary organs, excluding all cancers (controls excluding all cancers)","Malignant neoplasm of urinary organs, excluding all cancers (controls excluding all cancers)",Neoplasms and cancer
+"Malignant neoplasm, without specification of site",matched_original,1,"Malignant neoplasm, without specification of site, excluding all cancers (controls excluding all cancers)","Malignant neoplasm, without specification of site, excluding all cancers (controls excluding all cancers)",Neoplasms and cancer
+Malignant neoplasms of independent (primary) multiple sites,matched_original,1,Malignant neoplasms of independent (primary) multiple sites,Malignant neoplasms of independent (primary) multiple sites,Neoplasms and cancer
+Malnutrition,matched_original,1,Malnutrition,Malnutrition,Endocrine and metabolic diseases
+Maternal care for conditions predominantly related to pregnancy,matched_original,1,Maternal care for other conditions predominantly related to pregnancy,Maternal care for other conditions predominantly related to pregnancy,Pregnancy and childbirth related diseases
+Maternal care for known or suspected abnormality of pelvic organs,matched_original,1,Maternal care for known or suspected abnormality of pelvic organs,Maternal care for known or suspected abnormality of pelvic organs,Pregnancy and childbirth related diseases
+Maternal care for known or suspected fetal problems,matched_original,1,Maternal care for other known or suspected fetal problems,Maternal care for other known or suspected fetal problems,Pregnancy and childbirth related diseases
+Maternal care for known or suspected malpresentation of fetus,matched_original,1,Maternal care for known or suspected malpresentation of fetus,Maternal care for known or suspected malpresentation of fetus,Pregnancy and childbirth related diseases
+Maternal care related to the fetus and amniotic cavity and possible delivery problems,matched_original,1,Maternal care related to the fetus and amniotic cavity and possible delivery problems,Maternal care related to the fetus and amniotic cavity and possible delivery problems,Digestive system diseases
+Medical abortion,matched_original,1,Medical abortion,Medical abortion,Pregnancy and childbirth related diseases
+Melanocytic naevi,matched_original,1,Melanocytic naevi,Melanocytic naevi,Neoplasms and cancer
+Melanocytic naevi of lower limb,matched_original,1,"Melanocytic naevi of lower limb, including hip","Melanocytic naevi of lower limb, including hip",Neoplasms and cancer
+Melanocytic naevi of parts of face,matched_original,1,Melanocytic naevi of other and unspecified parts of face,Melanocytic naevi of other and unspecified parts of face,Neoplasms and cancer
+Melanocytic naevi of trunk,matched_original,1,Melanocytic naevi of trunk,Melanocytic naevi of trunk,Neoplasms and cancer
+Melanoma in situ,matched_original,1,Melanoma in situ,Melanoma in situ,Neoplasms and cancer
+Memory loss,matched_original,1,Memory loss,Memory loss,Neurological diseases
+Meniscus derangement,matched_original,1,Meniscus derangement,Meniscus derangement,Musculoskeletal and rheumatic diseases
+Menorrhagia,matched_original,1,Menorrhagia,Menorrhagia,Genitourinary diseases
+Mesothelioma,matched_original,1,"Mesothelioma, excluding all cancers (controls excluding all cancers)","Mesothelioma, excluding all cancers (controls excluding all cancers)",Neoplasms and cancer
+Metabolic disorders,matched_original,1,Metabolic disorders,Metabolic disorders,Endocrine and metabolic diseases
+Migraine,matched_original,1,Migraine,Migraine,Neurological diseases
+Monoclonal gammopathy of undetermined significance (MGUS),matched_original,1,"Monoclonal gammopathy of undetermined significance (MGUS), excluding all cancers (controls excluding all cancers)","Monoclonal gammopathy of undetermined significance (MGUS), excluding all cancers (controls excluding all cancers)",Neoplasms and cancer
+Mood disorders,matched_original,2,"Mood [affective] disorders|Mood disorders, excluding more controls","Mood [affective] disorders|Mood disorders, excluding more controls",Other
+Motor neuron disease,matched_original,1,Motor neuron disease,Motor neuron disease,Neurological diseases
+Multiple myeloma,matched_original,2,"Multiple myeloma|Multiple myeloma, excluding all cancers (controls excluding all cancers)","Multiple myeloma|Multiple myeloma, excluding all cancers (controls excluding all cancers)",Neoplasms and cancer
+Myalgia,matched_original,1,Myalgia,Myalgia,Musculoskeletal and rheumatic diseases
+Mycoses,matched_original,1,Mycoses,Mycoses,Infectious diseases
+Myelodysplastic syndrome,matched_original,1,"Myelodysplastic syndrome, excluding all cancers (controls excluding all cancers)","Myelodysplastic syndrome, excluding all cancers (controls excluding all cancers)",Neoplasms and cancer
+Myeloid leukaemia,matched_original,1,Myeloid leukaemia,Myeloid leukaemia,Neoplasms and cancer
+Myocardial infarction,matched_original,4,"Myocardial infarction|Myocardial infarction, unclassifiable|Myocardial infarction, without ST-elevation|Myocardial infarction, with ST-elevation","Myocardial infarction|Myocardial infarction, unclassifiable|Myocardial infarction, without ST-elevation|Myocardial infarction, with ST-elevation",Cardiovascular and cerebrovascular diseases
+Myopia,matched_original,1,Myopia,Myopia,Eye diseases
+Ménière disease,category_default_only,0,M¬éni¬ère disease,,Eye diseases
+Nail disorders,matched_original,1,Nail disorders,Nail disorders,Skin diseases
+Nasal polyp,matched_original,1,Nasal polyp,Nasal polyp,Respiratory diseases
+Neoplasms,matched_original,1,Neoplasms,Neoplasms,Neoplasms and cancer
+"Nerve, nerve root and plexus disorders",matched_original,1,"Nerve, nerve root and plexus disorders","Nerve, nerve root and plexus disorders",Neurological diseases
+Neuralgia and neuritis,matched_original,1,"Neuralgia and neuritis, unspecified","Neuralgia and neuritis, unspecified",Neurological diseases
+Neuromuscular dysfunction of bladder,matched_original,1,Neuromuscular dysfunction of bladder,Neuromuscular dysfunction of bladder,Genitourinary diseases
+Neurotic / stress-related disorders,matched_original,1,"Neurotic, stress-related and somatoform disorders","Neurotic, stress-related and somatoform disorders",Mental and behavioral disorders
+Non-Hodgkin lymphoma,matched_original,1,"Non-Hodgkin lymphoma, all, excluding all cancers (controls excluding all cancers)","Non-Hodgkin lymphoma, all, excluding all cancers (controls excluding all cancers)",Neoplasms and cancer
+Non-follicular lymphoma,matched_original,1,"Non-follicular lymphoma, hilmo, excluding all cancers","Non-follicular lymphoma, hilmo, excluding all cancers",Neoplasms and cancer
+Non-rheumatic valve diseases,matched_original,1,Non-rheumatic valve diseases,Non-rheumatic valve diseases,Cardiovascular and cerebrovascular diseases
+Non-small cell lung cancer,matched_original,2,"Non-small cell lung cancer, excluding all cancers (controls excluding all cancers)|Non-small cell lung cancer, adenocarcinoma, excluding all cancers (controls excluding all cancers)","Non-small cell lung cancer, excluding all cancers (controls excluding all cancers)|Non-small cell lung cancer, adenocarcinoma, excluding all cancers (controls excluding all cancers)",Neoplasms and cancer
+Nonalcoholic fatty liver disease,matched_original,1,Nonalcoholic fatty liver disease,Nonalcoholic fatty liver disease,Mental and behavioral disorders
+Noninfectious colitis,matched_original,1,Noninfectious colitis NAS,Noninfectious colitis NAS,Infectious diseases
+Noninfective enteritis and colitis,matched_original,1,Noninfective enteritis and colitis,Noninfective enteritis and colitis,Digestive system diseases
+Noninflammatory disorders of female genital tract,matched_original,1,Noninflammatory disorders of female genital tract,Noninflammatory disorders of female genital tract,Genitourinary diseases
+Nonischemic cardiomyopathy,matched_original,2,Non-ischemic cardiomyopathy|Nonischemic cardiomyopathy,Non-ischemic cardiomyopathy|Nonischemic cardiomyopathy,Cardiovascular and cerebrovascular diseases
+Nontoxic multinodular goitre,matched_original,1,Nontoxic multinodular goitre,Nontoxic multinodular goitre,Endocrine and metabolic diseases
+Nontoxic single thyroid nodule,matched_original,1,Nontoxic single thyroid nodule,Nontoxic single thyroid nodule,Endocrine and metabolic diseases
+Nontraumatic intracranial haemorrhage,matched_original,1,Nontraumatic intracranial haemmorrhage,Nontraumatic intracranial haemmorrhage,Other
+Nutritional anaemias,matched_original,1,Nutritional anaemias,Nutritional anaemias,Hematological and immune diseases
+Nystagmus and irregular eye movements,matched_original,1,Nystagmus and other irregular eye movements,Nystagmus and other irregular eye movements,Eye diseases
+Obesity,matched_original,2,"Obesity|Obesity, other/unspecified","Obesity|Obesity, other/unspecified",Endocrine and metabolic diseases
+"Oedema, proteinuria and hypertensive disorders in pregnancy, childbirth and the puerperium",matched_original,1,"Oedema, proteinuria and hypertensive disorders in pregnancy, childbirth and the puerperium","Oedema, proteinuria and hypertensive disorders in pregnancy, childbirth and the puerperium",Pregnancy and childbirth related diseases
+Oesophageal obstruction,matched_original,1,Oesophageal obstruction,Oesophageal obstruction,Digestive system diseases
+Oesophageal varices,matched_original,1,Oesophageal varices,Oesophageal varices,Cardiovascular and cerebrovascular diseases
+Oesophagitis,matched_original,1,Oesophagitis,Oesophagitis,Digestive system diseases
+Oral lichen ruber planus,matched_original,1,Oral lichen ruber planus,Oral lichen ruber planus,Digestive system diseases
+Orchitis and epididymitis,matched_original,1,Orchitis and epididymitis,Orchitis and epididymitis,Genitourinary diseases
+Osteomyelitis,matched_original,1,Osteomyelitis,Osteomyelitis,Musculoskeletal and rheumatic diseases
+Osteonecrosis,matched_original,1,Osteonecrosis,Osteonecrosis,Musculoskeletal and rheumatic diseases
+Osteopathies and chondropathies,matched_original,1,Osteopathies and chondropathies,Osteopathies and chondropathies,Musculoskeletal and rheumatic diseases
+Osteopathy in diseases,matched_original,1,Osteopathy in diseases classified elsewhere,Osteopathy in diseases classified elsewhere,Musculoskeletal and rheumatic diseases
+Osteoporosis,matched_original,1,Osteoporosis,Osteoporosis,Musculoskeletal and rheumatic diseases
+Otitis externa,matched_original,1,Otitis externa,Otitis externa,"Ear, nose and throat diseases"
+Otitis media,matched_original,3,"Suppurative and unspecified otitis media|Nonsuppurative otitis media|Otitis media, unspecified","Suppurative and unspecified otitis media|Nonsuppurative otitis media|Otitis media, unspecified","Ear, nose and throat diseases"
+Ovarian cyst,matched_original,1,Ovarian cyst,Ovarian cyst,Genitourinary diseases
+Pain and conditions associated with female genital organs and menstrual cycle,matched_original,1,Pain and other conditions associated with female genital organs and menstrual cycle,Pain and other conditions associated with female genital organs and menstrual cycle,Genitourinary diseases
+Pain in joint,matched_original,1,Pain in joint,Pain in joint,Musculoskeletal and rheumatic diseases
+Pain in limb,matched_original,1,Pain in limb,Pain in limb,Musculoskeletal and rheumatic diseases
+Palatinal maxillary canine,matched_original,1,Palatinal maxillary canine,Palatinal maxillary canine,Digestive system diseases
+Palmar fascial fibromatosis [Dupuytren],matched_original,1,Palmar fascial fibromatosis [Dupuytren],Palmar fascial fibromatosis [Dupuytren],Musculoskeletal and rheumatic diseases
+Papulosquamous disorders,matched_original,1,Papulosquamous disorders,Papulosquamous disorders,Skin diseases
+Paralytic ileus and intestinal obstruction,matched_original,1,Paralytic ileus and intestinal obstruction,Paralytic ileus and intestinal obstruction,Digestive system diseases
+Paralytic strabismus,matched_original,1,Paralytic strabismus,Paralytic strabismus,Eye diseases
+Parkinson's disease,matched_original,1,"Parkinson's disease, excluding more controls","Parkinson's disease, excluding more controls",Neurological diseases
+Parodontitis,matched_original,1,Parodontitis,Parodontitis,Digestive system diseases
+Paroxysmal tachycardia,matched_original,1,Paroxysmal tachycardia,Paroxysmal tachycardia,Cardiovascular and cerebrovascular diseases
+Peptic ulcer,matched_original,1,Peptic ulcer,Peptic ulcer,Digestive system diseases
+Perforation of tympanic membrane,matched_original,1,Perforation of tympanic membrane,Perforation of tympanic membrane,"Ear, nose and throat diseases"
+Perineal laceration during delivery,matched_original,1,Perineal laceration during delivery,Perineal laceration during delivery,Digestive system diseases
+Peripheral artery disease,matched_original,1,Peripheral artery disease,Peripheral artery disease,Endocrine and metabolic diseases
+Peripheral atherosclerosis,matched_original,1,Peripheral atherosclerosis,Peripheral atherosclerosis,Cardiovascular and cerebrovascular diseases
+Phlebitis and thrombophlebitis (not,matched_original,1,Phlebitis and thrombophlebitis (not including DVT),Phlebitis and thrombophlebitis (not including DVT),Cardiovascular and cerebrovascular diseases
+Plantar fascial fibromatosis,matched_original,1,Plantar fascial fibromatosis,Plantar fascial fibromatosis,Musculoskeletal and rheumatic diseases
+Pleural effusion,matched_original,1,Pleural effusion,Pleural effusion,Respiratory diseases
+Pleural plaque,matched_original,1,Pleural plaque,Pleural plaque,Respiratory diseases
+Pneumoconiosis due to asbestos and mineral fibres,matched_original,1,Pneumoconiosis due to asbestos and other mineral fibres,Pneumoconiosis due to asbestos and other mineral fibres,Respiratory diseases
+"Pneumonia, organism",matched_original,1,"Pneumonia, organism unspecified","Pneumonia, organism unspecified",Respiratory diseases
+Pneumonitis due to solids and liquids,matched_original,1,Pneumonitis due to solids and liquids,Pneumonitis due to solids and liquids,Respiratory diseases
+Pneumothorax,matched_original,1,Pneumothorax,Pneumothorax,Respiratory diseases
+Pollen allergy,matched_original,1,Pollen allergy,Pollen allergy,Respiratory diseases
+Polyarthritis,matched_original,1,"Polyarthritis, unspecified","Polyarthritis, unspecified",Musculoskeletal and rheumatic diseases
+Polyarthropathies,matched_original,1,Polyarthropathies,Polyarthropathies,Musculoskeletal and rheumatic diseases
+Polyarthrosis,matched_original,1,Polyarthrosis,Polyarthrosis,Musculoskeletal and rheumatic diseases
+Polycystic ovarian syndrome,matched_original,1,"Polycystic ovarian syndrome, consortium definition","Polycystic ovarian syndrome, consortium definition",Genitourinary diseases
+Polymyalgia rheumatica,matched_original,1,Polymyalgia rheumatica,Polymyalgia rheumatica,Musculoskeletal and rheumatic diseases
+Polyneuropathies and disorders of the peripheral nervous system,matched_original,1,Polyneuropathies and other disorders of the peripheral nervous system,Polyneuropathies and other disorders of the peripheral nervous system,Neurological diseases
+Polyp of the female genital tract,matched_original,1,Polyp of the female genital tract,Polyp of the female genital tract,Genitourinary diseases
+Postmenopausal atrophic vaginitis,matched_original,1,Postmenopausal atrophic vaginitis,Postmenopausal atrophic vaginitis,Genitourinary diseases
+Postmenopausal bleeding,matched_original,1,Postmenopausal bleeding,Postmenopausal bleeding,Genitourinary diseases
+Postpartum haemorrhage due to anatomy,matched_original,1,Postpartum haemorrhage due to anatomy,Postpartum haemorrhage due to anatomy,Pregnancy and childbirth related diseases
+"Postpartum hemorraghe, parous women as controls",matched_original,1,"Postpartum hemorraghe, parous women as controls","Postpartum hemorraghe, parous women as controls",Pregnancy and childbirth related diseases
+Postprocedural disorders of digestive system,matched_original,1,"Postprocedural disorders of digestive system, not elsewhere classified","Postprocedural disorders of digestive system, not elsewhere classified",Digestive system diseases
+Postprocedural disorders of eye and adnexa,matched_original,1,"Postprocedural disorders of eye and adnexa, not elsewhere classified","Postprocedural disorders of eye and adnexa, not elsewhere classified",Eye diseases
+Postprocedural endocrine and metabolic disorders,matched_original,1,"Postprocedural endocrine and metabolic disorders, not elsewhere classified","Postprocedural endocrine and metabolic disorders, not elsewhere classified",Endocrine and metabolic diseases
+Postprocedural musculoskeletal disorders,matched_original,1,"Postprocedural musculoskeletal disorders, not elsewhere classified","Postprocedural musculoskeletal disorders, not elsewhere classified",Musculoskeletal and rheumatic diseases
+Postviral fatigue syndrome,matched_original,1,Postviral fatigue syndrome,Postviral fatigue syndrome,Infectious diseases
+Pregnancy hypertension,matched_original,1,Pregnancy hypertension,Pregnancy hypertension,Cardiovascular and cerebrovascular diseases
+Pregnancy with abortive outcome,matched_original,1,Pregnancy with abortive outcome,Pregnancy with abortive outcome,Pregnancy and childbirth related diseases
+Premature rupture of membranes,matched_original,1,Premature rupture of membranes,Premature rupture of membranes,Pregnancy and childbirth related diseases
+Presbycusis,matched_original,1,Presbycusis,Presbycusis,"Ear, nose and throat diseases"
+Preterm labour and delivery,matched_original,1,Preterm labour and delivery,Preterm labour and delivery,Digestive system diseases
+Primary_lymphoid and hematopoietic malignant neoplasms,matched_original,1,Primary_lymphoid and hematopoietic malignant neoplasms,Primary_lymphoid and hematopoietic malignant neoplasms,Neoplasms and cancer
+Prolonged pregnancy,matched_original,1,Prolonged pregnancy,Prolonged pregnancy,Pregnancy and childbirth related diseases
+Pruritus,matched_original,1,Pruritus,Pruritus,Skin diseases
+Psoriasis,matched_original,1,Psoriasis,Psoriasis,Skin diseases
+Psoriatic arthritis,matched_original,3,Arthropathic psoriasis|Psoriatic arthropathies|Other psoriatic arthropathies,Arthropathic psoriasis|Psoriatic arthropathies|Other psoriatic arthropathies,Musculoskeletal and rheumatic diseases
+Ptosis of eyelid,matched_original,1,Ptosis of eyelid,Ptosis of eyelid,Eye diseases
+Pulmonary circulation disorders,matched_original,1,"Pulmonary heart disease, diseases of pulmonary circulation","Pulmonary heart disease, diseases of pulmonary circulation",Cardiovascular and cerebrovascular diseases
+Pulmonary oedema,matched_original,1,Pulmonary oedema,Pulmonary oedema,Respiratory diseases
+Pure hypercholesterolaemia,matched_original,1,Pure hypercholesterolaemia,Pure hypercholesterolaemia,Endocrine and metabolic diseases
+Purpura and haemorrhagic conditions,matched_original,1,Purpura and other haemorrhagic conditions,Purpura and other haemorrhagic conditions,Hematological and immune diseases
+Pyogenic arthritis,matched_original,1,Pyogenic arthritis,Pyogenic arthritis,Musculoskeletal and rheumatic diseases
+Pyothorax,matched_original,1,Pyothorax,Pyothorax,Respiratory diseases
+Radiation-related disorders of the skin and subcutaneous tissue,matched_original,1,Radiation-related disorders of the skin and subcutaneous tissue,Radiation-related disorders of the skin and subcutaneous tissue,Skin diseases
+Radiculopathy,matched_original,1,Radiculopathy,Radiculopathy,Musculoskeletal and rheumatic diseases
+Recurrent and persistent haematuria,matched_original,1,Recurrent and persistent haematuria,Recurrent and persistent haematuria,Genitourinary diseases
+Recurring oral aphthae,matched_original,1,Recurring oral aphthae,Recurring oral aphthae,Digestive system diseases
+"Redundant prepuce, phimosis and paraphimosis",matched_original,1,"Redundant prepuce, phimosis and paraphimosis","Redundant prepuce, phimosis and paraphimosis",Genitourinary diseases
+Renal tubulo-interstitial diseases,matched_original,1,Renal tubulo-interstitial diseases,Renal tubulo-interstitial diseases,Neurological diseases
+Respiratory insufficiency,matched_original,1,Respiratory insufficiency,Respiratory insufficiency,Respiratory diseases
+Restless leg syndrome,matched_original,1,Restless leg syndrome,Restless leg syndrome,Neurological diseases
+Retinal breaks without detachment,matched_original,1,Retinal breaks without detachment,Retinal breaks without detachment,Eye diseases
+Retinal detachment / tear,matched_original,1,Retinal detachments and breaks,Retinal detachments and breaks,Eye diseases
+Retinal detachment with retinal break,matched_original,1,Retinal detachment with retinal break,Retinal detachment with retinal break,Eye diseases
+Retinal vascular occlusion,matched_original,1,Retinal vascular occlusion,Retinal vascular occlusion,Eye diseases
+Rheumatic valve diseases,matched_original,1,Rheumatic valve diseases,Rheumatic valve diseases,Cardiovascular and cerebrovascular diseases
+Rheumatism,matched_original,1,"Rheumatism, unspecified","Rheumatism, unspecified",Musculoskeletal and rheumatic diseases
+Rheumatoid arthritis,matched_original,4,"Rheumatoid arthritis, including avohilmo|Other/unspecified rheumatoid arthritis|Seronegative rheumatoid arthritis|Other/unspecified seropositive rheumatoid arthritis","Rheumatoid arthritis, including avohilmo|Other/unspecified rheumatoid arthritis|Seronegative rheumatoid arthritis|Other/unspecified seropositive rheumatoid arthritis",Musculoskeletal and rheumatic diseases
+Right bundle-branch block,matched_original,1,Right bundle-branch block,Right bundle-branch block,Cardiovascular and cerebrovascular diseases
+Rosacea,matched_original,1,Rosacea,Rosacea,Skin diseases
+Rotator cuff syndrome,matched_original,1,Rotator cuff syndrome,Rotator cuff syndrome,Musculoskeletal and rheumatic diseases
+Sarcoidosis,matched_original,1,Sarcoidosis,Sarcoidosis,Hematological and immune diseases
+Scar conditions and fibrosis of skin,matched_original,1,Scar conditions and fibrosis of skin,Scar conditions and fibrosis of skin,Skin diseases
+Schizophrenia,matched_original,1,Schizophrenia,Schizophrenia,Mental and behavioral disorders
+Schizophrenia or delusion,matched_original,1,"Schizophrenia or delusion, excluding more controls","Schizophrenia or delusion, excluding more controls",Mental and behavioral disorders
+Sciatica+with lumbago,matched_original,1,Sciatica+with lumbago,Sciatica+with lumbago,Musculoskeletal and rheumatic diseases
+Scoliosis,matched_original,1,Scoliosis,Scoliosis,Musculoskeletal and rheumatic diseases
+Seborrhoeic keratosis,matched_original,1,Seborrhoeic keratosis,Seborrhoeic keratosis,Skin diseases
+Secondary and malignant neoplasm of lymph nodes,matched_original,1,"Secondary and unspecified malignant neoplasm of lymph nodes, excluding all cancers (controls excluding all cancers)","Secondary and unspecified malignant neoplasm of lymph nodes, excluding all cancers (controls excluding all cancers)",Neoplasms and cancer
+Secondary malignant neoplasm of respiratory and digestive organs,matched_original,1,"Secondary malignant neoplasm of respiratory and digestive organs, excluding all cancers (controls excluding all cancers)","Secondary malignant neoplasm of respiratory and digestive organs, excluding all cancers (controls excluding all cancers)",Neoplasms and cancer
+Secondary malignant neoplasm of sites,matched_original,1,"Secondary malignant neoplasm of other and unspecified sites, excluding all cancers (controls excluding all cancers)","Secondary malignant neoplasm of other and unspecified sites, excluding all cancers (controls excluding all cancers)",Neoplasms and cancer
+Secondary polycythaemia,matched_original,1,Secondary polycythaemia,Secondary polycythaemia,Hematological and immune diseases
+Secondary right heart disease,matched_original,1,Secondary right heart disease,Secondary right heart disease,Cardiovascular and cerebrovascular diseases
+Secondary uncertain malignant neoplasm,matched_original,1,"Secondary uncertain malignant neoplasm, excluding all cancers (controls excluding all cancers)","Secondary uncertain malignant neoplasm, excluding all cancers (controls excluding all cancers)",Neoplasms and cancer
+Sepsis,matched_original,11,Other septicaemia|Bacterial Sepsis|Explicit bacterial Sepsis|Implicit bacterial Sepsis|Explicit Sepsis|Fungal Sepsis|Implicit fungal Sepsis|Implicit Sepsis|Viral Sepsis|Implicit viral Sepsis|Streptococcal septicaemia,Other septicaemia|Bacterial Sepsis|Explicit bacterial Sepsis|Implicit bacterial Sepsis|Explicit Sepsis|Fungal Sepsis|Implicit fungal Sepsis|Implicit Sepsis|Viral Sepsis|Implicit viral Sepsis|Streptococcal septicaemia,Infectious diseases
+Sequelae of cerebrovascular disease,matched_original,1,Sequelae of cerebrovascular disease,Sequelae of cerebrovascular disease,Cardiovascular and cerebrovascular diseases
+Seropositive rheumatoid arthritis,matched_original,1,"Seropositive rheumatoid arthritis, wide","Seropositive rheumatoid arthritis, wide",Musculoskeletal and rheumatic diseases
+Sexual dysfunction,matched_original,1,Sexual dysfunction,Sexual dysfunction,Mental and behavioral disorders
+Shoulder lesions,matched_original,1,Shoulder lesions,Shoulder lesions,Musculoskeletal and rheumatic diseases
+Sicca syndrome [Sjögren],category_default_only,0,Sicca syndrome [Sj¬ögren],,Musculoskeletal and rheumatic diseases
+Single delivery by caesarean section,matched_original,1,Single delivery by caesarean section,Single delivery by caesarean section,Digestive system diseases
+Single spontaneous delivery,matched_original,1,Single spontaneous delivery,Single spontaneous delivery,Digestive system diseases
+Skin changes due to chronic exposure to nonionizing radiation,matched_original,1,Skin changes due to chronic exposure to nonionizing radiation,Skin changes due to chronic exposure to nonionizing radiation,Skin diseases
+Sleep apnoea,matched_original,1,Sleep apnoea,Sleep apnoea,Neurological diseases
+Small fibre neuropathy,matched_original,1,Small fibre neuropathy,Small fibre neuropathy,Neurological diseases
+Soft tissue disorders,matched_original,1,Soft tissue disorders,Soft tissue disorders,Musculoskeletal and rheumatic diseases
+"Soft tissue disorders related to use, overuse and pressure",matched_original,1,"Soft tissue disorders related to use, overuse and pressure","Soft tissue disorders related to use, overuse and pressure",Musculoskeletal and rheumatic diseases
+Speech and linguistic disorders,matched_original,1,"Speech and linguistic disorders, excluding more controls","Speech and linguistic disorders, excluding more controls",Mental and behavioral disorders
+Spinal stenosis,matched_original,1,Spinal stenosis,Spinal stenosis,Musculoskeletal and rheumatic diseases
+Spondyloarthritis,matched_original,2,Ankylosing spondylitis|Spondyloarthritis,Ankylosing spondylitis|Spondyloarthritis,Musculoskeletal and rheumatic diseases
+Spondylolisthesis/Spondylolysis,matched_original,1,Spondylolisthesis/Spondylolysis,Spondylolisthesis/Spondylolysis,Musculoskeletal and rheumatic diseases
+Spondylopathies,matched_original,1,Spondylopathies,Spondylopathies,Musculoskeletal and rheumatic diseases
+Spondylosis,matched_original,1,Spondylosis,Spondylosis,Musculoskeletal and rheumatic diseases
+Spontaneous abortion,matched_original,1,Spontaneous abortion,Spontaneous abortion,Pregnancy and childbirth related diseases
+Spontaneous rupture of synovium and tendon,matched_original,1,Spontaneous rupture of synovium and tendon,Spontaneous rupture of synovium and tendon,Musculoskeletal and rheumatic diseases
+Squamous cell neoplasms and carcinomas of the skin,matched_original,1,"Squamous cell neoplasms and carcinomas of the skin, excluding all cancers (controls excluding all cancers)","Squamous cell neoplasms and carcinomas of the skin, excluding all cancers (controls excluding all cancers)",Neoplasms and cancer
+Stenosis and insufficiency of lacrimal passages,matched_original,1,Stenosis and insufficiency of lacrimal passages,Stenosis and insufficiency of lacrimal passages,Eye diseases
+Stomatitis and related lesions,matched_original,1,Stomatitis and related lesions,Stomatitis and related lesions,Digestive system diseases
+Strabismus,matched_original,1,Strabismus,Strabismus,Eye diseases
+Streptococcus and staphylococcus as the cause of diseases classified to chapters,matched_original,1,Streptococcus and staphylococcus as the cause of diseases classified to other chapters,Streptococcus and staphylococcus as the cause of diseases classified to other chapters,Infectious diseases
+Stroke,matched_original,3,"Stroke, excluding SAH|Ischaemic Stroke, excluding all haemorrhages|Stroke, including SAH","Stroke, excluding SAH|Ischaemic Stroke, excluding all haemorrhages|Stroke, including SAH",Cardiovascular and cerebrovascular diseases
+Subarachnoid haemorrhage,matched_original,1,Subarachnoid haemorrhage,Subarachnoid haemorrhage,Cardiovascular and cerebrovascular diseases
+Subjective visual disturbances,matched_original,1,Subjective visual disturbances,Subjective visual disturbances,Eye diseases
+Substance abuse,matched_original,1,"Substance abuse, excluding more controls","Substance abuse, excluding more controls",Mental and behavioral disorders
+Substance use disorders,matched_original,1,Mental and behavioural disorders due to psychoactive substance use,Mental and behavioural disorders due to psychoactive substance use,Mental and behavioral disorders
+Suppurative and necrotic conditions of lower respiratory tract,matched_original,1,Suppurative and necrotic conditions of lower respiratory tract,Suppurative and necrotic conditions of lower respiratory tract,Respiratory diseases
+Syndrome of inappropriate secretion of antidiuretic hormone,matched_original,1,Syndrome of inappropriate secretion of antidiuretic hormone,Syndrome of inappropriate secretion of antidiuretic hormone,Endocrine and metabolic diseases
+Synovial cyst of popliteal space [Baker],matched_original,1,Synovial cyst of popliteal space [Baker],Synovial cyst of popliteal space [Baker],Musculoskeletal and rheumatic diseases
+Systemic atrophies primarily affecting the central nervous system,matched_original,1,Systemic atrophies primarily affecting the central nervous system,Systemic atrophies primarily affecting the central nervous system,Neurological diseases
+Thoracic aortic aneurysm,matched_original,1,Thoracic aortic aneurysm,Thoracic aortic aneurysm,Cardiovascular and cerebrovascular diseases
+Thrombocytopenia,matched_original,1,"Thrombocytopenia, unspecified","Thrombocytopenia, unspecified",Hematological and immune diseases
+"Thyroiditis, ILD-related",matched_original,1,"Thyroiditis, ILD-related definition","Thyroiditis, ILD-related definition",Endocrine and metabolic diseases
+Thyrotoxicosis,matched_original,1,"Thyrotoxicosis, other and/or unspecified","Thyrotoxicosis, other and/or unspecified",Endocrine and metabolic diseases
+Thyrotoxicosis with diffuse goitre,matched_original,1,Thyrotoxicosis with diffuse goitre,Thyrotoxicosis with diffuse goitre,Endocrine and metabolic diseases
+Tinnitus,matched_original,1,Tinnitus,Tinnitus,"Ear, nose and throat diseases"
+Tobacco use disorder,matched_original,1,Mental and behavioural disorders due to tobacco,Mental and behavioural disorders due to tobacco,Mental and behavioral disorders
+Toxic colitis,matched_original,1,Toxic colitis,Toxic colitis,Digestive system diseases
+Transient global amnesia,matched_original,1,Transient global amnesia,Transient global amnesia,Neurological diseases
+Transient ischemic attack,matched_original,1,Transient ischemic attack,Transient ischemic attack,Neurological diseases
+Trigeminal neuralgia,matched_original,1,Trigeminal neuralgia,Trigeminal neuralgia,Neurological diseases
+Trigger finger,matched_original,1,Trigger finger,Trigger finger,Musculoskeletal and rheumatic diseases
+Trochanteric bursitis,matched_original,1,Trochanteric bursitis,Trochanteric bursitis,Musculoskeletal and rheumatic diseases
+"Tubulo-interstitial nephritis, not specified as acute or chronic",matched_original,1,"Tubulo-interstitial nephritis, not specified as acute or chronic","Tubulo-interstitial nephritis, not specified as acute or chronic",Neurological diseases
+Type 1 diabetes,matched_original,3,Type 1 diabetes|Type 1 diabetes without complications|Type 1 diabetes with ophthalmic complications,Type 1 diabetes|Type 1 diabetes without complications|Type 1 diabetes with ophthalmic complications,Endocrine and metabolic diseases
+Type 2 diabetes,matched_original,6,Type 2 diabetes|Type 2 diabetes with neurological complications|Type 2 diabetes without complications|Type 2 diabetes with ophthalmic complications|Type 2 diabetes with peripheral circulatory complications|Type 2 diabetes with renal complications,Type 2 diabetes|Type 2 diabetes with neurological complications|Type 2 diabetes without complications|Type 2 diabetes with ophthalmic complications|Type 2 diabetes with peripheral circulatory complications|Type 2 diabetes with renal complications,Endocrine and metabolic diseases
+Ulcer of lower limb,matched_original,1,"Ulcer of lower limb, not elsewhere classified","Ulcer of lower limb, not elsewhere classified",Digestive system diseases
+Ulcer of oesophagus,matched_original,1,Ulcer of oesophagus,Ulcer of oesophagus,Digestive system diseases
+Ulcerative colitis,matched_original,3,"Ulcerative colitis|Ulcerative colitis, NAS|Ulcerative proctitis","Ulcerative colitis|Ulcerative colitis, NAS|Ulcerative proctitis",Digestive system diseases
+Unspecific neurodegenerative disorder,matched_original,1,Unspecific neurodegenerative disorder,Unspecific neurodegenerative disorder,Neurological diseases
+Unstable angina pectoris,matched_original,1,Unstable angina pectoris,Unstable angina pectoris,Cardiovascular and cerebrovascular diseases
+Urethral stricture,matched_original,1,Urethral stricture,Urethral stricture,Genitourinary diseases
+Urolithiasis,matched_original,1,Urolithiasis,Urolithiasis,Genitourinary diseases
+Urticaria and erythema,matched_original,1,Urticaria and erythema,Urticaria and erythema,Skin diseases
+Uterine polyps,matched_original,1,Uterine polyps,Uterine polyps,Genitourinary diseases
+Valgus deformity,matched_original,1,"Valgus deformity, not elsewhere classified","Valgus deformity, not elsewhere classified",Musculoskeletal and rheumatic diseases
+Varicose veins,matched_original,1,Varicose veins,Varicose veins,Cardiovascular and cerebrovascular diseases
+Varicose veins of sites,matched_original,1,Varicose veins of other sites,Varicose veins of other sites,Cardiovascular and cerebrovascular diseases
+Varus deformity,matched_original,1,"Varus deformity, not elsewhere classified","Varus deformity, not elsewhere classified",Musculoskeletal and rheumatic diseases
+Vascular dementia,matched_original,1,Vascular dementia,Vascular dementia,Mental and behavioral disorders
+Vascular dementia (undefined),matched_original,1,Vascular dementia (undefined),Vascular dementia (undefined),Mental and behavioral disorders
+Vascular diseases of the intestine,matched_original,1,Vascular diseases of the intestine,Vascular diseases of the intestine,Digestive system diseases
+Vascular disorders of the intestines,matched_original,1,Vascular disorders of the intestines,Vascular disorders of the intestines,Digestive system diseases
+Vasomotor and allergic rhinitis,matched_original,1,Vasomotor and allergic rhinitis,Vasomotor and allergic rhinitis,Respiratory diseases
+Venous thromboembolism,matched_original,3,DVT of lower extremities|Pulmonary embolism|Venous thromboembolism,DVT of lower extremities|Pulmonary embolism|Venous thromboembolism,Cardiovascular and cerebrovascular diseases
+Vertigo,matched_original,2,Benign paroxysmal vertigo|Disorders of vestibular function (Vertigo),Benign paroxysmal vertigo|Disorders of vestibular function (Vertigo),"Ear, nose and throat diseases"
+Viral agents as the cause of diseases classified to chapters,matched_original,1,Viral agents as the cause of diseases classified to other chapters,Viral agents as the cause of diseases classified to other chapters,Infectious diseases
+Viral and specified intestinal infections,matched_original,1,Viral and other specified intestinal infections,Viral and other specified intestinal infections,Infectious diseases
+Viral hepatitis,matched_original,1,Viral hepatitis,Viral hepatitis,Infectious diseases
+Viral infections characterized by skin and mucous membrane lesions,matched_original,1,Viral infections characterized by skin and mucous membrane lesions,Viral infections characterized by skin and mucous membrane lesions,Infectious diseases
+Viral pneumonia,matched_original,2,"Viral pneumonia|Viral pneumonia (unknown virus, not influenza)","Viral pneumonia|Viral pneumonia (unknown virus, not influenza)",Infectious diseases
+Viral warts,matched_original,1,Viral warts,Viral warts,Infectious diseases
+Visual disturbances,matched_original,1,Visual disturbances,Visual disturbances,Eye diseases
+Visual disturbances and blindness,matched_original,1,Visual disturbances and blindness,Visual disturbances and blindness,Eye diseases
+Visual field defects,matched_original,1,Visual field defects,Visual field defects,Eye diseases
+Visual impairment / blindness,matched_original,3,"Visual impairment including blindness (binocular or monocular)|Blindness, monocular|Blindness or visual impairment, binocular","Visual impairment including blindness (binocular or monocular)|Blindness, monocular|Blindness or visual impairment, binocular",Eye diseases
+Vitamin B12 deficiency anaemia,matched_original,1,Vitamin B12 deficiency anaemia,Vitamin B12 deficiency anaemia,Hematological and immune diseases
+Vitamin D deficiency,matched_original,1,Vitamin D deficiency,Vitamin D deficiency,Endocrine and metabolic diseases
+Vitamin deficiency,matched_original,1,Vitamin deficiency,Vitamin deficiency,Endocrine and metabolic diseases
+Vitreous bleeding (caused by prolif. dmrp when together with H36.03*),matched_original,1,Vitreous bleeding (caused by prolif. dmrp when together with H36.03*),Vitreous bleeding (caused by prolif. dmrp when together with H36.03*),Eye diseases
+Vitreous haemorrhage,matched_original,1,Vitreous haemorrhage,Vitreous haemorrhage,Eye diseases
+Vocal cord dysfunction,matched_original,1,Vocal cord dysfunction,Vocal cord dysfunction,Respiratory diseases
+Volume depletion,matched_original,1,Volume depletion,Volume depletion,Endocrine and metabolic diseases
+Volvulus,matched_original,1,Volvulus,Volvulus,Digestive system diseases
+Wrist or foot drop (acquired),matched_original,1,Wrist or foot drop (acquired),Wrist or foot drop (acquired),Musculoskeletal and rheumatic diseases
+Zoster [herpes zoster],matched_original,1,Zoster [herpes zoster],Zoster [herpes zoster],Infectious diseases
+abnormal products of conception,matched_original,1,Other abnormal products of conception,Other abnormal products of conception,Pregnancy and childbirth related diseases
+abnormal uterine and vaginal bleeding,matched_original,1,Other abnormal uterine and vaginal bleeding,Other abnormal uterine and vaginal bleeding,Genitourinary diseases
+acute lower respiratory infection,matched_original,1,Unspecified acute lower respiratory infection,Unspecified acute lower respiratory infection,Infectious diseases
+acute lower respiratory infections,matched_original,1,Other acute lower respiratory infections,Other acute lower respiratory infections,Infectious diseases
+anaemias,matched_original,2,Other and unspecified anaemias|Other anaemias,Other and unspecified anaemias|Other anaemias,Hematological and immune diseases
+and serous retinal detachments,matched_original,1,"Other, unspecified and serous retinal detachments","Other, unspecified and serous retinal detachments",Eye diseases
+aneurysm,matched_original,1,Other aneurysm,Other aneurysm,Cardiovascular and cerebrovascular diseases
+aplastic anaemias,matched_original,1,Other and unspecified aplastic anaemias,Other and unspecified aplastic anaemias,Hematological and immune diseases
+arrhythmias,matched_original,1,Other arrhythmias,Other arrhythmias,Cardiovascular and cerebrovascular diseases
+arterial embolism and thrombosis,matched_original,1,Other arterial embolism and thrombosis,Other arterial embolism and thrombosis,Cardiovascular and cerebrovascular diseases
+arthritis,matched_original,1,Other specified/unspecified arthritis,Other specified/unspecified arthritis,Musculoskeletal and rheumatic diseases
+arthrosis,matched_original,1,Other arthrosis,Other arthrosis,Musculoskeletal and rheumatic diseases
+articular cartilage disorders,matched_original,1,Other articular cartilage disorders,Other articular cartilage disorders,Musculoskeletal and rheumatic diseases
+bacterial agents as the cause of diseases classified to chapters,matched_original,1,Other bacterial agents as the cause of diseases classified to other chapters,Other bacterial agents as the cause of diseases classified to other chapters,Infectious diseases
+bacterial diseases,matched_original,1,Other bacterial diseases,Other bacterial diseases,Infectious diseases
+bacterial intestinal infections,matched_original,2,Other bacterial intestinal infections|Other specified/unspecified bacterial intestinal infections,Other bacterial intestinal infections|Other specified/unspecified bacterial intestinal infections,Infectious diseases
+benign neoplasms of skin,matched_original,1,Other benign neoplasms of skin,Other benign neoplasms of skin,Neoplasms and cancer
+bursopathies,matched_original,1,Other bursopathies,Other bursopathies,Musculoskeletal and rheumatic diseases
+chondrocalcinosis,matched_original,1,Other chondrocalcinosis,Other chondrocalcinosis,Musculoskeletal and rheumatic diseases
+chronic bronchitis,matched_original,1,Unspecified chronic bronchitis,Unspecified chronic bronchitis,Respiratory diseases
+coagulation defects,matched_original,1,Other coagulation defects,Other coagulation defects,Hematological and immune diseases
+complications of labour and delivery,matched_original,1,"Other complications of labour and delivery, not elsewhere classified","Other complications of labour and delivery, not elsewhere classified",Digestive system diseases
+contact dermatitis,matched_original,1,Other contact dermatitis,Other contact dermatitis,Skin diseases
+corneal deformities and disorders,matched_original,1,Other and unspecified corneal deformities and disorders,Other and unspecified corneal deformities and disorders,Eye diseases
+crystal arthropathies,matched_original,1,Other crystal arthropathies,Other crystal arthropathies,Musculoskeletal and rheumatic diseases
+deformities of toe(s),matched_original,1,Other deformities of toe(s),Other deformities of toe(s),Musculoskeletal and rheumatic diseases
+degenerative diseases of nervous system,matched_original,1,Other and unspecified degenerative diseases of nervous system,Other and unspecified degenerative diseases of nervous system,Neurological diseases
+degenerative diseases of the nervous system,matched_original,1,Other degenerative diseases of the nervous system,Other degenerative diseases of the nervous system,Neurological diseases
+dementia,matched_original,1,"Any dementia, excluding more controls","Any dementia, excluding more controls",Mental and behavioral disorders
+dermatitis,matched_original,1,Other and unspecified dermatitis,Other and unspecified dermatitis,Skin diseases
+diseases of anus and rectum,matched_original,1,Other diseases of anus and rectum,Other diseases of anus and rectum,Digestive system diseases
+diseases of arteries and capillaries,matched_original,1,Other diseases of arteries and capillaries,Other diseases of arteries and capillaries,Cardiovascular and cerebrovascular diseases
+diseases of biliary tract,matched_original,1,Other diseases of biliary tract,Other diseases of biliary tract,Digestive system diseases
+diseases of blood and blood-forming organs,matched_original,2,"Other diseases of blood and blood-forming organs, wide|Other diseases of blood and blood-forming organs","Other diseases of blood and blood-forming organs, wide|Other diseases of blood and blood-forming organs",Other
+diseases of gallbladder,matched_original,1,Other diseases of gallbladder,Other diseases of gallbladder,Digestive system diseases
+diseases of intestine,matched_original,1,Other diseases of intestine,Other diseases of intestine,Digestive system diseases
+diseases of intestines,matched_original,1,Other diseases of intestines,Other diseases of intestines,Digestive system diseases
+diseases of jaws,matched_original,1,Other diseases of jaws,Other diseases of jaws,Digestive system diseases
+diseases of lip and oral mucosa,matched_original,1,Other diseases of lip and oral mucosa,Other diseases of lip and oral mucosa,Digestive system diseases
+diseases of liver,matched_original,1,Other diseases of liver,Other diseases of liver,Digestive system diseases
+diseases of oesophagus,matched_original,1,Other diseases of oesophagus,Other diseases of oesophagus,Digestive system diseases
+diseases of pancreas,matched_original,1,Other diseases of pancreas,Other diseases of pancreas,Digestive system diseases
+diseases of pericardium,matched_original,1,Other diseases of pericardium,Other diseases of pericardium,Cardiovascular and cerebrovascular diseases
+diseases of peritoneum,matched_original,1,Other diseases of peritoneum,Other diseases of peritoneum,Digestive system diseases
+diseases of pleura,matched_original,1,Other diseases of pleura,Other diseases of pleura,Respiratory diseases
+diseases of spinal cord,matched_original,1,Other diseases of spinal cord,Other diseases of spinal cord,Neurological diseases
+diseases of stomach and duodenum,matched_original,1,Other diseases of stomach and duodenum,Other diseases of stomach and duodenum,Digestive system diseases
+diseases of the digestive system,matched_original,1,Other diseases of the digestive system,Other diseases of the digestive system,Digestive system diseases
+diseases of the respiratory system,matched_original,1,Other diseases of the respiratory system,Other diseases of the respiratory system,Respiratory diseases
+diseases of upper respiratory tract,matched_original,1,Other diseases of upper respiratory tract,Other diseases of upper respiratory tract,Respiratory diseases
+diseases of urinary system,matched_original,1,Other diseases of urinary system,Other diseases of urinary system,Genitourinary diseases
+disorders involving the immune mechanism,matched_original,1,"Other disorders involving the immune mechanism, not elsewhere classified","Other disorders involving the immune mechanism, not elsewhere classified",Hematological and immune diseases
+disorders of adrenal gland,matched_original,1,Other disorders of adrenal gland,Other disorders of adrenal gland,Endocrine and metabolic diseases
+disorders of bladder,category_default_only,0,Other disorders of  bladder,,Genitourinary diseases
+disorders of bone,matched_original,1,Other disorders of bone,Other disorders of bone,Musculoskeletal and rheumatic diseases
+disorders of bone density and structure,matched_original,1,Other disorders of bone density and structure,Other disorders of bone density and structure,Musculoskeletal and rheumatic diseases
+disorders of bone/cartilage,category_default_only,0,Other specified/unspecified disorders of  bone/cartilage,,Musculoskeletal and rheumatic diseases
+disorders of breast,matched_original,1,Other disorders of breast,Other disorders of breast,Genitourinary diseases
+disorders of cornea,matched_original,1,Other disorders of cornea,Other disorders of cornea,Eye diseases
+disorders of ear,matched_original,1,Other disorders of ear,Other disorders of ear,"Ear, nose and throat diseases"
+disorders of electrolyte and fluid balance,matched_original,1,"Other disorders of electrolyte and fluid balance, not elsewhere classified","Other disorders of electrolyte and fluid balance, not elsewhere classified",Endocrine and metabolic diseases
+disorders of eye and adnexa,matched_original,1,Other disorders of eye and adnexa,Other disorders of eye and adnexa,Eye diseases
+disorders of eyelid,matched_original,1,Other disorders of eyelid,Other disorders of eyelid,Eye diseases
+"disorders of fluid, electrolyte and acid-base balance",matched_original,1,"Other disorders of fluid, electrolyte and acid-base balance","Other disorders of fluid, electrolyte and acid-base balance",Endocrine and metabolic diseases
+disorders of glucose regulation and pancreatic internal secretion,matched_original,1,Other disorders of glucose regulation and pancreatic internal secretion,Other disorders of glucose regulation and pancreatic internal secretion,Endocrine and metabolic diseases
+disorders of iris and ciliary body,matched_original,1,Other disorders of iris and ciliary body,Other disorders of iris and ciliary body,Eye diseases
+disorders of kidney and ureter,matched_original,1,Other disorders of kidney and ureter,Other disorders of kidney and ureter,Genitourinary diseases
+disorders of lacrimal gland,matched_original,1,Other disorders of lacrimal gland,Other disorders of lacrimal gland,Eye diseases
+disorders of male genital organs,matched_original,1,Other disorders of male genital organs,Other disorders of male genital organs,Genitourinary diseases
+disorders of nervous system,matched_original,1,Other disorders of nervous system,Other disorders of nervous system,Neurological diseases
+disorders of optic [2nd] nerve and visual pathways,matched_original,1,Other disorders of optic [2nd] nerve and visual pathways,Other disorders of optic [2nd] nerve and visual pathways,Eye diseases
+disorders of patella,matched_original,1,Other disorders of patella,Other disorders of patella,Musculoskeletal and rheumatic diseases
+disorders of penis,matched_original,1,Other disorders of penis,Other disorders of penis,Genitourinary diseases
+disorders of pigmentation,matched_original,1,Other disorders of pigmentation,Other disorders of pigmentation,Skin diseases
+disorders of prostate,matched_original,1,Other disorders of prostate,Other disorders of prostate,Genitourinary diseases
+disorders of skin and subcutaneous tissue,matched_original,2,"Other disorders of skin and subcutaneous tissue, not elsewhere classified|Other and unspecified disorders of skin and subcutaneous tissue","Other disorders of skin and subcutaneous tissue, not elsewhere classified|Other and unspecified disorders of skin and subcutaneous tissue",Skin diseases
+disorders of synovium and tendon + bursopathies,matched_original,1,Other specified/unspecified disorders of synovium and tendon +Other specified/unspecified bursopathies,Other specified/unspecified disorders of synovium and tendon +Other specified/unspecified bursopathies,Musculoskeletal and rheumatic diseases
+disorders of teeth and supporting structures,matched_original,1,Other disorders of teeth and supporting structures,Other disorders of teeth and supporting structures,Digestive system diseases
+disorders of the circulatory system,matched_original,1,Other other unspecified disorders of the circulatory system,Other other unspecified disorders of the circulatory system,Cardiovascular and cerebrovascular diseases
+disorders of the genitourinary system,matched_original,1,Other disorders of the genitourinary system,Other disorders of the genitourinary system,Genitourinary diseases
+disorders of the musculoskeletal system and connective tissue,matched_original,1,Other disorders of the musculoskeletal system and connective tissue,Other disorders of the musculoskeletal system and connective tissue,Musculoskeletal and rheumatic diseases
+disorders of thyroid,matched_original,1,Other disorders of thyroid,Other disorders of thyroid,Endocrine and metabolic diseases
+disorders of urethra and urinary system,matched_original,1,Other disorders of urethra and urinary system,Other disorders of urethra and urinary system,Genitourinary diseases
+disorders of veins,matched_original,1,Other disorders of veins,Other disorders of veins,Cardiovascular and cerebrovascular diseases
+disorders of vitreous body,matched_original,1,Other and unspecified disorders of vitreous body,Other and unspecified disorders of vitreous body,Eye diseases
+disorders of white blood cells,matched_original,2,Other disorders of white blood cells|Other and unspecified disorders of white blood cells,Other disorders of white blood cells|Other and unspecified disorders of white blood cells,Hematological and immune diseases
+dorsalgia,matched_original,1,Other/unspecified dorsalgia,Other/unspecified dorsalgia,Musculoskeletal and rheumatic diseases
+dorsopathies,matched_original,1,"Other dorsopathies, not elsewhere classified","Other dorsopathies, not elsewhere classified",Musculoskeletal and rheumatic diseases
+embolism and thrombosis,matched_original,1,Other embolism and thrombosis,Other embolism and thrombosis,Cardiovascular and cerebrovascular diseases
+enthesopathies,matched_original,2,"Other/unspecified enthesopathies, not elsewhere classified|Other enthesopathies","Other/unspecified enthesopathies, not elsewhere classified|Other enthesopathies",Musculoskeletal and rheumatic diseases
+enthesopathy of foot (+metatarsalgia),matched_original,1,Other enthesopathy of foot (+metatarsalgia),Other enthesopathy of foot (+metatarsalgia),Musculoskeletal and rheumatic diseases
+epidermal thickening,matched_original,2,Other epidermal thickening|Other and unspecified epidermal thickening,Other epidermal thickening|Other and unspecified epidermal thickening,Skin diseases
+erythematous conditions,matched_original,1,Other and unspecified erythematous conditions,Other and unspecified erythematous conditions,Skin diseases
+extrapyramidal and movement disorders in diseases,matched_original,1,Other extrapyramidal and movement disorders in other diseases,Other extrapyramidal and movement disorders in other diseases,Neurological diseases
+facial nerve disorders,matched_original,1,Other facial nerve disorders,Other facial nerve disorders,Neurological diseases
+female pelvic inflammatory diseases,matched_original,1,Other female pelvic inflammatory diseases,Other female pelvic inflammatory diseases,Genitourinary diseases
+functional intestinal disorders,matched_original,1,Other functional intestinal disorders,Other functional intestinal disorders,Digestive system diseases
+gastritis (incl. Duodenitis),matched_original,1,Other gastritis (incl. Duodenitis),Other gastritis (incl. Duodenitis),Digestive system diseases
+hammer toe(s) (acquired),matched_original,1,Other hammer toe(s) (acquired),Other hammer toe(s) (acquired),Musculoskeletal and rheumatic diseases
+headache syndromes,matched_original,1,Other headache syndromes,Other headache syndromes,Neurological diseases
+hydrocephalus,matched_original,1,Other and unspecified hydrocephalus,Other and unspecified hydrocephalus,Neurological diseases
+hypertrophic disorders of skin,matched_original,1,Other and unspecified hypertrophic disorders of skin,Other and unspecified hypertrophic disorders of skin,Skin diseases
+"ileus, impaction or obstruction",matched_original,1,"Other or unspecified ileus, impaction or obstruction","Other or unspecified ileus, impaction or obstruction",Digestive system diseases
+infectious diseases,matched_original,1,Other infectious diseases,Other infectious diseases,Infectious diseases
+inflammation of eyelid,matched_original,1,Other inflammation of eyelid,Other inflammation of eyelid,Eye diseases
+inflammatory liver diseases,matched_original,1,Other inflammatory liver diseases,Other inflammatory liver diseases,Digestive system diseases
+inflammatory spondylopathies,matched_original,1,Other specified/unspecified inflammatory spondylopathies,Other specified/unspecified inflammatory spondylopathies,Musculoskeletal and rheumatic diseases
+influenza,matched_original,1,All influenza,All influenza,Respiratory diseases
+influenza (not pneumonia),matched_original,1,All influenza (not pneumonia),All influenza (not pneumonia),Respiratory diseases
+intervertebral disc disorders,matched_original,1,Other intervertebral disc disorders,Other intervertebral disc disorders,Musculoskeletal and rheumatic diseases
+intracranial haemorrhages,matched_original,1,Other intracranial haemorrhages,Other intracranial haemorrhages,Cardiovascular and cerebrovascular diseases
+iridocyclitis,matched_original,1,Other and unspecified iridocyclitis,Other and unspecified iridocyclitis,Eye diseases
+joint disorders,matched_original,1,Other joint disorders,Other joint disorders,Musculoskeletal and rheumatic diseases
+kidney failure,matched_original,1,Unspecified kidney failure,Unspecified kidney failure,Genitourinary diseases
+local infections of skin and subcutaneous tissue,matched_original,1,Other and unspecified local infections of skin and subcutaneous tissue,Other and unspecified local infections of skin and subcutaneous tissue,Infectious diseases
+lump in breast,matched_original,1,Unspecified lump in breast,Unspecified lump in breast,Genitourinary diseases
+malignant neoplasm of female genital organs,matched_original,1,"malignant neoplasm of female genital organs, excluding all cancers (controls excluding all cancers)","malignant neoplasm of female genital organs, excluding all cancers (controls excluding all cancers)",Neoplasms and cancer
+malignant neoplasm of male genital organs,matched_original,1,"malignant neoplasm of male genital organs, excluding all cancers (controls excluding all cancers)","malignant neoplasm of male genital organs, excluding all cancers (controls excluding all cancers)",Neoplasms and cancer
+malignant neoplasms of skin (=non-melanoma skin cancer),matched_original,1,"Other malignant neoplasms of skin (=non-melanoma skin cancer), excluding all cancers (controls excluding all cancers)","Other malignant neoplasms of skin (=non-melanoma skin cancer), excluding all cancers (controls excluding all cancers)",Neoplasms and cancer
+"maternal diseases classifiable elsewhere but complicating pregnancy, childbirth and the puerperium",matched_original,1,"Other maternal diseases classifiable elsewhere but complicating pregnancy, childbirth and the puerperium","Other maternal diseases classifiable elsewhere but complicating pregnancy, childbirth and the puerperium",Pregnancy and childbirth related diseases
+maternal disorders predominantly related to pregnancy,matched_original,1,Other maternal disorders predominantly related to pregnancy,Other maternal disorders predominantly related to pregnancy,Pregnancy and childbirth related diseases
+maternal hypertension,matched_original,1,Unspecified maternal hypertension,Unspecified maternal hypertension,Cardiovascular and cerebrovascular diseases
+melanin hyperpigmentation,matched_original,1,Other melanin hyperpigmentation,Other melanin hyperpigmentation,Skin diseases
+menopausal disorders,matched_original,1,Other menopausal disorders,Other menopausal disorders,Genitourinary diseases
+mental disorder,matched_original,1,Any mental disorder,Any mental disorder,Mental and behavioral disorders
+mental disorders due to brain damage and dysfunction and to physical disease,matched_original,1,Other mental disorders due to brain damage and dysfunction and to physical disease,Other mental disorders due to brain damage and dysfunction and to physical disease,Mental and behavioral disorders
+metabolic disorders,matched_original,1,Other metabolic disorders,Other metabolic disorders,Endocrine and metabolic diseases
+"mononeuropathies, also in diseases",matched_original,1,"Other and unspecified mononeuropathies, also in other diseases","Other and unspecified mononeuropathies, also in other diseases",Neurological diseases
+necrotizing vasculopathies,matched_original,1,Other necrotizing vasculopathies,Other necrotizing vasculopathies,Musculoskeletal and rheumatic diseases
+"nerve root and plexus disorders, also in diseases",matched_original,1,"Other and unspecified nerve root and plexus disorders, also in other diseases","Other and unspecified nerve root and plexus disorders, also in other diseases",Neurological diseases
+neurological diseases,matched_original,1,Other neurological diseases,Other neurological diseases,Neurological diseases
+noninfective disorders of lymphatic vessels and lymph nodes,matched_original,1,Other noninfective disorders of lymphatic vessels and lymph nodes,Other noninfective disorders of lymphatic vessels and lymph nodes,Cardiovascular and cerebrovascular diseases
+noninfective gastroenteritis and colitis,matched_original,1,Other noninfective gastroenteritis and colitis,Other noninfective gastroenteritis and colitis,Digestive system diseases
+noninflammatory disorders of cervix uteri,matched_original,1,Other noninflammatory disorders of cervix uteri,Other noninflammatory disorders of cervix uteri,Genitourinary diseases
+"noninflammatory disorders of ovary, fallopian tube and ligament",matched_original,1,"Other and unspecified noninflammatory disorders of ovary, fallopian tube and broad ligament","Other and unspecified noninflammatory disorders of ovary, fallopian tube and broad ligament",Injuries and trauma
+"noninflammatory disorders of uterus, except cervix",matched_original,1,"Other noninflammatory disorders of uterus, except cervix","Other noninflammatory disorders of uterus, except cervix",Genitourinary diseases
+noninflammatory disorders of vagina,matched_original,1,Other noninflammatory disorders of vagina,Other noninflammatory disorders of vagina,Genitourinary diseases
+noninflammatory disorders of vulva and perineum,matched_original,1,Other noninflammatory disorders of vulva and perineum,Other noninflammatory disorders of vulva and perineum,Genitourinary diseases
+nontoxic goitre,matched_original,1,Other and/or unspecified nontoxic goitre,Other and/or unspecified nontoxic goitre,Endocrine and metabolic diseases
+nutritional deficiencies,matched_original,1,Other nutritional deficiencies,Other nutritional deficiencies,Endocrine and metabolic diseases
+obstetric conditions,matched_original,1,"Other obstetric conditions, not elsewhere classified","Other obstetric conditions, not elsewhere classified",Pregnancy and childbirth related diseases
+obstructive and reflux uropathy,matched_original,1,Other obstructive and reflux uropathy,Other obstructive and reflux uropathy,Digestive system diseases
+or ill-defined heart diseases,matched_original,1,Other or ill-defined heart diseases,Other or ill-defined heart diseases,Cardiovascular and cerebrovascular diseases
+peripheral vascular diseases,matched_original,1,Other peripheral vascular diseases,Other peripheral vascular diseases,Cardiovascular and cerebrovascular diseases
+pleural conditions,matched_original,1,Other pleural conditions,Other pleural conditions,Respiratory diseases
+"polyneuropathies, also in diseases",matched_original,1,"Other and unspecified polyneuropathies, also in other diseases","Other and unspecified polyneuropathies, also in other diseases",Neurological diseases
+postprocedural disorders of eye and adnexa,matched_original,1,Other and unspecified postprocedural disorders of eye and adnexa,Other and unspecified postprocedural disorders of eye and adnexa,Eye diseases
+protein-energy malnutrition,matched_original,1,Unspecified protein-energy malnutrition,Unspecified protein-energy malnutrition,Endocrine and metabolic diseases
+psoriasis,matched_original,1,Other and unspecified psoriasis,Other and unspecified psoriasis,Skin diseases
+pulmonary heart/vessel disease,matched_original,1,Other pulmonary heart/vessel disease,Other pulmonary heart/vessel disease,Cardiovascular and cerebrovascular diseases
+"reaction to severe stress, and adjustment disorders",matched_original,1,"Other reaction to severe stress, and adjustment disorders","Other reaction to severe stress, and adjustment disorders",Mental and behavioral disorders
+renal colic,matched_original,1,Unspecified renal colic,Unspecified renal colic,Genitourinary diseases
+respiratory diseases principally affecting the interstitium,matched_original,1,Other respiratory diseases principally affecting the interstitium,Other respiratory diseases principally affecting the interstitium,Respiratory diseases
+retinal disorders,matched_original,1,Other retinal disorders,Other retinal disorders,Eye diseases
+rosacea,matched_original,1,Other and unspecified rosacea,Other and unspecified rosacea,Skin diseases
+"severe traumatic brain injury, does not include concussion",matched_original,1,"severe traumatic brain injury, does not include concussion","severe traumatic brain injury, does not include concussion",Injuries and trauma
+shoulder lesions,matched_original,1,Other shoulder lesions,Other shoulder lesions,Musculoskeletal and rheumatic diseases
+sleep disorders,matched_original,1,Other sleep disorders,Other sleep disorders,Neurological diseases
+soft tissue disorders,matched_original,2,"Other specified/unspecified soft tissue disorders|Other soft tissue disorders, not elsewhere classified","Other specified/unspecified soft tissue disorders|Other soft tissue disorders, not elsewhere classified",Musculoskeletal and rheumatic diseases
+specific joint derangements/joint disorders,matched_original,1,Other specific joint derangements/joint disorders,Other specific joint derangements/joint disorders,Musculoskeletal and rheumatic diseases
+specified and disorders of eye and adnexa,matched_original,1,Other specified and unspecified disorders of eye and adnexa,Other specified and unspecified disorders of eye and adnexa,Eye diseases
+specified and disorders of eyelid,category_default_only,0,Other specified and unspecified  disorders of eyelid,,Eye diseases
+specified and disorders of iris and ciliary body,matched_original,1,Other specified and unspecified disorders of iris and ciliary body,Other specified and unspecified disorders of iris and ciliary body,Eye diseases
+specified and retinal disorders,matched_original,1,Other specified and unspecified retinal disorders,Other specified and unspecified retinal disorders,Eye diseases
+"specified cerebrovascular diseases, cerebrovascular disorders in diseases",matched_original,1,"Other specified cerebrovascular diseases, other cerebrovascular disorders in diseases classified elsewhere","Other specified cerebrovascular diseases, other cerebrovascular disorders in diseases classified elsewhere",Cardiovascular and cerebrovascular diseases
+specified disorders of kidney and ureter,matched_original,1,Other specified disorders of kidney and ureter,Other specified disorders of kidney and ureter,Genitourinary diseases
+specified disorders of muscle,matched_original,1,Other specified disorders of muscle,Other specified disorders of muscle,Musculoskeletal and rheumatic diseases
+strabismus,matched_original,1,Other strabismus,Other strabismus,Eye diseases
+synovitis and tenosynovitis,matched_original,1,Other/unspecified synovitis and tenosynovitis,Other/unspecified synovitis and tenosynovitis,Musculoskeletal and rheumatic diseases
+types of non-Hodgkin lymphoma,matched_original,1,"Other and unspecified types of non-Hodgkin lymphoma, hilmo, excluding all cancers","Other and unspecified types of non-Hodgkin lymphoma, hilmo, excluding all cancers",Neoplasms and cancer
+vascular occlusions,matched_original,1,Other and unspecified vascular occlusions,Other and unspecified vascular occlusions,Eye diseases
+viral diseases,matched_original,1,"Other viral diseases, not elsewhere classified","Other viral diseases, not elsewhere classified",Infectious diseases
+viral hepatitis,matched_original,1,Other viral hepatitis,Other viral hepatitis,Infectious diseases
+visual disturbances,matched_original,1,Other and unspecified visual disturbances,Other and unspecified visual disturbances,Eye diseases
+vitreous opacities,matched_original,1,Other vitreous opacities,Other vitreous opacities,Eye diseases

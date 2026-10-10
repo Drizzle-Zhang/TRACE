@@ -1,0 +1,29 @@
+version: 1
+
+planner:
+  max_steps: 0
+  candidate_actions: 16
+  stop_threshold: 0.0
+  stop_value_mode: fixed_zero
+  cost_gamma: 1.0
+  cost_epsilon: 0.000001
+  urgency_sigma: 0.15
+  initial_modules: []
+
+consistency:
+  enabled: false
+  strategy: combined
+  thresholds:
+    prediction: 0.5
+    kg: 0.5
+    feature: 0.5
+    evidence: 0.5
+    combined: 0.5
+
+output:
+  top_endpoints: 20
+
+pipeline:
+  steps:
+    - prepare-data
+    - infer

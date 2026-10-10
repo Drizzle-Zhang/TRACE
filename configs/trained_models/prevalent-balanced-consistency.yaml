@@ -1,0 +1,15 @@
+# Compute consistency scores; no validation-selected filtering policy is bundled.
+extends: prevalent-balanced.yaml
+consistency:
+  enabled: true
+  contributions: ../../data/inputs/prevalent/balanced_contributions.npy
+  feature_weights: ../../data/trained_models/prevalent/common/feature_weights.npy
+  feature_names: ../../data/trained_models/prevalent/common/feature_names.npy
+  feature_schema_path: ../../data/trained_models/prevalent/common/schema.json
+  evidence_bundle: ../../data/trained_models/common/medical_evidence/v1
+pipeline:
+  steps:
+  - score-modules
+  - infer
+output:
+  directory: ../../data/consistency/prevalent/balanced

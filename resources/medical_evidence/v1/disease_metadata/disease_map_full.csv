@@ -1,0 +1,970 @@
+original_longname,HD_ICD_10_v1,compressed_disease_name,disease_category,independent_card
+"Bacterial infection, other or unspecified",A4[8-9],Bacterial infection,Infectious diseases,no
+"Bacterial, viral and other infectious agents",B9[5-7],"Bacterial, viral and infectious agents",Infectious diseases,no
+Other bacterial intestinal infections,A0[4-5],bacterial intestinal infections,Infectious diseases,no
+Candidiasis,B37,Candidiasis,Infectious diseases,yes
+Dermatophytosis,B35,Dermatophytosis,Infectious diseases,yes
+Diarrhoea and gastroenteritis of presumed infectious origin,A09,Diarrhoea and gastroenteritis of presumed infectious origin,Infectious diseases,yes
+Other viral hepatitis,B1[7-9],viral hepatitis,Infectious diseases,no
+Herpesviral [herpes simplex] infections,B00,Herpesviral [herpes simplex] infections,Infectious diseases,yes
+Certain infectious and parasitic diseases,A|B,Certain infectious and parasitic diseases,Infectious diseases,no
+Intestinal infectious diseases,A0[0-9],Intestinal infectious diseases,Infectious diseases,yes
+Mycoses,B3[5-9]|B4[0-9],Mycoses,Infectious diseases,yes
+Other bacterial diseases,A[3-4][0-9],bacterial diseases,Infectious diseases,no
+Other bacterial agents as the cause of diseases classified to other chapters,B96,bacterial agents as the cause of diseases classified to chapters,Infectious diseases,no
+Other infectious diseases,B99,infectious diseases,Infectious diseases,no
+Other septicaemia,A41,Sepsis,Infectious diseases,no
+Bacterial Sepsis,,Sepsis,Infectious diseases,no
+Explicit bacterial Sepsis,A021|A207|A217|A227|A241|A267|A282|A327|A394|A40|A548,Sepsis,Infectious diseases,no
+Implicit bacterial Sepsis,A0[0-5]|A19|A2[0-8]A3[0-2]|A3[6-9]|A4[2-4]|A4|A54|A69[0-1]|A699|A70|A7[4-5]|A7[7-9]|B9[56]|G0[01]|J1[3-5],Sepsis,Infectious diseases,no
+Condition for Implicit Sepsis (Organ dysfunction codes),D65|D695|E872|G934|I46|I959|J80|J952|J96|J960|J969|K720|K729|N00|N17|R090|R092|R400|R401|R402|R418|R55|R57,Condition for Implicit Sepsis (Organ dysfunction codes),Infectious diseases,no
+Explicit Sepsis,A021|A207|A217|A227|A241|A267|A282|A327|A394|A40|A41|A427|A548|B007|B377|O85|R578,Sepsis,Infectious diseases,no
+Fungal Sepsis,,Sepsis,Infectious diseases,no
+Implicit fungal Sepsis,B3[7-9]|B4[0-6]|B4[89]|B59,Sepsis,Infectious diseases,no
+Implicit Sepsis,A0[0-9]|A19|A2[0-8]|A3[0-2]|A3[6-9]|A4[2-9]|A54|A59|A690|A691|A699|A70|A7[4-9]|A8[0-1]|A8[3-9]|A9[2-9]|B0[0-6]|B0[89]|B2[5-7]|B3[34]|B3[7-9]|B4[0-6]|B4[89]|B50|B5[45]|B5[7-9]|B60|B64|B67|B9[5-7]|B99|G0[0-8]|H050|H602|H700|I00|I33|I3[89]|I400|R02|J0[1-9]|J1[0-8]|J2[0-2]|J36|J39[01]|J8[56]|K3[567]|K57|K61|K63[01]|K65|K750|K810|K812|K830|L0[2-4]|L08|M0[01]|M86|N10|N151|N30|N390|N41[023]|N45|N7[0-4]|N980|O030|O035|O045|O080|O23|O753|O86|O883|O91|O98|T802|T814|T826|T827|T835|T836|T845|T846[0246]|T847|T857|T880|U04,Sepsis,Infectious diseases,no
+Viral Sepsis,,Sepsis,Infectious diseases,no
+Implicit viral Sepsis,A08|A8[0-1]|A8[3-9]|A9[2-9]|B0[0-9]|B2[5-7]|B3[34]|B97|J09|J1[0-2]|U04,Sepsis,Infectious diseases,no
+Streptococcal septicaemia,A40,Sepsis,Infectious diseases,yes
+Streptococcus and staphylococcus as the cause of diseases classified to other chapters,B95,Streptococcus and staphylococcus as the cause of diseases classified to chapters,Infectious diseases,no
+Viral hepatitis,B1[5-9],Viral hepatitis,Infectious diseases,yes
+Viral agents as the cause of diseases classified to other chapters,B97,Viral agents as the cause of diseases classified to chapters,Infectious diseases,no
+"Other viral diseases, not elsewhere classified",B3[3-4],viral diseases,Infectious diseases,no
+Viral and other specified intestinal infections,A08,Viral and specified intestinal infections,Infectious diseases,no
+Viral infections characterized by skin and mucous membrane lesions,B0[0-9],Viral infections characterized by skin and mucous membrane lesions,Infectious diseases,yes
+Viral warts,B07,Viral warts,Infectious diseases,yes
+Zoster [herpes zoster],B02,Zoster [herpes zoster],Infectious diseases,yes
+Hernia of abdominal wall,,Hernia,Digestive system diseases,no
+Asthma/COPD-related acute respiratory infections,,Asthma/COPD-related acute respiratory infections,Infectious diseases,no
+"Alzheimer's disease (Atypical or mixed), excluding more controls",F0024|G308,Alzheimer's disease,Mental and behavioral disorders,no
+"Allergic asthma (mode), excluding more controls",J450,Asthma,Respiratory diseases,no
+Allergic rhinitis,J30[1-4],Allergic rhinitis,Respiratory diseases,no
+Transient global amnesia,G454,Transient global amnesia,Neurological diseases,yes
+"Acute appendicitis, with complications",K35[0-1],Acute appendicitis,Digestive system diseases,no
+"Appendicitis, broad definition",,Appendicitis,Digestive system diseases,no
+Asthma-related infections,,Asthma-related infections,Infectious diseases,no
+Asthma (mode),J45|J46,Asthma,Respiratory diseases,no
+"Asthma, unspecified (mode), excluding more controls",J459,Asthma,Respiratory diseases,no
+"Undetermined asthma, excluding more controls",,Asthma,Respiratory diseases,no
+Asthma-related pneumonia or sepsis,,Asthma-related pneumonia or sepsis,Infectious diseases,no
+"Alcohol use disorder, ICD-based",F10[1-2],Alcohol use disorder,Mental and behavioral disorders,no
+"Autoimmune diseases excluding thyroid diseases, strict definition",,Autoimmune diseases excluding thyroid diseases,Endocrine and metabolic diseases,no
+Other specified/unspecified bacterial intestinal infections,A04[8-9],bacterial intestinal infections,Infectious diseases,no
+Acute myeloid leukaemia,C920,Acute myeloid leukaemia,Neoplasms and cancer,yes
+"Acute myeloid leukaemia, excluding all cancers (controls excluding all cancers)",C920|C92[3-5]|C930|C940|C942|C944,Acute myeloid leukaemia,Neoplasms and cancer,no
+Acute myeloid leukaemia and myelodysplastic syndromes,,Acute myeloid leukaemia and myelodysplastic syndromes,Neoplasms and cancer,no
+"Malignant neoplasm of intrahepatic ducts, biliary tract and gallbladder, excluding all cancers (controls excluding all cancers)",C2[2-4],"Malignant neoplasm of intrahepatic ducts, biliary tract and gallbladder",Neoplasms and cancer,no
+"Malignant neoplasm of bladder, excluding all cancers (controls excluding all cancers)",C67,Malignant neoplasm of bladder,Neoplasms and cancer,no
+"Malignant neoplasm of brain, excluding all cancers (controls excluding all cancers)",C71,Malignant neoplasm of brain,Neoplasms and cancer,no
+"Malignant neoplasm of breast, excluding all cancers (controls excluding all cancers)",C50,Malignant neoplasm of breast,Neoplasms and cancer,no
+"Malignant neoplasm of bronchus and lung, excluding all cancers (controls excluding all cancers)",C34,Malignant neoplasm of bronchus and lung,Neoplasms and cancer,no
+Chronic lymphocytic leukaemia,C911,Chronic lymphocytic leukaemia,Neoplasms and cancer,yes
+"Chronic lymphocytic leukaemia and small lyphocytis leukaemia, excluding all cancers (controls excluding all cancers)",C911|C830,Chronic lymphocytic leukaemia and small lyphocytis leukaemia,Neoplasms and cancer,no
+"Malignant neoplasm of colon, excluding all cancers (controls excluding all cancers)",C18,Malignant neoplasm of colon,Neoplasms and cancer,no
+"Colorectal cancer, excluding all cancers (controls excluding all cancers)",,Colorectal cancer,Neoplasms and cancer,no
+"Malignant neoplasm of corpus uteri, excluding all cancers (controls excluding all cancers)",C54,Malignant neoplasm of corpus uteri,Neoplasms and cancer,no
+"Malignant neoplasm of digestive organs, excluding all cancers (controls excluding all cancers)",,Malignant neoplasm of digestive organs,Neoplasms and cancer,no
+"Diffuse large B-cell lymphoma, excluding all cancers (controls excluding all cancers)",C833,Diffuse large B-cell lymphoma,Neoplasms and cancer,no
+"Malignant neoplasm of endocrine gland, excluding all cancers (controls excluding all cancers)",,Malignant neoplasm of endocrine gland,Neoplasms and cancer,no
+"Malignant neoplasm of eye, brain and central nervous system, excluding all cancers (controls excluding all cancers)",,"Malignant neoplasm of eye, brain and central nervous system",Neoplasms and cancer,no
+"malignant neoplasm of female genital organs, excluding all cancers (controls excluding all cancers)",,malignant neoplasm of female genital organs,Neoplasms and cancer,no
+"Malignant neoplasm of head and neck, excluding all cancers (controls excluding all cancers)",,Malignant neoplasm of head and neck,Neoplasms and cancer,no
+"Malignant neoplasm of kidney, except renal pelvis, excluding all cancers (controls excluding all cancers)",C64,"Malignant neoplasm of kidney, except renal pelvis",Neoplasms and cancer,no
+"Malignant neoplasm of liver and intrahepatic bile ducts, excluding all cancers (controls excluding all cancers)",C22,Malignant neoplasm of liver and intrahepatic bile ducts,Neoplasms and cancer,no
+"Non-small cell lung cancer, excluding all cancers (controls excluding all cancers)",C34[1-7],Non-small cell lung cancer,Neoplasms and cancer,no
+"Secondary and unspecified malignant neoplasm of lymph nodes, excluding all cancers (controls excluding all cancers)",C77,Secondary and malignant neoplasm of lymph nodes,Neoplasms and cancer,no
+"malignant neoplasm of male genital organs, excluding all cancers (controls excluding all cancers)",,malignant neoplasm of male genital organs,Neoplasms and cancer,no
+"Malignant melanoma of skin, excluding all cancers (controls excluding all cancers)",C43,Malignant melanoma of skin,Neoplasms and cancer,no
+"Mesothelioma, excluding all cancers (controls excluding all cancers)",C45,Mesothelioma,Neoplasms and cancer,no
+"Malignant neoplasm of mesothelium and soft tissue, excluding all cancers (controls excluding all cancers)",,Malignant neoplasm of mesothelium and soft tissue,Neoplasms and cancer,no
+"Monoclonal gammopathy of undetermined significance (MGUS), excluding all cancers (controls excluding all cancers)",D472,Monoclonal gammopathy of undetermined significance (MGUS),Neoplasms and cancer,no
+Multiple myeloma,C900,Multiple myeloma,Neoplasms and cancer,yes
+"Multiple myeloma, excluding all cancers (controls excluding all cancers)",C90,Multiple myeloma,Neoplasms and cancer,no
+"Myelodysplastic syndrome, excluding all cancers (controls excluding all cancers)",D46,Myelodysplastic syndrome,Neoplasms and cancer,no
+"Non-Hodgkin lymphoma, all, excluding all cancers (controls excluding all cancers)",C8[2-5],Non-Hodgkin lymphoma,Neoplasms and cancer,no
+"Non-small cell lung cancer, adenocarcinoma, excluding all cancers (controls excluding all cancers)",C34,Non-small cell lung cancer,Neoplasms and cancer,no
+"Malignant neoplasm of oesophagus, excluding all cancers (controls excluding all cancers)",C15,Malignant neoplasm of oesophagus,Neoplasms and cancer,no
+"Malignant neoplasm of oral cavity, excluding all cancers (controls excluding all cancers)",C0[1-6],Malignant neoplasm of oral cavity,Neoplasms and cancer,no
+"Other malignant neoplasms of skin (=non-melanoma skin cancer), excluding all cancers (controls excluding all cancers)",C44,malignant neoplasms of skin (=non-melanoma skin cancer),Neoplasms and cancer,no
+"Malignant neoplasm of ovary, excluding all cancers (controls excluding all cancers)",C56,Malignant neoplasm of ovary,Neoplasms and cancer,no
+"Malignant neoplasm of pancreas, excluding all cancers (controls excluding all cancers)",C25,Malignant neoplasm of pancreas,Neoplasms and cancer,no
+"Malignant neoplasm of prostate, excluding all cancers (controls excluding all cancers)",C61,Malignant neoplasm of prostate,Neoplasms and cancer,no
+"Malignant neoplasm of rectosigmoid junction, excluding all cancers (controls excluding all cancers)",C19,Malignant neoplasm of rectosigmoid junction,Neoplasms and cancer,no
+"Malignant neoplasm of rectum, excluding all cancers (controls excluding all cancers)",C20,Malignant neoplasm of rectum,Neoplasms and cancer,no
+"Malignant neoplasm of respiratory system and intrathoracic organs, excluding all cancers (controls excluding all cancers)",,Malignant neoplasm of respiratory system and intrathoracic organs,Neoplasms and cancer,no
+"Secondary malignant neoplasm of other and unspecified sites, excluding all cancers (controls excluding all cancers)",C79,Secondary malignant neoplasm of sites,Neoplasms and cancer,no
+"Secondary malignant neoplasm of respiratory and digestive organs, excluding all cancers (controls excluding all cancers)",C78,Secondary malignant neoplasm of respiratory and digestive organs,Neoplasms and cancer,no
+"Malignant neoplasm, without specification of site, excluding all cancers (controls excluding all cancers)",C80,"Malignant neoplasm, without specification of site",Neoplasms and cancer,no
+"Malignant neoplasm of skin, excluding all cancers (controls excluding all cancers)",,Malignant neoplasm of skin,Neoplasms and cancer,no
+"Squamous cell neoplasms and carcinomas of the skin, excluding all cancers (controls excluding all cancers)",C44[0-9],Squamous cell neoplasms and carcinomas of the skin,Neoplasms and cancer,no
+"Malignant neoplasm of stomach, excluding all cancers (controls excluding all cancers)",C16,Malignant neoplasm of stomach,Neoplasms and cancer,no
+"Malignant cancer of tonsil and base of tongue, excluding all cancers (controls excluding all cancers)",C01|C09,Malignant cancer of tonsil and base of tongue,Neoplasms and cancer,no
+"Secondary uncertain malignant neoplasm, excluding all cancers (controls excluding all cancers)",,Secondary uncertain malignant neoplasm,Neoplasms and cancer,no
+"Malignant neoplasm of urinary organs, excluding all cancers (controls excluding all cancers)",,Malignant neoplasm of urinary organs,Neoplasms and cancer,no
+Campylobacter enteritis,A045,Campylobacter enteritis,Infectious diseases,yes
+Cardiac arrhythmias,,Cardiac arrhythmia,Cardiovascular and cerebrovascular diseases,no
+Benign neoplasm: Adrenal gland,D350,Benign neoplasm: Adrenal gland,Neoplasms and cancer,yes
+Benign neoplasm: Ascending colon,D122,Benign neoplasm: Ascending colon,Neoplasms and cancer,yes
+Benign neoplasm of breast,D24,Benign neoplasm of breast,Neoplasms and cancer,yes
+Benign neoplasm: Caecum,D120,Benign neoplasm: Caecum,Neoplasms and cancer,yes
+Benign neoplasm: Colon,,Benign neoplasm: Colon,Neoplasms and cancer,no
+"Benign neoplasm: Colon, unspecified",D126,Benign neoplasm: Colon,Neoplasms and cancer,no
+"Benign neoplasm of colon, rectum, anus and anal canal",D12,"Benign neoplasm of colon, rectum, anus and anal canal",Neoplasms and cancer,yes
+Benign neoplasm: Descending colon,D124,Benign neoplasm: Descending colon,Neoplasms and cancer,yes
+Benign neoplasm of other and unspecified endocrine glands,D35,Benign neoplasm of endocrine glands,Neoplasms and cancer,no
+Benign neoplasms,D[1-2]|D3[0-6],Benign neoplasms,Neoplasms and cancer,no
+"Haemangioma and lymphangioma, any site",D18,"Haemangioma and lymphangioma, site",Neoplasms and cancer,no
+"Haemangioma, any site",D180,"Haemangioma, site",Neoplasms and cancer,no
+Leiomyoma of uterus,D25,Leiomyoma of uterus,Neoplasms and cancer,yes
+Benign lipomatous neoplasm,D17,Benign lipomatous neoplasm,Neoplasms and cancer,yes
+Benign lipomatous neoplasm of  of intra-abdominal organs,D175,Benign lipomatous neoplasm of of intra-abdominal organs,Neoplasms and cancer,no
+Benign lipomatous neoplasm of other sites/unspecified,D17[7-9],Benign lipomatous neoplasm of sites/,Neoplasms and cancer,no
+"Benign lipomatous neoplasm of skin and subcutaneous tissue of head, face and neck",D170,"Benign lipomatous neoplasm of skin and subcutaneous tissue of head, face and neck",Neoplasms and cancer,yes
+Benign lipomatous neoplasm of skin and subcutaneous tissue of limbs,D172,Benign lipomatous neoplasm of skin and subcutaneous tissue of limbs,Neoplasms and cancer,yes
+Benign lipomatous neoplasm of skin and subcutaneous tissue of trunk,D171,Benign lipomatous neoplasm of skin and subcutaneous tissue of trunk,Neoplasms and cancer,yes
+Benign lipomatous neoplasm of spermatic cord,D176,Benign lipomatous neoplasm of spermatic cord,Neoplasms and cancer,yes
+Melanocytic naevi,D22,Melanocytic naevi,Neoplasms and cancer,yes
+Melanocytic naevi of other and unspecified parts of face,D223,Melanocytic naevi of parts of face,Neoplasms and cancer,no
+"Melanocytic naevi of lower limb, including hip",D227,Melanocytic naevi of lower limb,Neoplasms and cancer,no
+Melanocytic naevi of trunk,D225,Melanocytic naevi of trunk,Neoplasms and cancer,yes
+Benign neoplasm: Cerebral meninges,D320,Benign neoplasm: Cerebral meninges,Neoplasms and cancer,yes
+Benign neoplasm of meninges,D32,Benign neoplasm of meninges,Neoplasms and cancer,yes
+Benign neoplasm of other and ill-defined parts of digestive system,D13,Benign neoplasm of and ill-defined parts of digestive system,Neoplasms and cancer,no
+Benign neoplasm of other and unspecified sites,D36,Benign neoplasm of sites,Neoplasms and cancer,no
+Benign neoplasm of ovary,D27,Benign neoplasm of ovary,Neoplasms and cancer,yes
+Benign neoplasm: Parathyroid gland,D351,Benign neoplasm: Parathyroid gland,Neoplasms and cancer,yes
+Benign neoplasm: Peripheral nerves and autonomic nervous system,D361,Benign neoplasm: Peripheral nerves and autonomic nervous system,Neoplasms and cancer,yes
+Benign neoplasm: Rectosigmoid junction,D127,Benign neoplasm: Rectosigmoid junction,Neoplasms and cancer,yes
+"Benign neoplasm: Rectum, anus and anal canal",,"Benign neoplasm: Rectum, anus and anal canal",Neoplasms and cancer,no
+Benign neoplasm: Rectum,D128,Benign neoplasm: Rectum,Neoplasms and cancer,yes
+Benign neoplasm of major salivary glands,D11,Benign neoplasm of major salivary glands,Neoplasms and cancer,yes
+Benign neoplasm: Sigmoid colon,D125,Benign neoplasm: Sigmoid colon,Neoplasms and cancer,yes
+Other benign neoplasms of skin,D23,benign neoplasms of skin,Neoplasms and cancer,no
+"Benign neoplasm: Skin of eyelid, including canthus",D231,Benign neoplasm: Skin of eyelid,Neoplasms and cancer,no
+Benign neoplasm: Skin of other and unspecified parts of face,D233,Benign neoplasm: Skin of parts of face,Neoplasms and cancer,no
+Benign neoplasm: Skin of trunk,D235,Benign neoplasm: Skin of trunk,Neoplasms and cancer,yes
+Benign neoplasm: Stomach,D131,Benign neoplasm: Stomach,Neoplasms and cancer,yes
+Benign neoplasm: Transverse colon,D123,Benign neoplasm: Transverse colon,Neoplasms and cancer,yes
+Follicular lymphoma,C82,Follicular lymphoma,Neoplasms and cancer,yes
+Malignant neoplasms of independent (primary) multiple sites,C97,Malignant neoplasms of independent (primary) multiple sites,Neoplasms and cancer,yes
+Carcinoma in situ of breast,D05,Breast carcinoma in situ,Neoplasms and cancer,no
+"Carcinoma in situ of breast, intraductal",D051,Breast carcinoma in situ,Neoplasms and cancer,no
+"Carcinoma in situ of breast, other/unspecified",D05[7|9],Breast carcinoma in situ,Neoplasms and cancer,no
+Carcinoma in situ of cervix uteri,D06,Cervical dysplasia / carcinoma in situ,Neoplasms and cancer,yes
+"Carcinoma in situ of uteri, other/unspecified",D06[7|9],Carcinoma in situ of uteri,Neoplasms and cancer,no
+In situ neoplasms,D0,In situ neoplasms,Neoplasms and cancer,no
+Melanoma in situ,D03,Melanoma in situ,Neoplasms and cancer,yes
+Carcinoma in situ of skin,D04,Carcinoma in situ of skin,Neoplasms and cancer,yes
+Benign leiomyoma with endometriosis,,Benign leiomyoma with endometriosis,Genitourinary diseases,no
+Lymphoid leukaemia,C91,Lymphoid leukaemia,Neoplasms and cancer,yes
+Myeloid leukaemia,C92,Myeloid leukaemia,Neoplasms and cancer,yes
+Neoplasms,C|D[0-4],Neoplasms,Neoplasms and cancer,no
+"Non-follicular lymphoma, hilmo, excluding all cancers",C83,Non-follicular lymphoma,Neoplasms and cancer,no
+"Other and unspecified types of non-Hodgkin lymphoma, hilmo, excluding all cancers",C85,types of non-Hodgkin lymphoma,Neoplasms and cancer,no
+Primary_lymphoid and hematopoietic malignant neoplasms,,Primary_lymphoid and hematopoietic malignant neoplasms,Neoplasms and cancer,no
+"Cirrhosis of liver, NAS",K746,Cirrhosis of liver,Digestive system diseases,no
+Other chondrocalcinosis,M112,chondrocalcinosis,Musculoskeletal and rheumatic diseases,no
+Crohn's disease of large intestine,K501,Crohn disease,Digestive system diseases,yes
+Crohn's disease NAS,K509,Crohn's disease,Digestive system diseases,no
+"Cirrhosis, broad definition used in the article https://doi.org/10.1101/594523",,Cirrhosis,Other,no
+Noninfectious colitis NAS,K529,Noninfectious colitis,Infectious diseases,no
+Toxic colitis,K521,Toxic colitis,Digestive system diseases,yes
+Congenital malformations of heart and great arteries,Q2[0-5],Congenital malformations of heart and great arteries,Cardiovascular and cerebrovascular diseases,yes
+"Early onset COPD, excluding more controls",J44,Chronic obstructive pulmonary disease,Respiratory diseases,no
+"Later onset COPD, excluding more controls",J44,Chronic obstructive pulmonary disease,Respiratory diseases,no
+COPD (mode),J44,Chronic obstructive pulmonary disease,Respiratory diseases,no
+Enterocolitis due to Clostridium difficile,A047,Enterocolitis due to Clostridium difficile,Infectious diseases,yes
+Agranulocytosis,D70,Agranulocytosis,Hematological and immune diseases,yes
+Anaemias,,Anaemias,Hematological and immune diseases,no
+Anaemia in chronic diseases classified elsewhere,D63,Anaemia in chronic diseases,Hematological and immune diseases,no
+Other and unspecified anaemias,D64[8-9],anaemias,Hematological and immune diseases,no
+Vitamin B12 deficiency anaemia,D51,Vitamin B12 deficiency anaemia,Hematological and immune diseases,yes
+Folate deficiency anaemia,D52,Folate deficiency anaemia,Hematological and immune diseases,yes
+Iron deficiency anaemia,,Iron deficiency anaemia,Hematological and immune diseases,no
+Iron deficiency anaemia secondary to blood loss (chronic),D500,Iron deficiency anaemia secondary to blood loss (chronic),Hematological and immune diseases,no
+Aplastic and other anaemias,,Aplastic and anaemias,Hematological and immune diseases,no
+"Other diseases of blood and blood-forming organs, wide",,diseases of blood and blood-forming organs,Other,no
+Diseases of the blood and blood-forming organs and certain disorders involving the immune mechanism,D[5-8],Diseases of the blood and blood-forming organs and certain disorders involving the immune mechanism,Hematological and immune diseases,no
+Chronic Coagulation defects,,Chronic Coagulation defects,Hematological and immune diseases,no
+"Coagulation defects, purpura and other haemorrhagic conditions",,"Coagulation defects, purpura and haemorrhagic conditions",Hematological and immune diseases,no
+Other coagulation defects,D68,coagulation defects,Hematological and immune diseases,no
+Hyposplenism,D730,Hyposplenism,Hematological and immune diseases,yes
+"Other disorders involving the immune mechanism, not elsewhere classified",D89,disorders involving the immune mechanism,Hematological and immune diseases,no
+Idiopathic thrombocytopenic purpura,D693,Idiopathic thrombocytopenic purpura,Hematological and immune diseases,yes
+Nutritional anaemias,,Nutritional anaemias,Hematological and immune diseases,no
+Other anaemias,D64,anaemias,Hematological and immune diseases,no
+Other and unspecified aplastic anaemias,D61,aplastic anaemias,Hematological and immune diseases,no
+Other diseases of blood and blood-forming organs,D75,diseases of blood and blood-forming organs,Hematological and immune diseases,no
+Other disorders of white blood cells,D72,disorders of white blood cells,Hematological and immune diseases,no
+Purpura and other haemorrhagic conditions,D69,Purpura and haemorrhagic conditions,Hematological and immune diseases,no
+Sarcoidosis,D86,Sarcoidosis,Hematological and immune diseases,yes
+Secondary polycythaemia,D751,Secondary polycythaemia,Hematological and immune diseases,no
+Diseases of spleen,D73,Diseases of spleen,Hematological and immune diseases,no
+"Thrombocytopenia, unspecified",D696,Thrombocytopenia,Hematological and immune diseases,no
+Other and unspecified disorders of white blood cells,D72[8-9],disorders of white blood cells,Hematological and immune diseases,no
+Other disorders of thyroid,,disorders of thyroid,Endocrine and metabolic diseases,no
+"Diabetes-related co-morbidities/complications, excluding more controls",,Diabetes-related co-morbidities/complications,Endocrine and metabolic diseases,no
+Diabetic hypoglycemia,E1[0-1]00|E160|E162,Diabetic hypoglycemia,Endocrine and metabolic diseases,yes
+Diabetic ketoacidosis,E1[0-1]01|E1[0-4]1,Diabetic ketoacidosis,Endocrine and metabolic diseases,yes
+"Diabetes, kidney failure",E1[0-4]2,Diabetic kidney disease,Endocrine and metabolic diseases,yes
+"Diabetic nephropathy, excluding more controls",N083,Diabetic kidney disease,Genitourinary diseases,no
+Diabetic neuropathy,E1[0-4]4,Diabetic neuropathy,Endocrine and metabolic diseases,yes
+"Other diabetes, wide definition",E13|14,Diabetes,Endocrine and metabolic diseases,no
+Peripheral atherosclerosis,I702,Peripheral atherosclerosis,Cardiovascular and cerebrovascular diseases,yes
+Unspecified diabetic retinopathy,H3609|E17|E13,Diabetic retinopathy,Eye diseases,no
+"Diabetic retinopathy, excluding more controls",,Diabetic retinopathy,Other,no
+Vitreous bleeding (caused by prolif. dmrp when together with H36.03*),H431,Vitreous bleeding (caused by prolif. dmrp when together with H36.03*),Eye diseases,no
+Acidosis,E872,Acidosis,Endocrine and metabolic diseases,yes
+Adrenocortical insufficiency,E27[1-4],Adrenocortical insufficiency,Endocrine and metabolic diseases,yes
+Other disorders of adrenal gland,E27,disorders of adrenal gland,Endocrine and metabolic diseases,no
+"Disorders of adrenal gland, other and/or unspecified",E27[8-9],Disorders of adrenal gland,Endocrine and metabolic diseases,no
+Alkalosis,E873,Alkalosis,Endocrine and metabolic diseases,yes
+Amyloidosis,E85,Amyloidosis,Hematological and immune diseases,yes
+Syndrome of inappropriate secretion of antidiuretic hormone,E222,Syndrome of inappropriate secretion of antidiuretic hormone,Endocrine and metabolic diseases,yes
+Disorders of calcium metabolism,E835,Disorders of calcium metabolism,Endocrine and metabolic diseases,no
+Type 1 diabetes,E10,Type 1 diabetes,Endocrine and metabolic diseases,yes
+Type 1 diabetes without complications,E109,Type 1 diabetes,Endocrine and metabolic diseases,no
+Type 1 diabetes with ophthalmic complications,E103,Type 1 diabetes,Endocrine and metabolic diseases,no
+Type 2 diabetes,E11,Type 2 diabetes,Endocrine and metabolic diseases,yes
+Type 2 diabetes with neurological complications,E114,Type 2 diabetes,Endocrine and metabolic diseases,no
+Type 2 diabetes without complications,E119,Type 2 diabetes,Endocrine and metabolic diseases,no
+Type 2 diabetes with ophthalmic complications,E113,Type 2 diabetes,Endocrine and metabolic diseases,no
+Type 2 diabetes with peripheral circulatory complications,E115,Type 2 diabetes,Endocrine and metabolic diseases,no
+Type 2 diabetes with renal complications,E112,Type 2 diabetes,Endocrine and metabolic diseases,no
+Unspecified diabetes without complications,E129|E139|E149,Diabetes,Endocrine and metabolic diseases,no
+Disorders of other endocrine glands,E[2-3],Disorders of endocrine glands,Endocrine and metabolic diseases,no
+"Postprocedural endocrine and metabolic disorders, not elsewhere classified",E89,Postprocedural endocrine and metabolic disorders,Endocrine and metabolic diseases,no
+Iron deficiency,E611,Iron deficiency,Endocrine and metabolic diseases,yes
+"Other disorders of fluid, electrolyte and acid-base balance",E87,"disorders of fluid, electrolyte and acid-base balance",Endocrine and metabolic diseases,no
+"Other disorders of electrolyte and fluid balance, not elsewhere classified",E878,disorders of electrolyte and fluid balance,Endocrine and metabolic diseases,no
+Fluid overload,E877,Fluid overload,Endocrine and metabolic diseases,yes
+Gilbert syndrome,E804,Gilbert syndrome,Endocrine and metabolic diseases,yes
+Other disorders of glucose regulation and pancreatic internal secretion,E1[5-6],disorders of glucose regulation and pancreatic internal secretion,Endocrine and metabolic diseases,no
+Nontoxic multinodular goitre,E042,Nontoxic multinodular goitre,Endocrine and metabolic diseases,yes
+Other and/or unspecified nontoxic goitre,E04[8-9],nontoxic goitre,Endocrine and metabolic diseases,no
+Nontoxic single thyroid nodule,E041,Nontoxic single thyroid nodule,Endocrine and metabolic diseases,yes
+"Graves disease, strict definition",,Graves disease,Other,no
+Pure hypercholesterolaemia,E780,Pure hypercholesterolaemia,Endocrine and metabolic diseases,yes
+Hyperkalaemia,E875,Hyperkalaemia,Endocrine and metabolic diseases,yes
+"Hyperlipidaemia, other/unspecified",E78[4-5],Hyperlipidaemia,Endocrine and metabolic diseases,no
+Hyperosmolality and hypernatraemia,E870,Hyperosmolality and hypernatraemia,Endocrine and metabolic diseases,yes
+Hyperparathyroidism,E21[0-3],Hyperparathyroidism,Endocrine and metabolic diseases,yes
+Hyperfunction of pituitary gland,E22,Hyperfunction of pituitary gland,Endocrine and metabolic diseases,yes
+"Hypoglycaemia, other or unspecified",E16[1-2],Hypoglycaemia,Endocrine and metabolic diseases,no
+Hypokalaemia,E876,Hypokalaemia,Endocrine and metabolic diseases,yes
+Hypo-osmolality and hyponatraemia,E871,Hypo-osmolality and hyponatraemia,Endocrine and metabolic diseases,yes
+"Hypothyroidism, other/unspecified",E03[8-9],Hypothyroidism,Endocrine and metabolic diseases,no
+Developmental endpoint to exclude non autoimmune-cases from E4_HYTHY_AI_STRICT,E8901|E8909|E23|D352|E0382|E05[1-9]|E0[0-2],Developmental endpoint to exclude non autoimmune-cases from E4_HYTHY_AI_STRICT,Endocrine and metabolic diseases,no
+"Hypothyroidism, strict autoimmune",,"Hypothyroidism, autoimmune",Endocrine and metabolic diseases,no
+Disorders of iron metabolism,E831,Disorders of iron metabolism,Endocrine and metabolic diseases,no
+Disorders of lipoprotein metabolism and other lipidaemias,E78,Disorders of lipoprotein metabolism and lipidaemias,Endocrine and metabolic diseases,no
+"Disorder of lipoprotein metabolism, unspecified",E78[8-9],Disorder of lipoprotein metabolism,Endocrine and metabolic diseases,no
+Malnutrition,E4,Malnutrition,Endocrine and metabolic diseases,yes
+Other metabolic disorders,E88,metabolic disorders,Endocrine and metabolic diseases,no
+Metabolic disorders,E[7-9],Metabolic disorders,Endocrine and metabolic diseases,yes
+Disorders of magnesium metabolism,E834,Disorders of magnesium metabolism,Endocrine and metabolic diseases,no
+Disorders of mineral metabolism,E83,Disorders of mineral metabolism,Endocrine and metabolic diseases,no
+Other nutritional deficiencies,E[5-6],nutritional deficiencies,Endocrine and metabolic diseases,no
+Obesity,E66,Obesity,Endocrine and metabolic diseases,yes
+"Obesity, other/unspecified",E66[8-9],Obesity,Endocrine and metabolic diseases,no
+Disorders of parathyroid gland,E2[0-1],Disorders of parathyroid gland,Endocrine and metabolic diseases,no
+Exclusions for E4_PCOS_BROAD,D352|E22|E23|E24|E25|E27|Q96|C74|E221,Exclusions for E4_PCOS_BROAD,Neoplasms and cancer,no
+"Polycystic ovarian syndrome, consortium definition",N925|N926|L680,Polycystic ovarian syndrome,Genitourinary diseases,no
+Exclusions for E4_PCOS_CONSORTIUM,E2839|E24|E23[0-4]|E25|F50|F11|D25|D352|E22|E221|C56|D27|Q96|N643|C74,Exclusions for E4_PCOS_CONSORTIUM,Endocrine and metabolic diseases,no
+Disorders of phosphorus metabolism and phosphatases,E833,Disorders of phosphorus metabolism and phosphatases,Endocrine and metabolic diseases,no
+"Disorders of plasma-protein metabolism, not elsewhere classified",E880,Disorders of plasma-protein metabolism,Endocrine and metabolic diseases,no
+Disorders of porphyrin and bilirubin metabolism,E80,Disorders of porphyrin and bilirubin metabolism,Endocrine and metabolic diseases,no
+Unspecified protein-energy malnutrition,E46,protein-energy malnutrition,Endocrine and metabolic diseases,no
+Disorders of the thyroid gland,E0,Disorders of the thyroid gland,Endocrine and metabolic diseases,no
+"Disorder of thyroid, unspecified",E07[8-9],Disorder of thyroid,Endocrine and metabolic diseases,no
+Thyrotoxicosis with diffuse goitre,E050,Thyrotoxicosis with diffuse goitre,Endocrine and metabolic diseases,no
+"Thyrotoxicosis, other and/or unspecified",E05[4-9],Thyrotoxicosis,Endocrine and metabolic diseases,no
+Deficiency of other B group vitamins,E53,Deficiency of B group vitamins,Endocrine and metabolic diseases,no
+Vitamin deficiency,E5[0-6],Vitamin deficiency,Endocrine and metabolic diseases,yes
+Vitamin D deficiency,E55,Vitamin D deficiency,Endocrine and metabolic diseases,yes
+Volume depletion,E86,Volume depletion,Endocrine and metabolic diseases,yes
+Mental and behavioural disorders due to alcohol,F10,Alcohol use disorder,Mental and behavioral disorders,no
+Acute alcohol intoxication,F100,Acute alcohol intoxication,Mental and behavioral disorders,yes
+Alcohol dependence,F102,Alcohol dependence,Mental and behavioral disorders,yes
+All anxiety disorders,,Anxiety disorders,Mental and behavioral disorders,no
+Dementia in Alzheimer disease,F00,Dementia,Mental and behavioral disorders,yes
+Other anxiety disorders,F41[2-9],Anxiety disorders,Mental and behavioral disorders,no
+Bipolar affective disorders,F31,Bipolar affective disorders,Mental and behavioral disorders,yes
+"Delirium, not induced by alcohol and other psychoactive substances",F05,"Delirium, not induced by alcohol and psychoactive substances",Mental and behavioral disorders,no
+Dementia,F0[0-3],Dementia,Mental and behavioral disorders,yes
+Dementia in other diseases classified elsewhere,F02,Dementia,Mental and behavioral disorders,yes
+Unspecified dementia,F03,Dementia,Mental and behavioral disorders,no
+Depression,F3[2-3],Depression,Mental and behavioral disorders,yes
+Depression or dysthymia,F3[2-3]|F341,Depression,Mental and behavioral disorders,no
+Recurrent or chronic depression,F33,Depression,Mental and behavioral disorders,no
+Insomnia,F510|G470,Insomnia,Mental and behavioral disorders,yes
+Other mental disorders due to brain damage and dysfunction and to physical disease,F06,mental disorders due to brain damage and dysfunction and to physical disease,Mental and behavioral disorders,no
+Mood [affective] disorders,,Mood disorders,Other,no
+"Neurotic, stress-related and somatoform disorders",,Neurotic / stress-related disorders,Mental and behavioral disorders,no
+Panic disorder,F410,Anxiety disorders,Mental and behavioral disorders,no
+Phobic anxiety disorders,F40,Anxiety disorders,Mental and behavioral disorders,no
+Disorders of psychological development,F8,Developmental disorders,Mental and behavioral disorders,no
+Schizophrenia,F20,Schizophrenia,Mental and behavioral disorders,yes
+Sexual dysfunction,F52,Sexual dysfunction,Mental and behavioral disorders,yes
+"Other reaction to severe stress, and adjustment disorders",F43,"reaction to severe stress, and adjustment disorders",Mental and behavioral disorders,no
+Mental and behavioural disorders due to psychoactive substance use,,Substance use disorders,Mental and behavioral disorders,no
+Mental and behavioural disorders due to tobacco,F17,Tobacco use disorder,Mental and behavioral disorders,no
+Falls/tendency to fall,W[0-1]|R296,Falls/tendency to fall,Injuries and trauma,yes
+Focal epilepsy,G40[0-2],Focal epilepsy,Neurological diseases,yes
+"Femoral hernia, unilateral",K41[3-9],Femoral hernia,Digestive system diseases,no
+Motor neuron disease,G122,Motor neuron disease,Neurological diseases,yes
+"Alzheimer disease, excluding more controls",G30,Alzheimer's disease,Neurological diseases,no
+Bell's palsy,G510,Bell's palsy,Neurological diseases,yes
+Carpal tunnel syndrome,G560,Carpal tunnel syndrome,Neurological diseases,yes
+Cerebral cysts,G93,Cerebral cysts,Neurological diseases,yes
+Cerebral oedema,G936,Cerebral oedema,Neurological diseases,yes
+Cerebral palsy and other paralytic syndromes,G8,Cerebral palsy and paralytic syndromes,Neurological diseases,no
+Other and unspecified degenerative diseases of nervous system,G31[8-9]|G32,degenerative diseases of nervous system,Neurological diseases,no
+Demyelinating diseases of the central nervous system,,Demyelinating CNS diseases,Other,no
+Diabetic neuropathy,G590|E104|E114|E124|E134|E144,Diabetic neuropathy,Neurological diseases,yes
+"Disorders of brain, other and unspecified",G93[8-9]|G948,Disorders of brain,Neurological diseases,no
+Episodal and paroxysmal disorders,G4,Episodal and paroxysmal disorders,Neurological diseases,yes
+Epilepsy,G40,Epilepsy,Neurological diseases,yes
+Other facial nerve disorders,G51,facial nerve disorders,Neurological diseases,no
+Other and unspecified hydrocephalus,G91[8-9],hydrocephalus,Neurological diseases,no
+Other headache syndromes,G44,headache syndromes,Neurological diseases,no
+Hemiplegia,G81,Hemiplegia,Neurological diseases,yes
+Hydrocephalus,G91,Hydrocephalus,Neurological diseases,yes
+Migraine,G43,Migraine,Neurological diseases,yes
+"Other and unspecified mononeuropathies, also in other diseases",G58[8-9]|G59,"mononeuropathies, also in diseases",Neurological diseases,no
+MS-disease / Multiple Sclerosis,G35,MS-disease / Multiple Sclerosis,Neurological diseases,yes
+Diseases of the myoneural junction and muscle,G7,Diseases of the myoneural junction and muscle,Neurological diseases,no
+"Nerve, nerve root and plexus disorders",G5,"Nerve, nerve root and plexus disorders",Neurological diseases,yes
+Systemic atrophies primarily affecting the central nervous system,G1,Systemic atrophies primarily affecting the central nervous system,Neurological diseases,yes
+Inflammatory diseases of the central nervous system,G0,Inflammatory diseases of the central nervous system,Neurological diseases,yes
+Unspecific neurodegenerative disorder,G30|F00,Unspecific neurodegenerative disorder,Neurological diseases,yes
+Other disorders of nervous system,G98|G99,disorders of nervous system,Neurological diseases,no
+Other neurological diseases,G9,neurological diseases,Neurological diseases,no
+"Parkinson's disease, excluding more controls",G20,Parkinson's disease,Neurological diseases,no
+Lesion of plantar nerve,G576,Lesion of plantar nerve,Neurological diseases,yes
+Polyneuropathies and other disorders of the peripheral nervous system,G6,Polyneuropathies and disorders of the peripheral nervous system,Neurological diseases,no
+"Other and unspecified polyneuropathies, also in other diseases",G61[1-9]|G62[8-9]|G63,"polyneuropathies, also in diseases",Neurological diseases,no
+Postviral fatigue syndrome,G933,Postviral fatigue syndrome,Infectious diseases,yes
+Restless leg syndrome,G258,Restless leg syndrome,Neurological diseases,yes
+"Other and unspecified nerve root and plexus disorders, also in other diseases",G54[8-9]|G55,"nerve root and plexus disorders, also in diseases",Neurological diseases,no
+Sleep apnoea,G473,Sleep apnoea,Neurological diseases,yes
+Other sleep disorders,G47,sleep disorders,Neurological diseases,no
+Other diseases of spinal cord,G95,diseases of spinal cord,Neurological diseases,no
+Transient ischemic attack,G45,Transient ischemic attack,Neurological diseases,yes
+Trigeminal neuralgia,G500,Trigeminal neuralgia,Neurological diseases,yes
+Lesion of ulnar nerve,G562,Lesion of ulnar nerve,Neurological diseases,yes
+Extrapyramidal and movement disorders,G2,Extrapyramidal and movement disorders,Neurological diseases,yes
+Other extrapyramidal and movement disorders in other diseases,G25|G26,extrapyramidal and movement disorders in diseases,Neurological diseases,no
+Generalized epilepsy,G403,Generalized epilepsy,Neurological diseases,yes
+Generalized skin eruption due to drugs and medicaments,L270,Generalized skin eruption due to drugs and medicaments,Skin diseases,yes
+"Gout, idiopatic and unspecified",M10[0|9],"Gout, idiopatic and",Musculoskeletal and rheumatic diseases,no
+"Gout, unspecified",M10[8-9],Gout,Musculoskeletal and rheumatic diseases,no
+Amblyopia ex anopsia,H530,Amblyopia ex anopsia,Eye diseases,yes
+Age-related macular degeneration (whether dry or wet),,Age-related macular degeneration (whether dry or wet),Eye diseases,yes
+Anisometropia and aniseikonia,H523,Anisometropia and aniseikonia,Eye diseases,yes
+Astigmatism,H522,Astigmatism,Eye diseases,yes
+Background retinopathy and retinal vascular changes,H350,Background retinopathy and retinal vascular changes,Eye diseases,yes
+Blepharochalasis,H023,Blepharochalasis,Eye diseases,yes
+Visual impairment including blindness (binocular or monocular),H54,Visual impairment / blindness,Eye diseases,no
+"Blindness, monocular",H544,Visual impairment / blindness,Eye diseases,no
+Other cataract,H26,Cataract,Eye diseases,no
+Senile cataract,H25,Cataract,Eye diseases,yes
+Chalazion,H001,Chalazion,Eye diseases,yes
+Disorders of choroid and retina,H3,Disorders of choroid and retina,Eye diseases,no
+Disorders of conjunctiva,H1[0-3],Disorders of conjunctiva,Eye diseases,no
+"Conjunctivitis (acute, non atopic)",H10|H13[1-2],"Conjunctivitis (acute, non atopic)",Eye diseases,yes
+Corneal degeneration,H184,Corneal degeneration,Eye diseases,yes
+Other and unspecified corneal deformities and disorders,H18[7-9],corneal deformities and disorders,Eye diseases,no
+Other disorders of cornea,H18,disorders of cornea,Eye diseases,no
+Diplopia,H532,Diplopia,Eye diseases,yes
+Ectropion of eyelid,H021,Ectropion of eyelid,Eye diseases,yes
+Entropion and trichiasis of eyelid,H020,Entropion and trichiasis of eyelid,Eye diseases,yes
+Epiphora,H042,Epiphora,Eye diseases,yes
+Other specified and unspecified disorders of eye and adnexa,H57[8-9],specified and disorders of eye and adnexa,Eye diseases,no
+Other disorders of eyelid,H0[2-3],disorders of eyelid,Eye diseases,no
+Other inflammation of eyelid,H01,inflammation of eyelid,Eye diseases,no
+Other specified and unspecified  disorders of eyelid,H02[8-9],specified and disorders of eyelid,Eye diseases,no
+Other disorders of eye and adnexa,H5[5-9],disorders of eye and adnexa,Eye diseases,no
+"Postprocedural disorders of eye and adnexa, not elsewhere classified",H59,Postprocedural disorders of eye and adnexa,Eye diseases,no
+Diseases of the eye and adnexa,H[0-5],Diseases of the eye and adnexa,Eye diseases,no
+Primary angle-closure glaucoma,H402,Glaucoma,Eye diseases,no
+Other and unspecified glaucoma,H40[8-9],Glaucoma,Eye diseases,no
+Glaucoma,H4[0-2],Glaucoma,Eye diseases,yes
+Primary open-angle glaucoma,H401,Glaucoma,Eye diseases,no
+Glaucoma suspect,H400,Glaucoma,Eye diseases,yes
+Disorders of globe,,Eye globe disorders,Other,no
+Hypermetropia,H520,Hypermetropia,Eye diseases,yes
+Iridocyclitis,H2[02],Iridocyclitis,Eye diseases,yes
+Other and unspecified iridocyclitis,H20[8-9],iridocyclitis,Eye diseases,no
+Other specified and unspecified disorders of iris and ciliary body,H21[8-9]|H228,specified and disorders of iris and ciliary body,Eye diseases,no
+Keratitis,H1[6-9],Keratitis,Eye diseases,yes
+Hereditary corneal dystrophies,H185,Hereditary corneal dystrophies,Eye diseases,yes
+Other disorders of lacrimal gland,H041,disorders of lacrimal gland,Eye diseases,no
+Disorders of lacrimal system,H04,Disorders of lacrimal system,Eye diseases,no
+Disorders of lens,H2[5-8],Disorders of lens,Eye diseases,no
+"Disorders of eyelid, lacrimal system and orbit",H0,"Disorders of eyelid, lacrimal system and orbit",Eye diseases,no
+Degeneration of macula and posterior pole,H353,Degeneration of macula and posterior pole,Eye diseases,yes
+Myopia,H521,Myopia,Eye diseases,yes
+Nystagmus and other irregular eye movements,H55,Nystagmus and irregular eye movements,Eye diseases,no
+"Disorders of ocular muscles, binocular movement, accommodation and refraction",H49|H5[0-2],"Disorders of ocular muscles, binocular movement, accommodation and refraction",Eye diseases,no
+Disorders of optic nerve and visual pathways,H4[6-8],Disorders of optic nerve and visual pathways,Eye diseases,no
+Other disorders of optic [2nd] nerve and visual pathways,H47,disorders of optic [2nd] nerve and visual pathways,Eye diseases,no
+Disorders of orbit,H0[5-6],Disorders of orbit,Eye diseases,no
+Other disorders of iris and ciliary body,H21,disorders of iris and ciliary body,Eye diseases,no
+Paralytic strabismus,H49,Paralytic strabismus,Eye diseases,yes
+Other and unspecified postprocedural disorders of eye and adnexa,H59[8-9],postprocedural disorders of eye and adnexa,Eye diseases,no
+Ptosis of eyelid,H024,Ptosis of eyelid,Eye diseases,yes
+Disorders of refraction and accommodation,H52,Disorders of refraction and accommodation,Eye diseases,no
+Retinal breaks without detachment,H333,Retinal breaks without detachment,Eye diseases,no
+Retinal detachments and breaks,,Retinal detachment / tear,Eye diseases,no
+Retinal detachment with retinal break,H330,Retinal detachment with retinal break,Eye diseases,no
+"Other, unspecified and serous retinal detachments",H332|H335,and serous retinal detachments,Eye diseases,no
+Other retinal disorders,,retinal disorders,Eye diseases,no
+Other specified and unspecified retinal disorders,H35[8-9],specified and retinal disorders,Eye diseases,no
+Diabetic retinopathy,H360,Diabetic retinopathy,Eye diseases,yes
+Retinal vascular occlusion,H34,Retinal vascular occlusion,Eye diseases,yes
+Other and unspecified vascular occlusions,H34[8-9],vascular occlusions,Eye diseases,no
+"Disorders of sclera, cornea, iris and ciliary body",H1[5-9]|H2[0-2],"Disorders of sclera, cornea, iris and ciliary body",Eye diseases,no
+Stenosis and insufficiency of lacrimal passages,H045,Stenosis and insufficiency of lacrimal passages,Eye diseases,yes
+Strabismus,,Strabismus,Eye diseases,no
+Other strabismus,H50,strabismus,Eye diseases,no
+Other and unspecified visual disturbances,H53[8-9],visual disturbances,Eye diseases,no
+Visual field defects,H534,Visual field defects,Eye diseases,yes
+"Blindness or visual impairment, binocular",H540,Visual impairment / blindness,Eye diseases,no
+Visual disturbances and blindness,H5[3-4],Visual disturbances and blindness,Eye diseases,yes
+Visual disturbances,H53,Visual disturbances,Eye diseases,yes
+Subjective visual disturbances,H531,Subjective visual disturbances,Eye diseases,yes
+Disorders of vitreous body,H43,Disorders of vitreous body,Eye diseases,no
+Disorders of vitreous body and globe,H4[3-5],Disorders of vitreous body and globe,Eye diseases,no
+Vitreous haemorrhage,H431|H450,Vitreous haemorrhage,Eye diseases,yes
+Other vitreous opacities,H433,vitreous opacities,Eye diseases,no
+Other and unspecified disorders of vitreous body,H43[8-9],disorders of vitreous body,Eye diseases,no
+Benign paroxysmal vertigo,H811,Vertigo,"Ear, nose and throat diseases",no
+Conductive and sensorineural hearing loss,,Hearing loss,"Ear, nose and throat diseases",yes
+Diseases of the ear and mastoid process,H[6-9],Diseases of the ear and mastoid process,"Ear, nose and throat diseases",no
+Diseases of external ear,H6[0-2],Diseases of external ear,"Ear, nose and throat diseases",no
+Otitis externa,H60,Otitis externa,"Ear, nose and throat diseases",yes
+"Conductive hearing loss, unspecified",H90[0-2],Hearing loss,"Ear, nose and throat diseases",yes
+Other specified/unspecified hearing loss,H91[8-9],Hearing loss,"Ear, nose and throat diseases",no
+Presbycusis,H911,Presbycusis,"Ear, nose and throat diseases",yes
+Sensorineural hearing loss,H90[3-5],Hearing loss,"Ear, nose and throat diseases",yes
+Diseases of inner ear,H8[0-3],Diseases of inner ear,"Ear, nose and throat diseases",no
+Labyrinthitis,H830,Labyrinthitis,"Ear, nose and throat diseases",yes
+Suppurative and unspecified otitis media,,Otitis media,"Ear, nose and throat diseases",yes
+M¬éni¬ère disease,H810,Ménière disease,Eye diseases,no
+Diseases of middle ear and mastoid,H6[5-9]|H7[0-5],Diseases of middle ear and mastoid,"Ear, nose and throat diseases",no
+Nonsuppurative otitis media,H65,Otitis media,"Ear, nose and throat diseases",yes
+Other disorders of ear,H9,disorders of ear,"Ear, nose and throat diseases",no
+Other hearing loss,,Hearing loss,"Ear, nose and throat diseases",no
+"Otitis media, unspecified",H669,Otitis media,"Ear, nose and throat diseases",yes
+Perforation of tympanic membrane,H72,Perforation of tympanic membrane,"Ear, nose and throat diseases",yes
+Tinnitus,H931,Tinnitus,"Ear, nose and throat diseases",yes
+Disorders of vestibular function (Vertigo),,Vertigo,"Ear, nose and throat diseases",no
+Head Injury,S0[1-9],Head Injury,Injuries and trauma,yes
+Chronic viral hepatitis,B18,Chronic viral hepatitis,Infectious diseases,yes
+"Inguinal hernia, bilateral",K40[0-2],Inguinal hernia,Digestive system diseases,no
+Hypotension due to drugs,I952,Hypotension due to drugs,Cardiovascular and cerebrovascular diseases,yes
+Hypothyroidism (congenital or acquired),,Hypothyroidism (congenital or acquired),Endocrine and metabolic diseases,yes
+Hypothyreosis and Thyroxine purchase for inclusion criteria,E03,Hypothyreosis and Thyroxine purchase for inclusion criteria,Endocrine and metabolic diseases,no
+Abdominal aortic aneurysm (AAA),I713|I714,Abdominal aortic aneurysm (AAA),Cardiovascular and cerebrovascular diseases,yes
+Atrial fibrillation and flutter,I48,Atrial fibrillation and flutter,Cardiovascular and cerebrovascular diseases,yes
+"Cerebral aneurysm, nonruptured",I671,"Cerebral aneurysm, nonruptured",Cardiovascular and cerebrovascular diseases,yes
+Angina pectoris,I20,Angina pectoris,Cardiovascular and cerebrovascular diseases,yes
+Aortic aneurysm,I71[1-9],Aortic aneurysm,Cardiovascular and cerebrovascular diseases,yes
+"Aortic valve malfunction, age under 60 years",I35[0-8],Aortic valve malfunction,Cardiovascular and cerebrovascular diseases,no
+Arterial embolism and thrombosis of lower extremity artery,I743,Arterial embolism and thrombosis of lower extremity artery,Cardiovascular and cerebrovascular diseases,yes
+Other arterial embolism and thrombosis,I74,arterial embolism and thrombosis,Cardiovascular and cerebrovascular diseases,no
+Other diseases of arteries and capillaries,I7[7-9],diseases of arteries and capillaries,Cardiovascular and cerebrovascular diseases,no
+"Atherosclerosis, excluding cerebral and coronary sclerosis",I70,Atherosclerosis,Cardiovascular and cerebrovascular diseases,no
+AV-block,I44[0-3],AV-block,Cardiovascular and cerebrovascular diseases,yes
+Cardiac arrest,I46,Cardiac arrest,Cardiovascular and cerebrovascular diseases,yes
+"Cardiomyopathies, Primary/intrinsic",I420|I421|I423|I424|I425,Cardiomyopathies/intrinsic,Cardiovascular and cerebrovascular diseases,no
+Cardiomyopathy,I42,Cardiomyopathy,Cardiovascular and cerebrovascular diseases,yes
+"Cardiomyopathy, other and unspecified",I428|I429,Cardiomyopathy,Cardiovascular and cerebrovascular diseases,no
+"Calcific aortic valvular stenosis, diagnosis (helper)",I350|I352,Calcific aortic valvular stenosis,Cardiovascular and cerebrovascular diseases,no
+"Calcific aortic valvular stenosis, including rheumatic fever",I350|I352|I060|I062,Calcific aortic valvular stenosis,Cardiovascular and cerebrovascular diseases,no
+"Other specified cerebrovascular diseases, other cerebrovascular disorders in diseases classified elsewhere",I67[8-9]|I688,"specified cerebrovascular diseases, cerebrovascular disorders in diseases",Cardiovascular and cerebrovascular diseases,no
+Cerebrovascular diseases,I6,Cerebrovascular diseases,Cardiovascular and cerebrovascular diseases,yes
+Major coronary heart disease event,I200|I21|I22,Major coronary heart disease event,Cardiovascular and cerebrovascular diseases,yes
+Conduction disorders,I44|I45,Conduction disorders,Cardiovascular and cerebrovascular diseases,yes
+Coronary atherosclerosis,I25|I24|Z951|T822,Coronary atherosclerosis,Cardiovascular and cerebrovascular diseases,yes
+"Diseases of veins, lymphatic vessels and lymph nodes, not elsewhere classified",,"Diseases of veins, lymphatic vessels and lymph nodes",Other,no
+"Diseases of arteries, arterioles and capillaries",I7,"Diseases of arteries, arterioles and capillaries",Cardiovascular and cerebrovascular diseases,no
+Endocarditis,I33|I38|I39,Endocarditis,Cardiovascular and cerebrovascular diseases,yes
+"Heart failure, strict",I50|I110|I130|I132,Heart failure,Cardiovascular and cerebrovascular diseases,no
+Hypertrophic cardiomyopathy,I42[1-2],Hypertrophic cardiomyopathy,Cardiovascular and cerebrovascular diseases,yes
+Hypotension,I95,Hypotension,Cardiovascular and cerebrovascular diseases,yes
+Hypertension,I10|I11|I12|I13|I15|I674,Hypertension,Cardiovascular and cerebrovascular diseases,yes
+"Hypertension, essential",I10,"Hypertension, essential",Neurological diseases,yes
+Hypertensive heart and/or renal disease,I11|I12|I13,Hypertensive heart and/or renal disease,Cardiovascular and cerebrovascular diseases,yes
+"Hypertension, portal",K766,"Hypertension, portal",Cardiovascular and cerebrovascular diseases,yes
+"Hypertension, Pulmonary Arterial",I270,"Hypertension, Pulmonary Arterial",Cardiovascular and cerebrovascular diseases,yes
+Hypertensive Renal Disease,I12,Hypertensive Renal Disease,Cardiovascular and cerebrovascular diseases,yes
+Intracerebral haemorrhage,I61,Intracerebral haemorrhage,Cardiovascular and cerebrovascular diseases,yes
+"Ischaemic heart disease, wide definition",I2[0-5],Ischaemic heart disease,Cardiovascular and cerebrovascular diseases,no
+Nontraumatic intracranial haemmorrhage,,Nontraumatic intracranial haemorrhage,Other,no
+Death due to cardiac causes,I[0-5]|R96|R98|R99,Death due to cardiac causes,Cardiovascular and cerebrovascular diseases,yes
+Left bundle-branch block,I44[4-7],Left bundle-branch block,Cardiovascular and cerebrovascular diseases,yes
+Other noninfective disorders of lymphatic vessels and lymph nodes,I89,noninfective disorders of lymphatic vessels and lymph nodes,Cardiovascular and cerebrovascular diseases,no
+Myocardial infarction,I21|I22,Myocardial infarction,Cardiovascular and cerebrovascular diseases,yes
+"Myocardial infarction, unclassifiable",I219|I22,Myocardial infarction,Cardiovascular and cerebrovascular diseases,yes
+Non-ischemic cardiomyopathy,,Nonischemic cardiomyopathy,Cardiovascular and cerebrovascular diseases,no
+Nonischemic cardiomyopathy,I420|I511,Nonischemic cardiomyopathy,Cardiovascular and cerebrovascular diseases,yes
+Non-rheumatic valve diseases,I3[4-7],Non-rheumatic valve diseases,Cardiovascular and cerebrovascular diseases,yes
+"Myocardial infarction, without ST-elevation",I214,Myocardial infarction,Cardiovascular and cerebrovascular diseases,no
+Other aneurysm,I72,aneurysm,Cardiovascular and cerebrovascular diseases,no
+Other arrhythmias,I49,arrhythmias,Cardiovascular and cerebrovascular diseases,no
+Other or ill-defined heart diseases,I5[1-2],or ill-defined heart diseases,Cardiovascular and cerebrovascular diseases,no
+Other intracranial haemorrhages,I62,intracranial haemorrhages,Cardiovascular and cerebrovascular diseases,no
+Other other unspecified disorders of the circulatory system,I9[7-9],disorders of the circulatory system,Cardiovascular and cerebrovascular diseases,no
+Other peripheral vascular diseases,I73,peripheral vascular diseases,Cardiovascular and cerebrovascular diseases,no
+Peripheral artery disease,E105|E115|E125|E135|E145|I702|I739,Peripheral artery disease,Endocrine and metabolic diseases,yes
+Paroxysmal tachycardia,I47,Paroxysmal tachycardia,Cardiovascular and cerebrovascular diseases,yes
+Other diseases of pericardium,I31,diseases of pericardium,Cardiovascular and cerebrovascular diseases,no
+Phlebitis and thrombophlebitis (not including DVT),I80,Phlebitis and thrombophlebitis (not,Cardiovascular and cerebrovascular diseases,no
+DVT of lower extremities,I80[12],Venous thromboembolism,Cardiovascular and cerebrovascular diseases,yes
+Pulmonary embolism,I26,Venous thromboembolism,Cardiovascular and cerebrovascular diseases,yes
+"Pulmonary heart disease, diseases of pulmonary circulation",,Pulmonary circulation disorders,Cardiovascular and cerebrovascular diseases,no
+Other pulmonary heart/vessel disease,I27|I28,pulmonary heart/vessel disease,Cardiovascular and cerebrovascular diseases,no
+Right bundle-branch block,I45[0-1],Right bundle-branch block,Cardiovascular and cerebrovascular diseases,yes
+Rheumatic valve diseases,I0[5-8],Rheumatic valve diseases,Cardiovascular and cerebrovascular diseases,yes
+Subarachnoid haemorrhage,I60,Subarachnoid haemorrhage,Cardiovascular and cerebrovascular diseases,yes
+Secondary right heart disease,I27,Secondary right heart disease,Cardiovascular and cerebrovascular diseases,no
+Sequelae of cerebrovascular disease,I69,Sequelae of cerebrovascular disease,Cardiovascular and cerebrovascular diseases,yes
+"Myocardial infarction, with ST-elevation",I21[1-3],Myocardial infarction,Cardiovascular and cerebrovascular diseases,no
+"Stroke, excluding SAH",I61|I63|I64,Stroke,Cardiovascular and cerebrovascular diseases,yes
+"Ischaemic Stroke, excluding all haemorrhages",I63|I64,Stroke,Cardiovascular and cerebrovascular diseases,yes
+"Stroke, including SAH",I60|I61|I63|I64,Stroke,Cardiovascular and cerebrovascular diseases,yes
+Thoracic aortic aneurysm,I7101|I71[12]|Q2543,Thoracic aortic aneurysm,Cardiovascular and cerebrovascular diseases,yes
+Other embolism and thrombosis,I82,embolism and thrombosis,Cardiovascular and cerebrovascular diseases,no
+Unstable angina pectoris,I200,Unstable angina pectoris,Cardiovascular and cerebrovascular diseases,yes
+Varicose veins,I83,Varicose veins,Cardiovascular and cerebrovascular diseases,yes
+Oesophageal varices,I85,Oesophageal varices,Cardiovascular and cerebrovascular diseases,yes
+Varicose veins of other sites,I86,Varicose veins of sites,Cardiovascular and cerebrovascular diseases,no
+Vascular dementia,F01,Vascular dementia,Mental and behavioral disorders,yes
+Vascular diseases of the intestine,K55[0-1]|K559,Vascular diseases of the intestine,Digestive system diseases,yes
+Other disorders of veins,I87,disorders of veins,Cardiovascular and cerebrovascular diseases,no
+Venous thromboembolism,I26|I80|O871|O882,Venous thromboembolism,Cardiovascular and cerebrovascular diseases,yes
+"Bacterial intestinal infections, IBD co-morbidities",A04,"Bacterial intestinal infections, IBD co-morbidities",Infectious diseases,yes
+Interstitial lung disease,J84,Interstitial lung disease,Neurological diseases,yes
+All influenza (not pneumonia),J1[0-1],influenza (not pneumonia),Respiratory diseases,no
+Idiopathic pulmonary fibrosis,J841,Idiopathic pulmonary fibrosis,Respiratory diseases,yes
+Unspecified acute lower respiratory infection,J22,acute lower respiratory infection,Infectious diseases,no
+Acute upper respiratory infections of multiple and unspecified sites,J06,Acute upper respiratory infections of multiple sites,Infectious diseases,no
+Pneumoconiosis due to asbestos and other mineral fibres,J61,Pneumoconiosis due to asbestos and mineral fibres,Respiratory diseases,no
+"Asthma, excluding more controls",J45|J46,Asthma,Respiratory diseases,no
+Asthma (diagnoses ohter than nonallergic),J45[089],Asthma,Respiratory diseases,yes
+"Bronchitis, not specified as acute or chronic",J40,"Bronchitis, not specified as acute or chronic",Respiratory diseases,yes
+Bronchiectasis,J47,Bronchiectasis,Respiratory diseases,yes
+Unspecified chronic bronchitis,J42,chronic bronchitis,Respiratory diseases,no
+"Chronic rhinitis, nasopharyngitis and pharyngitis",J31,"Chronic rhinitis, nasopharyngitis and pharyngitis",Respiratory diseases,yes
+Chronic sinusitis,J32,Chronic sinusitis,Respiratory diseases,yes
+Chronic diseases of tonsils and adenoids,J35,Chronic diseases of tonsils and adenoids,Respiratory diseases,yes
+Other chronic obstructive pulmonary disease,J44,Chronic obstructive pulmonary disease,Respiratory diseases,no
+Emphysema,J43,Emphysema,Respiratory diseases,yes
+Lung diseases due to external agents,J[6-7],Lung diseases due to external agents,Respiratory diseases,yes
+All influenza,J09|J1[0-1],influenza,Respiratory diseases,no
+Influenza and pneumonia,J09|J1,Influenza / pneumonia,Respiratory diseases,no
+Other respiratory diseases principally affecting the interstitium,J8[0-4],respiratory diseases principally affecting the interstitium,Respiratory diseases,no
+Chronic lower respiratory diseases,J4,Chronic lower respiratory diseases,Respiratory diseases,yes
+Other acute lower respiratory infections,J2[0-2],acute lower respiratory infections,Infectious diseases,no
+Nasal polyp,J33,Nasal polyp,Respiratory diseases,yes
+Suppurative and necrotic conditions of lower respiratory tract,J8[5-6],Suppurative and necrotic conditions of lower respiratory tract,Respiratory diseases,yes
+Acute pharyngitis,J02,Acute pharyngitis,Respiratory diseases,yes
+Other diseases of pleura,J9[0-9],diseases of pleura,Respiratory diseases,no
+Pleural effusion,J9[0-1],Pleural effusion,Respiratory diseases,yes
+Other pleural conditions,J94,pleural conditions,Respiratory diseases,no
+Pleural plaque,J92,Pleural plaque,Respiratory diseases,yes
+"Bacterial pneumonia, not elsewhere classified",J15|J170,Bacterial pneumonia,Infectious diseases,no
+"Pneumonia, organism unspecified",J18,"Pneumonia, organism",Respiratory diseases,no
+Pneumonitis due to solids and liquids,J69,Pneumonitis due to solids and liquids,Respiratory diseases,yes
+Pneumothorax,J93,Pneumothorax,Respiratory diseases,yes
+Pulmonary oedema,J81,Pulmonary oedema,Respiratory diseases,yes
+Pyothorax,J86,Pyothorax,Respiratory diseases,yes
+Other diseases of the respiratory system,J9[5-8],diseases of the respiratory system,Respiratory diseases,no
+Deviated nasal septum,J342,Deviated nasal septum,Respiratory diseases,yes
+Other diseases of upper respiratory tract,J3,diseases of upper respiratory tract,Respiratory diseases,no
+Acute upper respiratory infections,J0[0-6],Acute upper respiratory infections,Infectious diseases,yes
+Vasomotor and allergic rhinitis,J30,Vasomotor and allergic rhinitis,Respiratory diseases,no
+Viral pneumonia,J12|J171|J100|J110|B012|B068|B250,Viral pneumonia,Infectious diseases,yes
+"Diseases of vocal cords and larynx+other diseases of upper respiratory tract, no elsewhere classified",J34|J3[8-9],"Diseases of vocal cords and larynx+ diseases of upper respiratory tract, no elsewhere classified",Respiratory diseases,no
+Pain in joint,M255,Pain in joint,Musculoskeletal and rheumatic diseases,yes
+Abscess of anal and rectal regions,K61,Abscess of anal and rectal regions,Digestive system diseases,yes
+Acute gastritis,K29[0-1],Acute gastritis,Digestive system diseases,yes
+Intestinal adhesions without obstruction,K565,Intestinal adhesions without obstruction,Digestive system diseases,no
+Alcoholic liver disease,K70,Alcoholic liver disease,Mental and behavioral disorders,yes
+Recurring oral aphthae,K12[01],Recurring oral aphthae,Digestive system diseases,yes
+Acute appendicitis,K35,Acute appendicitis,Digestive system diseases,yes
+Diseases of appendix,K3[5-8],Diseases of appendix,Digestive system diseases,no
+Barrett oesophagus,K227,Barrett oesophagus,Digestive system diseases,yes
+Other diseases of biliary tract,K83,diseases of biliary tract,Digestive system diseases,no
+Dental caries,K02,Dental caries,Digestive system diseases,yes
+"Cholangitis (primary sclerosing, PSC)",K830,"Cholangitis (primary sclerosing, PSC)",Digestive system diseases,yes
+Cholecystitis,K81,Cholecystitis,Digestive system diseases,yes
+Cholelithiasis,K80,Cholelithiasis,Digestive system diseases,yes
+Chronic gastritis,K29[3-5],Chronic gastritis,Digestive system diseases,yes
+Chronic pancreatitis,K86[0-1],Chronic pancreatitis,Digestive system diseases,yes
+Coeliac disease,K900,Coeliac disease,Digestive system diseases,yes
+Constipation,K590,Constipation,Digestive system diseases,yes
+Crohn disease,K50,Crohn disease,Digestive system diseases,yes
+Dentofacial anomalies [including malocclusion],K07,Dentofacial anomalies [including malocclusion],Digestive system diseases,yes
+Diaphragmatic hernia,K44,Hernia,Digestive system diseases,no
+Other diseases of liver,K76,diseases of liver,Digestive system diseases,no
+Other disorders of teeth and supporting structures,K08,disorders of teeth and supporting structures,Digestive system diseases,no
+Diverticular disease of intestine,K57,Diverticular disease of intestine,Digestive system diseases,yes
+Duodenal ulcer,K26,Duodenal ulcer,Digestive system diseases,yes
+Embedded and impacted teeth,K01,Embedded and impacted teeth,Digestive system diseases,yes
+Noninfective enteritis and colitis,K5[0-2],Noninfective enteritis and colitis,Digestive system diseases,yes
+Femoral hernia,K41,Femoral hernia,Digestive system diseases,yes
+Fibrosis and cirrhosis of liver,K74,Fibrosis and cirrhosis of liver,Digestive system diseases,yes
+Fissure and fistula of anal and rectal regions,K60,Fissure and fistula of anal and rectal regions,Digestive system diseases,yes
+Colonic or urogenital fistula,K316|K383|K60|K632|N321|N82[2-4],Colonic or urogenital fistula,Digestive system diseases,yes
+Functional dyspepsia,K30,Functional dyspepsia,Digestive system diseases,yes
+"Disorders of gallbladder, biliary tract and pancreas",K8,"Disorders of gallbladder, biliary tract and pancreas",Digestive system diseases,no
+Other diseases of gallbladder,K82,diseases of gallbladder,Digestive system diseases,no
+Gastroduodenal ulcer,K2[5-8],Gastroduodenal ulcer,Digestive system diseases,yes
+GI-bleeding,K92[0-2],GI-bleeding,Digestive system diseases,yes
+Gingivitis and periodontal diseases,K05,Gingivitis and periodontal diseases,Digestive system diseases,yes
+Gastric ulcer,K25,Gastric ulcer,Digestive system diseases,yes
+Haemorrhoids and perianal venous thrombosis,K64,Haemorrhoids and perianal venous thrombosis,Cardiovascular and cerebrovascular diseases,yes
+"Hepatic failure, not elsewhere classified",K72,Hepatic failure,Digestive system diseases,no
+Inguinal hernia,K40,Inguinal hernia,Digestive system diseases,yes
+Hernia,K4,Hernia,Digestive system diseases,yes
+IBD (strict) with PSC,,IBD () with PSC,Other,no
+Irritable bowel syndrome,K58,Irritable bowel syndrome,Digestive system diseases,yes
+Paralytic ileus and intestinal obstruction,K56,Paralytic ileus and intestinal obstruction,Digestive system diseases,yes
+Impaction of intestines,K56[3-4],Impaction of intestines,Digestive system diseases,yes
+Impacted teeth,K011,Impacted teeth,Digestive system diseases,yes
+Other diseases of intestines,K5[5-9]|K6[0-3],diseases of intestines,Digestive system diseases,no
+Other diseases of jaws,K10,diseases of jaws,Digestive system diseases,no
+Other diseases of lip and oral mucosa,K13,diseases of lip and oral mucosa,Digestive system diseases,no
+Diseases of liver,K7,Diseases of liver,Digestive system diseases,no
+Intestinal malabsorption,K90,Intestinal malabsorption,Digestive system diseases,yes
+Palatinal maxillary canine,K0735|K01,Palatinal maxillary canine,Digestive system diseases,yes
+Oesophagitis,K20,Oesophagitis,Digestive system diseases,yes
+Oesophageal obstruction,K222,Oesophageal obstruction,Digestive system diseases,yes
+"Diseases of oesophagus, stomach and duodenum",K2|K3[0-1],"Diseases of oesophagus, stomach and duodenum",Digestive system diseases,no
+Ulcer of oesophagus,K221,Ulcer of oesophagus,Digestive system diseases,yes
+"Diseases of oral cavity, salivary glands and jaws",K0,"Diseases of oral cavity, salivary glands and jaws",Digestive system diseases,no
+Oral lichen ruber planus,K1374,Oral lichen ruber planus,Digestive system diseases,yes
+Other and unspecified abdominal hernia,K4[5-6],Hernia,Digestive system diseases,no
+Other diseases of anus and rectum,K62,diseases of anus and rectum,Digestive system diseases,no
+Diseases of the digestive system,K9,Diseases of the digestive system,Digestive system diseases,no
+Other diseases of the digestive system,K92,diseases of the digestive system,Digestive system diseases,no
+Other diseases of oesophagus,K22[4-9],diseases of oesophagus,Digestive system diseases,no
+Other diseases of stomach and duodenum,K31,diseases of stomach and duodenum,Digestive system diseases,no
+Other noninfective gastroenteritis and colitis,K52,noninfective gastroenteritis and colitis,Digestive system diseases,no
+Other functional intestinal disorders,K59,functional intestinal disorders,Digestive system diseases,no
+Other gastritis (incl. Duodenitis),K29[6-9],gastritis (incl. Duodenitis),Digestive system diseases,no
+"Other or unspecified ileus, impaction or obstruction",K564|K56[6-7],"ileus, impaction or obstruction",Digestive system diseases,no
+Other inflammatory liver diseases,K75,inflammatory liver diseases,Digestive system diseases,no
+Other diseases of intestine,K63,diseases of intestine,Digestive system diseases,no
+Other diseases of peritoneum,K66,diseases of peritoneum,Digestive system diseases,no
+Other diseases of pancreas,K86[2-9],diseases of pancreas,Digestive system diseases,no
+Parodontitis,K0530|K0531|K054,Parodontitis,Digestive system diseases,yes
+Chronic periapical parodontitis,K045,Chronic periapical parodontitis,Digestive system diseases,yes
+Chronic periodontitis,K053[01],Chronic periodontitis,Digestive system diseases,yes
+"Chronic periodontitis, complicated",K0531,"Chronic periodontitis, complicated",Digestive system diseases,yes
+Diseases of peritoneum,K6[5-7],Diseases of peritoneum,Digestive system diseases,no
+Acute peritonitis,K65,Acute peritonitis,Digestive system diseases,yes
+"Postprocedural disorders of digestive system, not elsewhere classified",K91,Postprocedural disorders of digestive system,Digestive system diseases,no
+Peptic ulcer,K27,Peptic ulcer,Digestive system diseases,yes
+Diseases of pulp and periapical tissues,K04,Diseases of pulp and periapical tissues,Digestive system diseases,no
+Gastro-oesophageal reflux disease,K21,Gastro-oesophageal reflux disease,Digestive system diseases,yes
+Diseases of salivary glands,K11,Diseases of salivary glands,Digestive system diseases,no
+Stomatitis and related lesions,K12,Stomatitis and related lesions,Digestive system diseases,no
+Diseases of tongue,K14,Diseases of tongue,Digestive system diseases,no
+Ulcerative colitis,K51,Ulcerative colitis,Digestive system diseases,yes
+Umbilical hernia,K42,Hernia,Digestive system diseases,no
+Vascular disorders of the intestines,K55,Vascular disorders of the intestines,Digestive system diseases,yes
+Ventral hernia,K43,Hernia,Digestive system diseases,no
+Volvulus,K562,Volvulus,Digestive system diseases,yes
+"Alcohol abuse, main dg, excluding more controls",F100,"Alcohol abuse, main dg",Mental and behavioral disorders,no
+"Anxiety disorders, excluding more controls",F4,Anxiety disorders,Mental and behavioral disorders,no
+Any mental disorder,F0[0-3]|F051|G30|F[1-9],mental disorder,Mental and behavioral disorders,no
+"Any dementia, excluding more controls",F0[0-3]|F051|G30,dementia,Mental and behavioral disorders,no
+"Mood disorders, excluding more controls",F3,Mood disorders,Mental and behavioral disorders,no
+"Schizophrenia or delusion, excluding more controls",F2,Schizophrenia or delusion,Mental and behavioral disorders,no
+"Speech and linguistic disorders, excluding more controls",F8[0-1],Speech and linguistic disorders,Mental and behavioral disorders,no
+"Substance abuse, excluding more controls",F1,Substance abuse,Mental and behavioral disorders,no
+"Cutaneous abscess, furuncle and carbuncle",L02,"Cutaneous abscess, furuncle and carbuncle",Skin diseases,yes
+Actinic keratosis,L570,Actinic keratosis,Skin diseases,yes
+Acute generalized exanthematous pustulosis,L270|L538,Acute generalized exanthematous pustulosis,Skin diseases,yes
+Atrophic disorders of skin,L90,Atrophic disorders of skin,Skin diseases,yes
+Cellulitis,L03,Cellulitis,Skin diseases,yes
+Decubitus ulcer and pressure area,L89,Decubitus ulcer and pressure area,Digestive system diseases,yes
+Dermatitis and eczema,L[2-3],Dermatitis and eczema,Skin diseases,yes
+Dermatitis,L30,Dermatitis,Skin diseases,yes
+Other and unspecified dermatitis,L30[8-9],dermatitis,Skin diseases,no
+Disorders of skin appendages,L[6-7],Disorders of skin appendages,Skin diseases,no
+Other epidermal thickening,L85,epidermal thickening,Skin diseases,no
+Other and unspecified epidermal thickening,L85[8-9],epidermal thickening,Skin diseases,no
+Other and unspecified erythematous conditions,L53[8-9],erythematous conditions,Skin diseases,no
+Follicular cysts of skin and subcutaneous tissue,L72,Follicular cysts of skin and subcutaneous tissue,Skin diseases,yes
+Granulomatous disorders of skin and subcutaneous tissue,L92,Granulomatous disorders of skin and subcutaneous tissue,Skin diseases,yes
+Other and unspecified hypertrophic disorders of skin,L91[8-9],hypertrophic disorders of skin,Skin diseases,no
+Hypertrophic disorders of skin,L91,Hypertrophic disorders of skin,Skin diseases,yes
+Infections of the skin and subcutaneous tissue,L0,Infections of the skin and subcutaneous tissue,Infectious diseases,yes
+Other and unspecified local infections of skin and subcutaneous tissue,L08,local infections of skin and subcutaneous tissue,Infectious diseases,no
+Dermatitis due to substances taken internally,L27,Dermatitis due to substances taken internally,Skin diseases,yes
+"Lichen planus, including avohilmo",L43,Lichen planus,Skin diseases,no
+Lichen sclerosus et atrophicus,L900,Lichen sclerosus et atrophicus,Skin diseases,yes
+Nail disorders,L6[02],Nail disorders,Skin diseases,yes
+Ingrowing nail,L600,Ingrowing nail,Skin diseases,yes
+Skin changes due to chronic exposure to nonionizing radiation,L57,Skin changes due to chronic exposure to nonionizing radiation,Skin diseases,yes
+Other contact dermatitis,L2[4-5],contact dermatitis,Skin diseases,no
+"Other disorders of skin and subcutaneous tissue, not elsewhere classified",L98,disorders of skin and subcutaneous tissue,Skin diseases,no
+Other melanin hyperpigmentation,L814,melanin hyperpigmentation,Skin diseases,no
+Other disorders of pigmentation,L81,disorders of pigmentation,Skin diseases,no
+Papulosquamous disorders,L4,Papulosquamous disorders,Skin diseases,yes
+Pruritus,L29,Pruritus,Skin diseases,yes
+Psoriasis,L40,Psoriasis,Skin diseases,yes
+Arthropathic psoriasis,L405,Psoriatic arthritis,Skin diseases,no
+Other and unspecified psoriasis,L40[8-9],psoriasis,Skin diseases,no
+Radiation-related disorders of the skin and subcutaneous tissue,L5[5-9],Radiation-related disorders of the skin and subcutaneous tissue,Skin diseases,yes
+Rosacea,L71,Rosacea,Skin diseases,yes
+Other and unspecified rosacea,L71[8-9],rosacea,Skin diseases,no
+Scar conditions and fibrosis of skin,L905,Scar conditions and fibrosis of skin,Skin diseases,yes
+Seborrhoeic keratosis,L82,Seborrhoeic keratosis,Skin diseases,yes
+Other and unspecified disorders of skin and subcutaneous tissue,L98[8-9],disorders of skin and subcutaneous tissue,Skin diseases,no
+"Ulcer of lower limb, not elsewhere classified",L97,Ulcer of lower limb,Digestive system diseases,no
+Urticaria and erythema,L5[0-4],Urticaria and erythema,Skin diseases,yes
+Lung cancer and mesothelioma,C34|C384,Lung cancer and mesothelioma,Neoplasms and cancer,yes
+Adhesive capsulitis of shoulder,M750,Adhesive capsulitis of shoulder,Musculoskeletal and rheumatic diseases,yes
+Ankylosing spondylitis,M45,Spondyloarthritis,Musculoskeletal and rheumatic diseases,yes
+Other specified/unspecified arthritis,M13[8-9],arthritis,Musculoskeletal and rheumatic diseases,no
+Arthropathies,M[0-2],Arthropathies,Musculoskeletal and rheumatic diseases,yes
+Arthrosis,M1[5-9],Arthrosis,Musculoskeletal and rheumatic diseases,yes
+Gonarthrosis,M17,Knee osteoarthritis,Musculoskeletal and rheumatic diseases,yes
+"Gonarthrosis,primary",M17[0-1],Knee osteoarthritis,Musculoskeletal and rheumatic diseases,yes
+Other arthrosis,M19|M18,arthrosis,Musculoskeletal and rheumatic diseases,no
+Polyarthrosis,M15,Polyarthrosis,Musculoskeletal and rheumatic diseases,yes
+Coxarthrosis,M16,Hip osteoarthritis,Musculoskeletal and rheumatic diseases,yes
+"Coxarthrosis, primary",M16[0-1],Hip osteoarthritis,Musculoskeletal and rheumatic diseases,no
+Synovial cyst of popliteal space [Baker],M712,Synovial cyst of popliteal space [Baker],Musculoskeletal and rheumatic diseases,yes
+Disorders of continuity of bone,M84,Disorders of continuity of bone,Musculoskeletal and rheumatic diseases,no
+Other disorders of bone density and structure,M85,disorders of bone density and structure,Musculoskeletal and rheumatic diseases,no
+Other specified/unspecified disorders of  bone/cartilage,M89[8-9]|M94[8-9],disorders of bone/cartilage,Musculoskeletal and rheumatic diseases,no
+Other bursopathies,M71,bursopathies,Musculoskeletal and rheumatic diseases,no
+Other articular cartilage disorders,M241,articular cartilage disorders,Musculoskeletal and rheumatic diseases,no
+Cervicalgia,M542,Cervicalgia,Musculoskeletal and rheumatic diseases,yes
+Cervical disc disorders,M50,Cervical disc disorders,Musculoskeletal and rheumatic diseases,yes
+Chondropathies,M9[1-4],Chondropathies,Musculoskeletal and rheumatic diseases,yes
+Other crystal arthropathies,M11,crystal arthropathies,Musculoskeletal and rheumatic diseases,no
+Deforming dorsopathies,M4[0-3],Deforming dorsopathies,Musculoskeletal and rheumatic diseases,yes
+Other specified/unspecified disorders of synovium and tendon +Other specified/unspecified bursopathies,M67[8-9],disorders of synovium and tendon + bursopathies,Musculoskeletal and rheumatic diseases,no
+Dorsalgia,,Dorsalgia,Musculoskeletal and rheumatic diseases,no
+Other/unspecified dorsalgia,M54[8-9],dorsalgia,Musculoskeletal and rheumatic diseases,no
+Dorsopathies,M4|M5[0-5],Dorsopathies,Musculoskeletal and rheumatic diseases,yes
+"Other dorsopathies, not elsewhere classified",M5[0-4],dorsopathies,Musculoskeletal and rheumatic diseases,no
+Palmar fascial fibromatosis [Dupuytren],M720,Palmar fascial fibromatosis [Dupuytren],Musculoskeletal and rheumatic diseases,yes
+Other enthesopathy of foot (+metatarsalgia),M77[4-5],enthesopathy of foot (+metatarsalgia),Musculoskeletal and rheumatic diseases,no
+"Enthesopathies of lower limb, excluding foot",M76,Enthesopathies of lower limb,Musculoskeletal and rheumatic diseases,no
+"Other/unspecified enthesopathies, not elsewhere classified",M77[8-9],enthesopathies,Musculoskeletal and rheumatic diseases,no
+Other enthesopathies,M77,enthesopathies,Musculoskeletal and rheumatic diseases,no
+Fibroblastic disorders,M72,Fibroblastic disorders,Musculoskeletal and rheumatic diseases,yes
+Fibromyalgia,M797,Fibromyalgia,Musculoskeletal and rheumatic diseases,yes
+Ganglion,M674,Ganglion,Musculoskeletal and rheumatic diseases,yes
+Giant cell arteritis,M31[5-6],Giant cell arteritis,Musculoskeletal and rheumatic diseases,yes
+Gout,M10,Gout,Musculoskeletal and rheumatic diseases,yes
+Hallux rigidus,M202,Hallux rigidus,Musculoskeletal and rheumatic diseases,yes
+Hallux valgus (acquired),M201,Hallux valgus (acquired),Musculoskeletal and rheumatic diseases,yes
+Other hammer toe(s) (acquired),M204,hammer toe(s) (acquired),Musculoskeletal and rheumatic diseases,no
+Impingement syndrome of shoulder,M754,Impingement syndrome of shoulder,Musculoskeletal and rheumatic diseases,yes
+Other intervertebral disc disorders,M51,intervertebral disc disorders,Musculoskeletal and rheumatic diseases,no
+Other specific joint derangements/joint disorders,M242|M24[8-9]|M25,specific joint derangements/joint disorders,Musculoskeletal and rheumatic diseases,no
+Internal derangement of knee,M23,Internal derangement of knee,Musculoskeletal and rheumatic diseases,yes
+Kyphosis,M40[0-2],Kyphosis,Musculoskeletal and rheumatic diseases,yes
+Lateral epicondylitis,M771,Lateral epicondylitis,Musculoskeletal and rheumatic diseases,yes
+Pain in limb,M796,Pain in limb,Musculoskeletal and rheumatic diseases,yes
+Low back pain,M545,Low back pain,Musculoskeletal and rheumatic diseases,yes
+Lumbar disc prolapse,M511,Lumbar disc prolapse,Musculoskeletal and rheumatic diseases,yes
+Meniscus derangement,M23[0-3],Meniscus derangement,Musculoskeletal and rheumatic diseases,yes
+Disorders of muscles,M6[0-3],Disorders of muscles,Musculoskeletal and rheumatic diseases,no
+Other specified disorders of muscle,M62[8-9],specified disorders of muscle,Musculoskeletal and rheumatic diseases,no
+Other disorders of the musculoskeletal system and connective tissue,M9[5-9],disorders of the musculoskeletal system and connective tissue,Musculoskeletal and rheumatic diseases,no
+Myalgia,M791,Myalgia,Musculoskeletal and rheumatic diseases,yes
+Other necrotizing vasculopathies,M31,necrotizing vasculopathies,Musculoskeletal and rheumatic diseases,no
+"Neuralgia and neuritis, unspecified",M792,Neuralgia and neuritis,Neurological diseases,no
+Osteopathies and chondropathies,M8|M9[0-4],Osteopathies and chondropathies,Musculoskeletal and rheumatic diseases,yes
+Osteomyelitis,M86,Osteomyelitis,Musculoskeletal and rheumatic diseases,yes
+Osteonecrosis,M87,Osteonecrosis,Musculoskeletal and rheumatic diseases,yes
+Osteopathy in diseases classified elsewhere,M90,Osteopathy in diseases,Musculoskeletal and rheumatic diseases,no
+Osteoporosis,M8[0-2],Osteoporosis,Musculoskeletal and rheumatic diseases,yes
+Other disorders of bone,M89|M9[0-4],disorders of bone,Musculoskeletal and rheumatic diseases,no
+Other joint disorders,M2[0-5],joint disorders,Musculoskeletal and rheumatic diseases,no
+Other disorders of patella,M22[2-9],disorders of patella,Musculoskeletal and rheumatic diseases,no
+Plantar fascial fibromatosis,M722,Plantar fascial fibromatosis,Musculoskeletal and rheumatic diseases,yes
+"Polyarthritis, unspecified",M130,Polyarthritis,Musculoskeletal and rheumatic diseases,no
+Polyarthropathies,M0[5-9]|M1[0-4],Polyarthropathies,Musculoskeletal and rheumatic diseases,yes
+Polymyalgia rheumatica,M353,Polymyalgia rheumatica,Musculoskeletal and rheumatic diseases,yes
+"Postprocedural musculoskeletal disorders, not elsewhere classified",M96,Postprocedural musculoskeletal disorders,Musculoskeletal and rheumatic diseases,no
+Psoriatic arthropathies,M07[0-3],Psoriatic arthritis,Musculoskeletal and rheumatic diseases,no
+Pyogenic arthritis,M0[0-1],Pyogenic arthritis,Musculoskeletal and rheumatic diseases,yes
+Radiculopathy,M541,Radiculopathy,Musculoskeletal and rheumatic diseases,yes
+"Rheumatism, unspecified",M790,Rheumatism,Musculoskeletal and rheumatic diseases,no
+"Rheumatoid arthritis, including avohilmo",M0[5-6],Rheumatoid arthritis,Musculoskeletal and rheumatic diseases,yes
+Rotator cuff syndrome,M751,Rotator cuff syndrome,Musculoskeletal and rheumatic diseases,yes
+Sciatica+with lumbago,M54[3-4],Sciatica+with lumbago,Musculoskeletal and rheumatic diseases,yes
+Scoliosis,M41,Scoliosis,Musculoskeletal and rheumatic diseases,yes
+Shoulder lesions,M75,Shoulder lesions,Musculoskeletal and rheumatic diseases,yes
+Bursitis of shoulder,M755,Bursitis of shoulder,Musculoskeletal and rheumatic diseases,yes
+Other shoulder lesions,M75[8-9],shoulder lesions,Musculoskeletal and rheumatic diseases,no
+Sicca syndrome [Sj¬ögren],M350,Sicca syndrome [Sjögren],Musculoskeletal and rheumatic diseases,no
+"Soft tissue disorders related to use, overuse and pressure",M70,"Soft tissue disorders related to use, overuse and pressure",Musculoskeletal and rheumatic diseases,no
+Soft tissue disorders,M[6-7],Soft tissue disorders,Musculoskeletal and rheumatic diseases,yes
+Other specified/unspecified soft tissue disorders,M79[8-9],soft tissue disorders,Musculoskeletal and rheumatic diseases,no
+"Other soft tissue disorders, not elsewhere classified",M79,soft tissue disorders,Musculoskeletal and rheumatic diseases,no
+Spinal stenosis,M480,Spinal stenosis,Musculoskeletal and rheumatic diseases,yes
+Other specified/unspecified inflammatory spondylopathies,M46[8-9],inflammatory spondylopathies,Musculoskeletal and rheumatic diseases,no
+Spondylolisthesis/Spondylolysis,M43[0-1],Spondylolisthesis/Spondylolysis,Musculoskeletal and rheumatic diseases,yes
+Spondylopathies,M4[5-9],Spondylopathies,Musculoskeletal and rheumatic diseases,yes
+Spondylosis,M47,Spondylosis,Musculoskeletal and rheumatic diseases,yes
+Spontaneous rupture of synovium and tendon,M66,Spontaneous rupture of synovium and tendon,Musculoskeletal and rheumatic diseases,yes
+Disorders of synovium and tendon,M6[5-8],Disorders of synovium and tendon,Musculoskeletal and rheumatic diseases,no
+Other/unspecified synovitis and tenosynovitis,M65[8-9],synovitis and tenosynovitis,Musculoskeletal and rheumatic diseases,no
+Chondrocostal junction syndrome [Tietze],M940,Chondrocostal junction syndrome [Tietze],Musculoskeletal and rheumatic diseases,yes
+Other deformities of toe(s),M20[5-6],deformities of toe(s),Musculoskeletal and rheumatic diseases,no
+Trigger finger,M653,Trigger finger,Musculoskeletal and rheumatic diseases,yes
+Trochanteric bursitis,M706,Trochanteric bursitis,Musculoskeletal and rheumatic diseases,yes
+"Valgus deformity, not elsewhere classified",M210,Valgus deformity,Musculoskeletal and rheumatic diseases,no
+"Varus deformity, not elsewhere classified",M211,Varus deformity,Musculoskeletal and rheumatic diseases,no
+"Collapsed vertebra, not elsewhere classified",M485,Collapsed vertebra,Musculoskeletal and rheumatic diseases,no
+Wrist or foot drop (acquired),M213,Wrist or foot drop (acquired),Musculoskeletal and rheumatic diseases,yes
+Memory loss,R41[1-3],Memory loss,Neurological diseases,yes
+Other abnormal uterine and vaginal bleeding,N93,abnormal uterine and vaginal bleeding,Genitourinary diseases,no
+Acute renal failure,N17,Acute renal failure,Genitourinary diseases,yes
+Benign mammary dysplasia,N60,Benign mammary dysplasia,Genitourinary diseases,yes
+Disorders of breast,N6,Disorders of breast,Genitourinary diseases,no
+Other disorders of breast,N64,disorders of breast,Genitourinary diseases,no
+Calculus of kidney and ureter,N20,Calculus of kidney and ureter,Genitourinary diseases,yes
+Calculus of lower urinary tract,N21,Calculus of lower urinary tract,Genitourinary diseases,yes
+All dysplastic lesions of the cervix uteri,N870|N871|N872|N879|D060|D061|D067|D069,Cervical dysplasia / carcinoma in situ,Genitourinary diseases,no
+Dysplastic lesion of unknown severity of the cervix uteri,N879,Cervical dysplasia / carcinoma in situ,Genitourinary diseases,yes
+HSIL lesion of the cervix uteri,N871|N872|D060|D061|D067|D069,Cervical dysplasia / carcinoma in situ,Genitourinary diseases,yes
+LSIL lesion of the cervix uteri,N870,Cervical dysplasia / carcinoma in situ,Genitourinary diseases,yes
+Chronic nephritic syndrome,N03,Chronic nephritic syndrome,Genitourinary diseases,yes
+Chronic kidney disease,N18,Chronic kidney disease,Genitourinary diseases,yes
+Cystitis,N30,Cystitis,Genitourinary diseases,yes
+Cyst of kidney,N281,Cyst of kidney,Genitourinary diseases,yes
+Dialysis,Z992|Y841,Dialysis,"Symptoms, signs and other conditions",yes
+Dysplasia of cervi uteri,N87,Cervical dysplasia / carcinoma in situ,Genitourinary diseases,yes
+Endometriosis,N80,Endometriosis,Genitourinary diseases,yes
+Unspecified/other endometriosis,N80[8-9],Endometriosis,Genitourinary diseases,no
+Endometriosis of ovary,N801,Endometriosis,Genitourinary diseases,yes
+Endometriosis of pelvic peritoneum,N803,Endometriosis,Genitourinary diseases,yes
+Adenomyosis (Endometriosis of uterus),N800,Endometriosis,Genitourinary diseases,yes
+Erosion and ectropion of cervix uteri,N86,Erosion and ectropion of cervix uteri,Genitourinary diseases,yes
+Inflammatory diseases of female pelvic organs,N7,Inflammatory diseases of female pelvic organs,Genitourinary diseases,yes
+Noninflammatory disorders of female genital tract,N8|N9[0-8],Noninflammatory disorders of female genital tract,Genitourinary diseases,yes
+Female infertility,N97,Female infertility,Genitourinary diseases,yes
+"All dysplastic lesions of the cervix uteri, vagina or vulva",N87|N89[0-3]|N90[0-3]|D06|D071|D072,Cervical dysplasia / carcinoma in situ,Genitourinary diseases,no
+"Dysplastic lesion of unknown severity in the cervix uteri, vagina or vulva",N879|N893|N903,Cervix/vagina/vulva dysplasia,Genitourinary diseases,yes
+"HSIL lesion of the cervix uteri, vagina or vulva",N871|N872|N891|N892|N901|N902|D06[0-9]|D071|D072,Cervical dysplasia / carcinoma in situ,Genitourinary diseases,yes
+"LSIL lesion of the cervix uteri, vagina or vulva",N870|N890|N900,Cervical dysplasia / carcinoma in situ,Genitourinary diseases,yes
+Pain and other conditions associated with female genital organs and menstrual cycle,N94,Pain and conditions associated with female genital organs and menstrual cycle,Genitourinary diseases,no
+Female genital prolapse,N81,Female genital prolapse,Genitourinary diseases,yes
+"Female infertility, cervigal, vaginal, other or unspecified origin",N97[3-9],"Female infertility, cervigal, vaginal",Genitourinary diseases,no
+Other disorders of the genitourinary system,N99,disorders of the genitourinary system,Genitourinary diseases,no
+Glomerular disorders in diseases classified elsewhere,N08,Glomerular disorders in diseases,Genitourinary diseases,no
+Glomerular diseases,,Glomerular disease,Other,no
+Hydrocele,N43,Hydrocele,Genitourinary diseases,yes
+Hydronephrosis,N13[0-3],Hydronephrosis,Genitourinary diseases,yes
+Inflammatory disease of cervix uteri,N72,Inflammatory disease of cervix uteri,Genitourinary diseases,yes
+Other disorders of kidney and ureter,N2[5-9],disorders of kidney and ureter,Genitourinary diseases,no
+Unspecified lump in breast,N63,lump in breast,Genitourinary diseases,no
+Diseases of male genital organs,N[4-5],Diseases of male genital organs,Genitourinary diseases,no
+Other menopausal disorders,N951|N95[3-9],menopausal disorders,Genitourinary diseases,no
+Menorrhagia,N920,Menorrhagia,Genitourinary diseases,yes
+Irregular menses,N91|N921|N925|N926,Irregular menses,Genitourinary diseases,yes
+"Excessive, frequent and irregular menstruation",N92,"Excessive, frequent and irregular menstruation",Genitourinary diseases,yes
+Neuromuscular dysfunction of bladder,N31,Neuromuscular dysfunction of bladder,Genitourinary diseases,yes
+Other obstructive and reflux uropathy,N13,obstructive and reflux uropathy,Digestive system diseases,no
+Orchitis and epididymitis,N45,Orchitis and epididymitis,Genitourinary diseases,yes
+Other disorders of  bladder,N32,disorders of bladder,Genitourinary diseases,no
+Other disorders of male genital organs,N50,disorders of male genital organs,Genitourinary diseases,no
+Other specified disorders of kidney and ureter,N280|N28[8-9],specified disorders of kidney and ureter,Genitourinary diseases,no
+Other female pelvic inflammatory diseases,N73,female pelvic inflammatory diseases,Genitourinary diseases,no
+Other noninflammatory disorders of cervix uteri,N88,noninflammatory disorders of cervix uteri,Genitourinary diseases,no
+"Other and unspecified noninflammatory disorders of ovary, fallopian tube and broad ligament",N83[8-9],"noninflammatory disorders of ovary, fallopian tube and ligament",Injuries and trauma,no
+"Other noninflammatory disorders of uterus, except cervix",N85,"noninflammatory disorders of uterus, except cervix",Genitourinary diseases,no
+Other noninflammatory disorders of vagina,N89,noninflammatory disorders of vagina,Genitourinary diseases,no
+Other noninflammatory disorders of vulva and perineum,N90,noninflammatory disorders of vulva and perineum,Genitourinary diseases,no
+Other disorders of penis,N48,disorders of penis,Genitourinary diseases,no
+Ovarian cyst,N83[0-2],Ovarian cyst,Genitourinary diseases,yes
+"Redundant prepuce, phimosis and paraphimosis",N47,"Redundant prepuce, phimosis and paraphimosis",Genitourinary diseases,yes
+Polyp of the female genital tract,N84,Polyp of the female genital tract,Genitourinary diseases,yes
+Postmenopausal atrophic vaginitis,N952,Postmenopausal atrophic vaginitis,Genitourinary diseases,yes
+Postmenopausal bleeding,N950,Postmenopausal bleeding,Genitourinary diseases,yes
+Other disorders of prostate,N42,disorders of prostate,Genitourinary diseases,no
+Inflammatory diseases of prostate (prostatitis),N41,Inflammatory diseases of prostate (prostatitis),Genitourinary diseases,yes
+Hyperplasia of prostate,N40,Hyperplasia of prostate,Genitourinary diseases,yes
+Recurrent and persistent haematuria,N02,Recurrent and persistent haematuria,Genitourinary diseases,yes
+Unspecified renal colic,N23,renal colic,Genitourinary diseases,no
+Renal tubulo-interstitial diseases,N1,Renal tubulo-interstitial diseases,Neurological diseases,yes
+Renal failure,,Kidney failure,Genitourinary diseases,no
+Unspecified kidney failure,N19,kidney failure,Genitourinary diseases,no
+"Tubulo-interstitial nephritis, not specified as acute or chronic",N12,"Tubulo-interstitial nephritis, not specified as acute or chronic",Neurological diseases,yes
+Urethral stricture,N35,Urethral stricture,Genitourinary diseases,yes
+Other disorders of urethra and urinary system,N36|N39,disorders of urethra and urinary system,Genitourinary diseases,no
+Other diseases of urinary system,N3,diseases of urinary system,Genitourinary diseases,no
+Urolithiasis,N2[0-3],Urolithiasis,Genitourinary diseases,yes
+Uterine polyps,N841,Uterine polyps,Genitourinary diseases,yes
+Nonalcoholic fatty liver disease,K760,Nonalcoholic fatty liver disease,Mental and behavioral disorders,yes
+Other degenerative diseases of the nervous system,G3,degenerative diseases of the nervous system,Neurological diseases,no
+Medical abortion,O04,Medical abortion,Pregnancy and childbirth related diseases,yes
+Spontaneous abortion,O03,Spontaneous abortion,Pregnancy and childbirth related diseases,yes
+"Antepartum haemorrhage, not elsewhere classified",O46,Antepartum haemorrhage,Pregnancy and childbirth related diseases,no
+Complications of labour and delivery,O[6-7],Complications of labour and delivery,Digestive system diseases,yes
+Complications predominantly related to the puerperium,O8[5-9]|O9[0-2],Complications predominantly related to the puerperium,Pregnancy and childbirth related diseases,no
+Other abnormal products of conception,O02,abnormal products of conception,Pregnancy and childbirth related diseases,no
+Delivery,O8[0-4],Delivery,Digestive system diseases,yes
+"Delivery, wide proxy",O10|O11|O13|O14[019]|O15[0-2]|O223|O24|O266|O[34]|O[67]|O8[0-4],"Delivery, proxy",Digestive system diseases,no
+Single delivery by caesarean section,O82,Single delivery by caesarean section,Digestive system diseases,yes
+Perineal laceration during delivery,O70,Perineal laceration during delivery,Digestive system diseases,yes
+Single spontaneous delivery,O80,Single spontaneous delivery,Digestive system diseases,yes
+False labour,O47,False labour,Pregnancy and childbirth related diseases,yes
+Gestational [pregnancy-induced] hypertension,O13,Gestational [pregnancy-induced] hypertension,Cardiovascular and cerebrovascular diseases,yes
+Haemorrhage in early pregnancy,O20,Haemorrhage in early pregnancy,Pregnancy and childbirth related diseases,yes
+Pregnancy hypertension,O10|O11|O13|O14|O15|O16,Pregnancy hypertension,Cardiovascular and cerebrovascular diseases,yes
+Labour and delivery complicated by fetal stress [distress],O68,Labour and delivery complicated by fetal stress [distress],Mental and behavioral disorders,yes
+Long labour,O63,Long labour,Pregnancy and childbirth related diseases,yes
+"Other complications of labour and delivery, not elsewhere classified",O75,complications of labour and delivery,Digestive system diseases,no
+Labour and delivery complicated by umbilical cord complications,O69,Labour and delivery complicated by umbilical cord complications,Digestive system diseases,yes
+Maternal care related to the fetus and amniotic cavity and possible delivery problems,O[3-4],Maternal care related to the fetus and amniotic cavity and possible delivery problems,Digestive system diseases,no
+Maternal care for other known or suspected fetal problems,O36,Maternal care for known or suspected fetal problems,Pregnancy and childbirth related diseases,no
+Maternal care for known or suspected abnormality of pelvic organs,O34,Maternal care for known or suspected abnormality of pelvic organs,Pregnancy and childbirth related diseases,yes
+Unspecified maternal hypertension,O16,maternal hypertension,Cardiovascular and cerebrovascular diseases,no
+Maternal care for known or suspected malpresentation of fetus,O32,Maternal care for known or suspected malpresentation of fetus,Pregnancy and childbirth related diseases,yes
+Premature rupture of membranes,O42,Premature rupture of membranes,Pregnancy and childbirth related diseases,yes
+"Other obstetric conditions, not elsewhere classified",O9[4-9],obstetric conditions,Pregnancy and childbirth related diseases,no
+"Oedema, proteinuria and hypertensive disorders in pregnancy, childbirth and the puerperium",O1,"Oedema, proteinuria and hypertensive disorders in pregnancy, childbirth and the puerperium",Pregnancy and childbirth related diseases,yes
+"Other maternal diseases classifiable elsewhere but complicating pregnancy, childbirth and the puerperium",O99,"maternal diseases classifiable elsewhere but complicating pregnancy, childbirth and the puerperium",Pregnancy and childbirth related diseases,no
+Postpartum haemorrhage due to anatomy,O721,Postpartum haemorrhage due to anatomy,Pregnancy and childbirth related diseases,yes
+"Postpartum hemorraghe, parous women as controls",O72,"Postpartum hemorraghe, parous women as controls",Pregnancy and childbirth related diseases,yes
+Pregnancy with abortive outcome,O0,Pregnancy with abortive outcome,Pregnancy and childbirth related diseases,no
+Maternal care for other conditions predominantly related to pregnancy,O26,Maternal care for conditions predominantly related to pregnancy,Pregnancy and childbirth related diseases,no
+Other maternal disorders predominantly related to pregnancy,O2,maternal disorders predominantly related to pregnancy,Pregnancy and childbirth related diseases,no
+Prolonged pregnancy,O48,Prolonged pregnancy,Pregnancy and childbirth related diseases,yes
+Preterm labour and delivery,O60,Preterm labour and delivery,Digestive system diseases,yes
+Acute pancreatitis (for exclusion),K85,Acute pancreatitis,Digestive system diseases,no
+Bacterial pneumonia (organism specified),J1[3-7],Bacterial pneumonia,Infectious diseases,no
+Pollen allergy,J301,Pollen allergy,Respiratory diseases,yes
+"Primary coxarthrosis, bilateral",M160,Hip osteoarthritis,Musculoskeletal and rheumatic diseases,no
+"Primary gonarthrosis, bilateral",M170,Knee osteoarthritis,Musculoskeletal and rheumatic diseases,no
+Other psoriatic arthropathies,M073,Psoriatic arthritis,Musculoskeletal and rheumatic diseases,no
+Respiratory insufficiency,J961,Respiratory insufficiency,Respiratory diseases,yes
+Other/unspecified rheumatoid arthritis,M06[8-9],Rheumatoid arthritis,Musculoskeletal and rheumatic diseases,no
+"Other (seronegative) rheumatoid arthritis, wide",M06,(seronegative) rheumatoid arthritis,Musculoskeletal and rheumatic diseases,no
+Seronegative rheumatoid arthritis,M060,Rheumatoid arthritis,Musculoskeletal and rheumatic diseases,yes
+Other/unspecified seropositive rheumatoid arthritis,M05[8-9],Rheumatoid arthritis,Musculoskeletal and rheumatic diseases,no
+"Seropositive rheumatoid arthritis, wide",M05,Seropositive rheumatoid arthritis,Musculoskeletal and rheumatic diseases,no
+Small fibre neuropathy,G608|G628|G633,Small fibre neuropathy,Neurological diseases,yes
+Spondyloarthritis,M4[5-6],Spondyloarthritis,Musculoskeletal and rheumatic diseases,yes
+Essential (haemorrhagic) thrombocythaemia,D473,Essential (haemorrhagic) thrombocythaemia,Neoplasms and cancer,yes
+"Thyroiditis, ILD-related definition",E06|E0380,"Thyroiditis, ILD-related",Endocrine and metabolic diseases,no
+"severe traumatic brain injury, does not include concussion",S06[2-7],"severe traumatic brain injury, does not include concussion",Injuries and trauma,yes
+"Ulcerative colitis, NAS",K519,Ulcerative colitis,Digestive system diseases,yes
+Ulcerative proctitis,K512,Ulcerative colitis,Digestive system diseases,yes
+Vascular dementia (undefined),F019,Vascular dementia (undefined),Mental and behavioral disorders,no
+"Viral pneumonia (unknown virus, not influenza)",J128|J129,Viral pneumonia,Infectious diseases,no
+Vocal cord dysfunction,J38,Vocal cord dysfunction,Respiratory diseases,yes

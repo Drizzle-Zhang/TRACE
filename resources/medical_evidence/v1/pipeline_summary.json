@@ -1,0 +1,14 @@
+{
+  "bundle_version": "v1",
+  "row_counts": {
+    "compressed_disease_resolution.csv": 852,
+    "consensus_evidence.csv": 1704,
+    "decision_screening_evidence.csv": 852,
+    "disease_evidence_feature_map.csv": 216,
+    "disease_master.csv": 852,
+    "disease_metadata/disease_map_full.csv": 969,
+    "disease_metadata/outcome_filter.csv": 973,
+    "disease_metadata/outcome_test.csv": 21,
+    "risk_factor_evidence.csv": 852
+  }
+}
